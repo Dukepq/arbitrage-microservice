@@ -1,1 +1,1236 @@
-["1INCH","AAVE","ACH","ADA","ADX","AGIX","AGLD","AKRO","ALGO","ALICE","ALPHA","ALT","AMP","ANKR","APE","API3","APT","AR","ARB","ARK","ARPA","ASTR","ATA","ATOM","AUDIO","AVAX","AXL","AXS","BAL","BAND","BAT","BCH","BLUR","BLZ","BNB","BNT","BOND","BONK","BTC","BTT","CAKE","CELO","CELR","CFX","CHR","CHZ","CLV","COMP","COTI","CRO","CRV","CSPR","CTSI","CVC","CVX","CYBER","DAI","DATA","DCR","DENT","DGB","DIA","DNT","DOGE","DOT","DUSK","DYDX","DYM","EDU","EGLD","ELF","ENJ","ENS","EOS","ETC","ETH","EUROC","FET","FIL","FLOKI","FLOW","FORTH","FTM","FTT","FXS","GALA","GAS","GHST","GLM","GLMR","GMT","GMX","GNO","GRT","HBAR","HOT","ICP","ICX","ID","ILV","IMX","INJ","IOST","JASMY","JST","JTO","JUP","KAVA","KLAY","KMD","KNC","KSM","LDO","LINA","LINK","LIT","LOOM","LPT","LRC","LSK","LTC","LTO","LUNA","LUNA2","MAGIC","MANA","MANTA","MASK","MATIC","MEME","MINA","MIOTA","MKR","MLN","MOVR","MTL","NANO","NEAR","NEO","NKN","NMR","NULS","OCEAN","OGN","OMG","ONDO","ONE","ONG","ONT","OP","ORDI","OXT","PEPE","PERP","PHA","POLYX","POND","PORTAL","POWR","PUNDIX","PYTH","QNT","QTUM","RAD","RAY","RDNT","REEF","REN","REQ","RLC","RNDR","ROSE","RPL","RSR","RUNE","RVN","SAND","SEI","SHIB","SKL","SLP","SNT","SNX","SOL","SSV","STEEM","STMX","STORJ","STRAX","STRK","STX","SUI","SUPER","SUSHI","SXP","SYS","T","THETA","TIA","TOMO","TRB","TRX","UMA","UNI","USDC","USDT","UTK","VET","VGX","VTHO","WAVES","WIN","WLD","WOO","XAI","XEM","XLM","XRP","XTZ","XVG","XYO","YFI","YGG","ZETA","ZIL","ZRX"]
+{
+  "1INCH": {
+    "bitvavo": ["1INCH-EUR"],
+    "kucoin": ["1INCH-EUR", "1INCHUSDT", "1INCH-USDT"],
+    "binance": ["1INCH-EUR", "1INCHUSDT"]
+  },
+  "AAVE": {
+    "bitvavo": ["AAVE-EUR"],
+    "kucoin": ["AAVE-EUR", "AAVEUSDT", "AAVE-USDT"],
+    "binance": ["AAVE-EUR", "AAVEUSDT"]
+  },
+  "ACH": {
+    "bitvavo": ["ACH-EUR"],
+    "kucoin": ["ACH-EUR", "ACHUSDT", "ACH-USDT"],
+    "binance": ["ACH-EUR", "ACHUSDT"]
+  },
+  "ADA": {
+    "bitvavo": ["ADA-EUR"],
+    "kucoin": [
+      "ADA-EUR",
+      "ADAUSDT",
+      "ADAUSDC",
+      "ADAEUR",
+      "ADAFDUSD",
+      "ADA-USDC",
+      "ADA-USDT"
+    ],
+    "binance": ["ADA-EUR", "ADAUSDT", "ADAUSDC", "ADAEUR", "ADAFDUSD"]
+  },
+  "ADX": {
+    "bitvavo": ["ADX-EUR"],
+    "kucoin": ["ADX-EUR", "ADXUSDT", "ADX-USDT"],
+    "binance": ["ADX-EUR", "ADXUSDT"]
+  },
+  "AGIX": {
+    "bitvavo": ["AGIX-EUR"],
+    "kucoin": ["AGIX-EUR", "AGIXUSDT", "AGIX-USDT"],
+    "binance": ["AGIX-EUR", "AGIXUSDT"]
+  },
+  "AGLD": {
+    "bitvavo": ["AGLD-EUR"],
+    "kucoin": ["AGLD-EUR", "AGLDUSDT", "AGLD-USDT"],
+    "binance": ["AGLD-EUR", "AGLDUSDT"]
+  },
+  "AKRO": {
+    "bitvavo": ["AKRO-EUR"],
+    "kucoin": ["AKRO-EUR", "AKROUSDT", "AKRO-USDT"],
+    "binance": ["AKRO-EUR", "AKROUSDT"]
+  },
+  "ALGO": {
+    "bitvavo": ["ALGO-EUR"],
+    "kucoin": ["ALGO-EUR", "ALGOUSDT", "ALGOFDUSD", "ALGO-USDC", "ALGO-USDT"],
+    "binance": ["ALGO-EUR", "ALGOUSDT", "ALGOFDUSD"]
+  },
+  "ALICE": {
+    "bitvavo": ["ALICE-EUR"],
+    "kucoin": ["ALICE-EUR", "ALICEUSDT", "ALICE-USDT"],
+    "binance": ["ALICE-EUR", "ALICEUSDT"]
+  },
+  "ALPHA": {
+    "bitvavo": ["ALPHA-EUR"],
+    "kucoin": ["ALPHA-EUR", "ALPHAUSDT", "ALPHA-USDT"],
+    "binance": ["ALPHA-EUR", "ALPHAUSDT"]
+  },
+  "ALT": {
+    "bitvavo": ["ALT-EUR"],
+    "kucoin": ["ALT-EUR", "ALTUSDT", "ALTFDUSD", "ALTUSDC"],
+    "binance": ["ALT-EUR", "ALTUSDT", "ALTFDUSD", "ALTUSDC"]
+  },
+  "AMP": {
+    "bitvavo": ["AMP-EUR"],
+    "kucoin": ["AMP-EUR", "AMPUSDT", "AMP-USDT"],
+    "binance": ["AMP-EUR", "AMPUSDT"]
+  },
+  "ANKR": {
+    "bitvavo": ["ANKR-EUR"],
+    "kucoin": ["ANKR-EUR", "ANKRUSDT", "ANKR-USDT"],
+    "binance": ["ANKR-EUR", "ANKRUSDT"]
+  },
+  "APE": {
+    "bitvavo": ["APE-EUR"],
+    "kucoin": ["APE-EUR", "APEUSDT", "APE-USDT", "APE-USDC"],
+    "binance": ["APE-EUR", "APEUSDT"]
+  },
+  "API3": {
+    "bitvavo": ["API3-EUR"],
+    "kucoin": ["API3-EUR", "API3USDT", "API3-USDT"],
+    "binance": ["API3-EUR", "API3USDT"]
+  },
+  "APT": {
+    "bitvavo": ["APT-EUR"],
+    "kucoin": ["APT-EUR", "APTUSDT", "APTEUR", "APTFDUSD", "APT-USDT"],
+    "binance": ["APT-EUR", "APTUSDT", "APTEUR", "APTFDUSD"]
+  },
+  "AR": {
+    "bitvavo": ["AR-EUR"],
+    "kucoin": ["AR-EUR", "ARUSDT", "AR-USDT"],
+    "binance": ["AR-EUR", "ARUSDT"]
+  },
+  "ARB": {
+    "bitvavo": ["ARB-EUR"],
+    "kucoin": [
+      "ARB-EUR",
+      "ARBUSDT",
+      "ARBEUR",
+      "ARBFDUSD",
+      "ARBUSDC",
+      "ARB-USDT"
+    ],
+    "binance": ["ARB-EUR", "ARBUSDT", "ARBEUR", "ARBFDUSD", "ARBUSDC"]
+  },
+  "ARK": {
+    "bitvavo": ["ARK-EUR"],
+    "kucoin": ["ARK-EUR", "ARKUSDT"],
+    "binance": ["ARK-EUR", "ARKUSDT"]
+  },
+  "ARPA": {
+    "bitvavo": ["ARPA-EUR"],
+    "kucoin": ["ARPA-EUR", "ARPAUSDT", "ARPA-USDT"],
+    "binance": ["ARPA-EUR", "ARPAUSDT"]
+  },
+  "ASTR": {
+    "bitvavo": ["ASTR-EUR"],
+    "kucoin": ["ASTR-EUR", "ASTRUSDT", "ASTR-USDT"],
+    "binance": ["ASTR-EUR", "ASTRUSDT"]
+  },
+  "ATA": {
+    "bitvavo": ["ATA-EUR"],
+    "kucoin": ["ATA-EUR", "ATAUSDT", "ATA-USDT"],
+    "binance": ["ATA-EUR", "ATAUSDT"]
+  },
+  "ATOM": {
+    "bitvavo": ["ATOM-EUR"],
+    "kucoin": [
+      "ATOM-EUR",
+      "ATOMUSDT",
+      "ATOMEUR",
+      "ATOMFDUSD",
+      "ATOM-USDC",
+      "ATOM-USDT"
+    ],
+    "binance": ["ATOM-EUR", "ATOMUSDT", "ATOMEUR", "ATOMFDUSD"]
+  },
+  "AUDIO": {
+    "bitvavo": ["AUDIO-EUR"],
+    "kucoin": ["AUDIO-EUR", "AUDIOUSDT", "AUDIO-USDT"],
+    "binance": ["AUDIO-EUR", "AUDIOUSDT"]
+  },
+  "AVAX": {
+    "bitvavo": ["AVAX-EUR"],
+    "kucoin": [
+      "AVAX-EUR",
+      "AVAXUSDT",
+      "AVAXEUR",
+      "AVAXFDUSD",
+      "AVAXUSDC",
+      "AVAX-USDC",
+      "AVAX-USDT"
+    ],
+    "binance": ["AVAX-EUR", "AVAXUSDT", "AVAXEUR", "AVAXFDUSD", "AVAXUSDC"]
+  },
+  "AXL": {
+    "bitvavo": ["AXL-EUR"],
+    "kucoin": ["AXL-EUR", "AXLUSDT", "AXLFDUSD"],
+    "binance": ["AXL-EUR", "AXLUSDT", "AXLFDUSD"]
+  },
+  "AXS": {
+    "bitvavo": ["AXS-EUR"],
+    "kucoin": ["AXS-EUR", "AXSUSDT", "AXS-USDT"],
+    "binance": ["AXS-EUR", "AXSUSDT"]
+  },
+  "BAL": {
+    "bitvavo": ["BAL-EUR"],
+    "kucoin": ["BAL-EUR", "BALUSDT", "BAL-USDT"],
+    "binance": ["BAL-EUR", "BALUSDT"]
+  },
+  "BAND": {
+    "bitvavo": ["BAND-EUR"],
+    "kucoin": ["BAND-EUR", "BANDUSDT", "BAND-USDT"],
+    "binance": ["BAND-EUR", "BANDUSDT"]
+  },
+  "BAT": {
+    "bitvavo": ["BAT-EUR"],
+    "kucoin": ["BAT-EUR", "BATUSDT", "BAT-USDT"],
+    "binance": ["BAT-EUR", "BATUSDT"]
+  },
+  "BCH": {
+    "bitvavo": ["BCH-EUR"],
+    "kucoin": [
+      "BCH-EUR",
+      "BCHUSDT",
+      "BCHEUR",
+      "BCHFDUSD",
+      "BCH-USDC",
+      "BCH-USDT"
+    ],
+    "binance": ["BCH-EUR", "BCHUSDT", "BCHEUR", "BCHFDUSD"]
+  },
+  "BLUR": {
+    "bitvavo": ["BLUR-EUR"],
+    "kucoin": ["BLUR-EUR", "BLURUSDT", "BLURFDUSD", "BLURUSDC", "BLUR-USDT"],
+    "binance": ["BLUR-EUR", "BLURUSDT", "BLURFDUSD", "BLURUSDC"]
+  },
+  "BLZ": {
+    "bitvavo": ["BLZ-EUR"],
+    "kucoin": ["BLZ-EUR", "BLZUSDT", "BLZFDUSD", "BLZ-USDT"],
+    "binance": ["BLZ-EUR", "BLZUSDT", "BLZFDUSD"]
+  },
+  "BNB": {
+    "bitvavo": ["BNB-EUR"],
+    "kucoin": [
+      "BNB-EUR",
+      "BNBUSDT",
+      "BNBUSDC",
+      "BNBEUR",
+      "BNBFDUSD",
+      "BNB-USDT",
+      "BNB-USDC"
+    ],
+    "binance": ["BNB-EUR", "BNBUSDT", "BNBUSDC", "BNBEUR", "BNBFDUSD"]
+  },
+  "BNT": {
+    "bitvavo": ["BNT-EUR"],
+    "kucoin": ["BNT-EUR", "BNTUSDT"],
+    "binance": ["BNT-EUR", "BNTUSDT"]
+  },
+  "BOND": {
+    "bitvavo": ["BOND-EUR"],
+    "kucoin": ["BOND-EUR", "BONDUSDT", "BOND-USDT"],
+    "binance": ["BOND-EUR", "BONDUSDT"]
+  },
+  "BONK": {
+    "bitvavo": ["BONK-EUR"],
+    "kucoin": ["BONK-EUR", "BONKUSDT", "BONKFDUSD", "BONK-USDT"],
+    "binance": ["BONK-EUR", "BONKUSDT", "BONKFDUSD"]
+  },
+  "BTC": {
+    "bitvavo": ["BTC-EUR"],
+    "kucoin": [
+      "BTC-EUR",
+      "BTCUSDT",
+      "BTCUSDC",
+      "BTCEUR",
+      "BTCFDUSD",
+      "BTC-USDC",
+      "BTC-USDT",
+      "BTC-EUR"
+    ],
+    "binance": ["BTC-EUR", "BTCUSDT", "BTCUSDC", "BTCEUR", "BTCFDUSD"]
+  },
+  "BTT": {
+    "bitvavo": ["BTT-EUR"],
+    "kucoin": ["BTT-EUR", "BTT-USDT"],
+    "binance": ["BTT-EUR"]
+  },
+  "CAKE": {
+    "bitvavo": ["CAKE-EUR"],
+    "kucoin": ["CAKE-EUR", "CAKEUSDT", "CAKE-USDT"],
+    "binance": ["CAKE-EUR", "CAKEUSDT"]
+  },
+  "CELO": {
+    "bitvavo": ["CELO-EUR"],
+    "kucoin": ["CELO-EUR", "CELOUSDT", "CELO-USDT"],
+    "binance": ["CELO-EUR", "CELOUSDT"]
+  },
+  "CELR": {
+    "bitvavo": ["CELR-EUR"],
+    "kucoin": ["CELR-EUR", "CELRUSDT", "CELR-USDT"],
+    "binance": ["CELR-EUR", "CELRUSDT"]
+  },
+  "CFX": {
+    "bitvavo": ["CFX-EUR"],
+    "kucoin": ["CFX-EUR", "CFXUSDT", "CFX-USDT"],
+    "binance": ["CFX-EUR", "CFXUSDT"]
+  },
+  "CHR": {
+    "bitvavo": ["CHR-EUR"],
+    "kucoin": ["CHR-EUR", "CHRUSDT", "CHR-USDT"],
+    "binance": ["CHR-EUR", "CHRUSDT"]
+  },
+  "CHZ": {
+    "bitvavo": ["CHZ-EUR"],
+    "kucoin": ["CHZ-EUR", "CHZUSDT", "CHZEUR", "CHZFDUSD", "CHZ-USDT"],
+    "binance": ["CHZ-EUR", "CHZUSDT", "CHZEUR", "CHZFDUSD"]
+  },
+  "CLV": {
+    "bitvavo": ["CLV-EUR"],
+    "kucoin": ["CLV-EUR", "CLVUSDT", "CLV-USDT"],
+    "binance": ["CLV-EUR", "CLVUSDT"]
+  },
+  "COMP": {
+    "bitvavo": ["COMP-EUR"],
+    "kucoin": ["COMP-EUR", "COMPUSDT", "COMP-USDT"],
+    "binance": ["COMP-EUR", "COMPUSDT"]
+  },
+  "COTI": {
+    "bitvavo": ["COTI-EUR"],
+    "kucoin": ["COTI-EUR", "COTIUSDT", "COTI-USDT"],
+    "binance": ["COTI-EUR", "COTIUSDT"]
+  },
+  "CRO": {
+    "bitvavo": ["CRO-EUR"],
+    "kucoin": ["CRO-EUR", "CRO-USDT"],
+    "binance": ["CRO-EUR"]
+  },
+  "CRV": {
+    "bitvavo": ["CRV-EUR"],
+    "kucoin": ["CRV-EUR", "CRVUSDT", "CRV-USDT"],
+    "binance": ["CRV-EUR", "CRVUSDT"]
+  },
+  "CSPR": {
+    "bitvavo": ["CSPR-EUR"],
+    "kucoin": ["CSPR-EUR", "CSPR-USDT"],
+    "binance": ["CSPR-EUR"]
+  },
+  "CVC": {
+    "bitvavo": ["CVC-EUR"],
+    "kucoin": ["CVC-EUR", "CVCUSDT"],
+    "binance": ["CVC-EUR", "CVCUSDT"]
+  },
+  "CVX": {
+    "bitvavo": ["CVX-EUR"],
+    "kucoin": ["CVX-EUR", "CVXUSDT", "CVX-USDT"],
+    "binance": ["CVX-EUR", "CVXUSDT"]
+  },
+  "CYBER": {
+    "bitvavo": ["CYBER-EUR"],
+    "kucoin": ["CYBER-EUR", "CYBERFDUSD", "CYBERUSDT", "CYBER-USDT"],
+    "binance": ["CYBER-EUR", "CYBERFDUSD", "CYBERUSDT"]
+  },
+  "DATA": {
+    "bitvavo": ["DATA-EUR"],
+    "kucoin": ["DATA-EUR", "DATAUSDT", "DATA-USDT"],
+    "binance": ["DATA-EUR", "DATAUSDT"]
+  },
+  "DCR": {
+    "bitvavo": ["DCR-EUR"],
+    "kucoin": ["DCR-EUR", "DCRUSDT", "DCR-USDT"],
+    "binance": ["DCR-EUR", "DCRUSDT"]
+  },
+  "DENT": {
+    "bitvavo": ["DENT-EUR"],
+    "kucoin": ["DENT-EUR", "DENTUSDT", "DENT-USDT"],
+    "binance": ["DENT-EUR", "DENTUSDT"]
+  },
+  "DGB": {
+    "bitvavo": ["DGB-EUR"],
+    "kucoin": ["DGB-EUR", "DGBUSDT", "DGB-USDT"],
+    "binance": ["DGB-EUR", "DGBUSDT"]
+  },
+  "DIA": {
+    "bitvavo": ["DIA-EUR"],
+    "kucoin": ["DIA-EUR", "DIAUSDT", "DIA-USDT"],
+    "binance": ["DIA-EUR", "DIAUSDT"]
+  },
+  "DOGE": {
+    "bitvavo": ["DOGE-EUR"],
+    "kucoin": [
+      "DOGE-EUR",
+      "DOGEUSDT",
+      "DOGEEUR",
+      "DOGEFDUSD",
+      "DOGE-USDC",
+      "DOGE-USDT"
+    ],
+    "binance": ["DOGE-EUR", "DOGEUSDT", "DOGEEUR", "DOGEFDUSD"]
+  },
+  "DOT": {
+    "bitvavo": ["DOT-EUR"],
+    "kucoin": [
+      "DOT-EUR",
+      "DOTUSDT",
+      "DOTEUR",
+      "DOTFDUSD",
+      "DOTUSDC",
+      "DOT-USDT",
+      "DOT-USDC"
+    ],
+    "binance": ["DOT-EUR", "DOTUSDT", "DOTEUR", "DOTFDUSD", "DOTUSDC"]
+  },
+  "DUSK": {
+    "bitvavo": ["DUSK-EUR"],
+    "kucoin": ["DUSK-EUR", "DUSKUSDT", "DUSK-USDT"],
+    "binance": ["DUSK-EUR", "DUSKUSDT"]
+  },
+  "DYDX": {
+    "bitvavo": ["DYDX-EUR"],
+    "kucoin": ["DYDX-EUR", "DYDXUSDT", "DYDXFDUSD", "DYDX-USDT"],
+    "binance": ["DYDX-EUR", "DYDXUSDT", "DYDXFDUSD"]
+  },
+  "DYM": {
+    "bitvavo": ["DYM-EUR"],
+    "kucoin": ["DYM-EUR", "DYMUSDT", "DYMFDUSD", "DYM-USDT"],
+    "binance": ["DYM-EUR", "DYMUSDT", "DYMFDUSD"]
+  },
+  "EDU": {
+    "bitvavo": ["EDU-EUR"],
+    "kucoin": ["EDU-EUR", "EDUUSDT", "EDU-USDT"],
+    "binance": ["EDU-EUR", "EDUUSDT"]
+  },
+  "EGLD": {
+    "bitvavo": ["EGLD-EUR"],
+    "kucoin": ["EGLD-EUR", "EGLDUSDT", "EGLDEUR", "EGLDFDUSD", "EGLD-USDT"],
+    "binance": ["EGLD-EUR", "EGLDUSDT", "EGLDEUR", "EGLDFDUSD"]
+  },
+  "ELF": {
+    "bitvavo": ["ELF-EUR"],
+    "kucoin": ["ELF-EUR", "ELFUSDT", "ELF-USDT"],
+    "binance": ["ELF-EUR", "ELFUSDT"]
+  },
+  "ENJ": {
+    "bitvavo": ["ENJ-EUR"],
+    "kucoin": ["ENJ-EUR", "ENJUSDT", "ENJ-USDT"],
+    "binance": ["ENJ-EUR", "ENJUSDT"]
+  },
+  "ENS": {
+    "bitvavo": ["ENS-EUR"],
+    "kucoin": ["ENS-EUR", "ENSUSDT", "ENSFDUSD", "ENS-USDT"],
+    "binance": ["ENS-EUR", "ENSUSDT", "ENSFDUSD"]
+  },
+  "EOS": {
+    "bitvavo": ["EOS-EUR"],
+    "kucoin": ["EOS-EUR", "EOSUSDT", "EOS-USDC", "EOS-USDT"],
+    "binance": ["EOS-EUR", "EOSUSDT"]
+  },
+  "ETC": {
+    "bitvavo": ["ETC-EUR"],
+    "kucoin": ["ETC-EUR", "ETCUSDT", "ETCFDUSD", "ETC-USDT", "ETC-USDC"],
+    "binance": ["ETC-EUR", "ETCUSDT", "ETCFDUSD"]
+  },
+  "ETH": {
+    "bitvavo": ["ETH-EUR"],
+    "kucoin": [
+      "ETH-EUR",
+      "ETHUSDT",
+      "ETHUSDC",
+      "ETHEUR",
+      "ETHFDUSD",
+      "ETH-USDT",
+      "ETH-USDC",
+      "ETH-EUR"
+    ],
+    "binance": ["ETH-EUR", "ETHUSDT", "ETHUSDC", "ETHEUR", "ETHFDUSD"]
+  },
+  "FET": {
+    "bitvavo": ["FET-EUR"],
+    "kucoin": ["FET-EUR", "FETUSDT", "FETFDUSD", "FET-USDT"],
+    "binance": ["FET-EUR", "FETUSDT", "FETFDUSD"]
+  },
+  "FIL": {
+    "bitvavo": ["FIL-EUR"],
+    "kucoin": ["FIL-EUR", "FILUSDT", "FILFDUSD", "FILUSDC", "FIL-USDT"],
+    "binance": ["FIL-EUR", "FILUSDT", "FILFDUSD", "FILUSDC"]
+  },
+  "FLOKI": {
+    "bitvavo": ["FLOKI-EUR"],
+    "kucoin": ["FLOKI-EUR", "FLOKIUSDT", "FLOKI-USDC", "FLOKI-USDT"],
+    "binance": ["FLOKI-EUR", "FLOKIUSDT"]
+  },
+  "FLOW": {
+    "bitvavo": ["FLOW-EUR"],
+    "kucoin": ["FLOW-EUR", "FLOWUSDT", "FLOW-USDT"],
+    "binance": ["FLOW-EUR", "FLOWUSDT"]
+  },
+  "FORTH": {
+    "bitvavo": ["FORTH-EUR"],
+    "kucoin": ["FORTH-EUR", "FORTHUSDT", "FORTH-USDT"],
+    "binance": ["FORTH-EUR", "FORTHUSDT"]
+  },
+  "FTM": {
+    "bitvavo": ["FTM-EUR"],
+    "kucoin": [
+      "FTM-EUR",
+      "FTMUSDT",
+      "FTMEUR",
+      "FTMFDUSD",
+      "FTM-USDC",
+      "FTM-USDT"
+    ],
+    "binance": ["FTM-EUR", "FTMUSDT", "FTMEUR", "FTMFDUSD"]
+  },
+  "FTT": {
+    "bitvavo": ["FTT-EUR"],
+    "kucoin": ["FTT-EUR", "FTTUSDT", "FTT-USDT"],
+    "binance": ["FTT-EUR", "FTTUSDT"]
+  },
+  "GALA": {
+    "bitvavo": ["GALA-EUR"],
+    "kucoin": ["GALA-EUR", "GALAUSDT", "GALAEUR", "GALAFDUSD"],
+    "binance": ["GALA-EUR", "GALAUSDT", "GALAEUR", "GALAFDUSD"]
+  },
+  "GAS": {
+    "bitvavo": ["GAS-EUR"],
+    "kucoin": ["GAS-EUR", "GASUSDT", "GASFDUSD", "GAS-USDT"],
+    "binance": ["GAS-EUR", "GASUSDT", "GASFDUSD"]
+  },
+  "GHST": {
+    "bitvavo": ["GHST-EUR"],
+    "kucoin": ["GHST-EUR", "GHSTUSDT"],
+    "binance": ["GHST-EUR", "GHSTUSDT"]
+  },
+  "GLM": {
+    "bitvavo": ["GLM-EUR"],
+    "kucoin": ["GLM-EUR", "GLMUSDT", "GLM-USDT"],
+    "binance": ["GLM-EUR", "GLMUSDT"]
+  },
+  "GMT": {
+    "bitvavo": ["GMT-EUR"],
+    "kucoin": ["GMT-EUR", "GMTUSDT", "GMTEUR", "GMT-USDT", "GMT-USDC"],
+    "binance": ["GMT-EUR", "GMTUSDT", "GMTEUR"]
+  },
+  "GMX": {
+    "bitvavo": ["GMX-EUR"],
+    "kucoin": ["GMX-EUR", "GMXUSDT", "GMX-USDT"],
+    "binance": ["GMX-EUR", "GMXUSDT"]
+  },
+  "GNO": {
+    "bitvavo": ["GNO-EUR"],
+    "kucoin": ["GNO-EUR", "GNOUSDT"],
+    "binance": ["GNO-EUR", "GNOUSDT"]
+  },
+  "GRT": {
+    "bitvavo": ["GRT-EUR"],
+    "kucoin": ["GRT-EUR", "GRTUSDT", "GRTEUR", "GRT-USDT"],
+    "binance": ["GRT-EUR", "GRTUSDT", "GRTEUR"]
+  },
+  "HBAR": {
+    "bitvavo": ["HBAR-EUR"],
+    "kucoin": ["HBAR-EUR", "HBARUSDT", "HBAR-USDT"],
+    "binance": ["HBAR-EUR", "HBARUSDT"]
+  },
+  "HOT": {
+    "bitvavo": ["HOT-EUR"],
+    "kucoin": ["HOT-EUR", "HOTUSDT"],
+    "binance": ["HOT-EUR", "HOTUSDT"]
+  },
+  "ICP": {
+    "bitvavo": ["ICP-EUR"],
+    "kucoin": ["ICP-EUR", "ICPUSDT", "ICPEUR", "ICPFDUSD", "ICP-USDT"],
+    "binance": ["ICP-EUR", "ICPUSDT", "ICPEUR", "ICPFDUSD"]
+  },
+  "ICX": {
+    "bitvavo": ["ICX-EUR"],
+    "kucoin": ["ICX-EUR", "ICXUSDT", "ICX-USDT"],
+    "binance": ["ICX-EUR", "ICXUSDT"]
+  },
+  "ID": {
+    "bitvavo": ["ID-EUR"],
+    "kucoin": ["ID-EUR", "IDUSDT", "ID-USDT"],
+    "binance": ["ID-EUR", "IDUSDT"]
+  },
+  "ILV": {
+    "bitvavo": ["ILV-EUR"],
+    "kucoin": ["ILV-EUR", "ILVUSDT", "ILV-USDT"],
+    "binance": ["ILV-EUR", "ILVUSDT"]
+  },
+  "IMX": {
+    "bitvavo": ["IMX-EUR"],
+    "kucoin": ["IMX-EUR", "IMXUSDT", "IMX-USDT"],
+    "binance": ["IMX-EUR", "IMXUSDT"]
+  },
+  "INJ": {
+    "bitvavo": ["INJ-EUR"],
+    "kucoin": ["INJ-EUR", "INJUSDT", "INJFDUSD", "INJUSDC", "INJ-USDT"],
+    "binance": ["INJ-EUR", "INJUSDT", "INJFDUSD", "INJUSDC"]
+  },
+  "IOST": {
+    "bitvavo": ["IOST-EUR"],
+    "kucoin": ["IOST-EUR", "IOSTUSDT", "IOST-USDT"],
+    "binance": ["IOST-EUR", "IOSTUSDT"]
+  },
+  "JASMY": {
+    "bitvavo": ["JASMY-EUR"],
+    "kucoin": ["JASMY-EUR", "JASMYUSDT", "JASMY-USDT", "JASMY-USDC"],
+    "binance": ["JASMY-EUR", "JASMYUSDT"]
+  },
+  "JST": {
+    "bitvavo": ["JST-EUR"],
+    "kucoin": ["JST-EUR", "JSTUSDT", "JST-USDT"],
+    "binance": ["JST-EUR", "JSTUSDT"]
+  },
+  "JTO": {
+    "bitvavo": ["JTO-EUR"],
+    "kucoin": ["JTO-EUR", "JTOUSDT", "JTOFDUSD", "JTO-USDT"],
+    "binance": ["JTO-EUR", "JTOUSDT", "JTOFDUSD"]
+  },
+  "JUP": {
+    "bitvavo": ["JUP-EUR"],
+    "kucoin": ["JUP-EUR", "JUPUSDT", "JUPFDUSD", "JUPUSDC", "JUP-USDT"],
+    "binance": ["JUP-EUR", "JUPUSDT", "JUPFDUSD", "JUPUSDC"]
+  },
+  "KAVA": {
+    "bitvavo": ["KAVA-EUR"],
+    "kucoin": ["KAVA-EUR", "KAVAUSDT", "KAVA-USDT"],
+    "binance": ["KAVA-EUR", "KAVAUSDT"]
+  },
+  "KLAY": {
+    "bitvavo": ["KLAY-EUR"],
+    "kucoin": ["KLAY-EUR", "KLAYUSDT", "KLAY-USDT"],
+    "binance": ["KLAY-EUR", "KLAYUSDT"]
+  },
+  "KMD": {
+    "bitvavo": ["KMD-EUR"],
+    "kucoin": ["KMD-EUR", "KMDUSDT", "KMD-USDT"],
+    "binance": ["KMD-EUR", "KMDUSDT"]
+  },
+  "KNC": {
+    "bitvavo": ["KNC-EUR"],
+    "kucoin": ["KNC-EUR", "KNCUSDT", "KNC-USDT"],
+    "binance": ["KNC-EUR", "KNCUSDT"]
+  },
+  "KSM": {
+    "bitvavo": ["KSM-EUR"],
+    "kucoin": ["KSM-EUR", "KSMUSDT", "KSM-USDT"],
+    "binance": ["KSM-EUR", "KSMUSDT"]
+  },
+  "LDO": {
+    "bitvavo": ["LDO-EUR"],
+    "kucoin": ["LDO-EUR", "LDOUSDT", "LDOFDUSD", "LDO-USDT", "LDO-USDC"],
+    "binance": ["LDO-EUR", "LDOUSDT", "LDOFDUSD"]
+  },
+  "LINA": {
+    "bitvavo": ["LINA-EUR"],
+    "kucoin": ["LINA-EUR", "LINAUSDT", "LINA-USDT"],
+    "binance": ["LINA-EUR", "LINAUSDT"]
+  },
+  "LINK": {
+    "bitvavo": ["LINK-EUR"],
+    "kucoin": [
+      "LINK-EUR",
+      "LINKUSDT",
+      "LINKUSDC",
+      "LINKEUR",
+      "LINKFDUSD",
+      "LINK-USDC",
+      "LINK-USDT"
+    ],
+    "binance": ["LINK-EUR", "LINKUSDT", "LINKUSDC", "LINKEUR", "LINKFDUSD"]
+  },
+  "LIT": {
+    "bitvavo": ["LIT-EUR"],
+    "kucoin": ["LIT-EUR", "LITUSDT", "LIT-USDT"],
+    "binance": ["LIT-EUR", "LITUSDT"]
+  },
+  "LOOM": {
+    "bitvavo": ["LOOM-EUR"],
+    "kucoin": ["LOOM-EUR", "LOOMUSDT", "LOOM-USDT"],
+    "binance": ["LOOM-EUR", "LOOMUSDT"]
+  },
+  "LPT": {
+    "bitvavo": ["LPT-EUR"],
+    "kucoin": ["LPT-EUR", "LPTUSDT", "LPT-USDT"],
+    "binance": ["LPT-EUR", "LPTUSDT"]
+  },
+  "LRC": {
+    "bitvavo": ["LRC-EUR"],
+    "kucoin": ["LRC-EUR", "LRCUSDT", "LRC-USDT"],
+    "binance": ["LRC-EUR", "LRCUSDT"]
+  },
+  "LSK": {
+    "bitvavo": ["LSK-EUR"],
+    "kucoin": ["LSK-EUR", "LSKUSDT", "LSK-USDT"],
+    "binance": ["LSK-EUR", "LSKUSDT"]
+  },
+  "LTC": {
+    "bitvavo": ["LTC-EUR"],
+    "kucoin": [
+      "LTC-EUR",
+      "LTCUSDT",
+      "LTCEUR",
+      "LTCFDUSD",
+      "LTC-USDC",
+      "LTC-USDT"
+    ],
+    "binance": ["LTC-EUR", "LTCUSDT", "LTCEUR", "LTCFDUSD"]
+  },
+  "LTO": {
+    "bitvavo": ["LTO-EUR"],
+    "kucoin": ["LTO-EUR", "LTOUSDT", "LTO-USDT"],
+    "binance": ["LTO-EUR", "LTOUSDT"]
+  },
+  "LUNA": {
+    "bitvavo": ["LUNA2-EUR"],
+    "kucoin": ["LUNA2-EUR", "LUNAUSDT", "LUNA-USDC", "LUNA-USDT"],
+    "binance": ["LUNA2-EUR", "LUNAUSDT"]
+  },
+  "MAGIC": {
+    "bitvavo": ["MAGIC-EUR"],
+    "kucoin": ["MAGIC-EUR", "MAGICUSDT", "MAGICFDUSD", "MAGIC-USDT"],
+    "binance": ["MAGIC-EUR", "MAGICUSDT", "MAGICFDUSD"]
+  },
+  "MANA": {
+    "bitvavo": ["MANA-EUR"],
+    "kucoin": ["MANA-EUR", "MANAUSDT", "MANA-USDT"],
+    "binance": ["MANA-EUR", "MANAUSDT"]
+  },
+  "MANTA": {
+    "bitvavo": ["MANTA-EUR"],
+    "kucoin": [
+      "MANTA-EUR",
+      "MANTAUSDT",
+      "MANTAFDUSD",
+      "MANTAUSDC",
+      "MANTA-USDT"
+    ],
+    "binance": ["MANTA-EUR", "MANTAUSDT", "MANTAFDUSD", "MANTAUSDC"]
+  },
+  "MASK": {
+    "bitvavo": ["MASK-EUR"],
+    "kucoin": ["MASK-EUR", "MASKUSDT", "MASK-USDT"],
+    "binance": ["MASK-EUR", "MASKUSDT"]
+  },
+  "MATIC": {
+    "bitvavo": ["MATIC-EUR"],
+    "kucoin": [
+      "MATIC-EUR",
+      "MATICUSDT",
+      "MATICEUR",
+      "MATICFDUSD",
+      "MATICUSDC",
+      "MATIC-USDT",
+      "MATIC-USDC"
+    ],
+    "binance": ["MATIC-EUR", "MATICUSDT", "MATICEUR", "MATICFDUSD", "MATICUSDC"]
+  },
+  "MEME": {
+    "bitvavo": ["MEME-EUR"],
+    "kucoin": ["MEME-EUR", "MEMEUSDT", "MEMEFDUSD", "MEME-USDT"],
+    "binance": ["MEME-EUR", "MEMEUSDT", "MEMEFDUSD"]
+  },
+  "MINA": {
+    "bitvavo": ["MINA-EUR"],
+    "kucoin": ["MINA-EUR", "MINAUSDT", "MINA-USDT"],
+    "binance": ["MINA-EUR", "MINAUSDT"]
+  },
+  "MKR": {
+    "bitvavo": ["MKR-EUR"],
+    "kucoin": ["MKR-EUR", "MKRUSDT", "MKR-USDT"],
+    "binance": ["MKR-EUR", "MKRUSDT"]
+  },
+  "MLN": {
+    "bitvavo": ["MLN-EUR"],
+    "kucoin": ["MLN-EUR", "MLNUSDT"],
+    "binance": ["MLN-EUR", "MLNUSDT"]
+  },
+  "MOVR": {
+    "bitvavo": ["MOVR-EUR"],
+    "kucoin": ["MOVR-EUR", "MOVRUSDT", "MOVR-USDT"],
+    "binance": ["MOVR-EUR", "MOVRUSDT"]
+  },
+  "MTL": {
+    "bitvavo": ["MTL-EUR"],
+    "kucoin": ["MTL-EUR", "MTLUSDT", "MTL-USDT"],
+    "binance": ["MTL-EUR", "MTLUSDT"]
+  },
+  "NEAR": {
+    "bitvavo": ["NEAR-EUR"],
+    "kucoin": [
+      "NEAR-EUR",
+      "NEARUSDT",
+      "NEAREUR",
+      "NEARFDUSD",
+      "NEAR-USDC",
+      "NEAR-USDT"
+    ],
+    "binance": ["NEAR-EUR", "NEARUSDT", "NEAREUR", "NEARFDUSD"]
+  },
+  "NEO": {
+    "bitvavo": ["NEO-EUR"],
+    "kucoin": ["NEO-EUR", "NEOUSDT", "NEO-USDT"],
+    "binance": ["NEO-EUR", "NEOUSDT"]
+  },
+  "NKN": {
+    "bitvavo": ["NKN-EUR"],
+    "kucoin": ["NKN-EUR", "NKNUSDT", "NKN-USDT"],
+    "binance": ["NKN-EUR", "NKNUSDT"]
+  },
+  "NMR": {
+    "bitvavo": ["NMR-EUR"],
+    "kucoin": ["NMR-EUR", "NMRUSDT", "NMR-USDT"],
+    "binance": ["NMR-EUR", "NMRUSDT"]
+  },
+  "NULS": {
+    "bitvavo": ["NULS-EUR"],
+    "kucoin": ["NULS-EUR", "NULSUSDT"],
+    "binance": ["NULS-EUR", "NULSUSDT"]
+  },
+  "OCEAN": {
+    "bitvavo": ["OCEAN-EUR"],
+    "kucoin": ["OCEAN-EUR", "OCEANUSDT", "OCEAN-USDT"],
+    "binance": ["OCEAN-EUR", "OCEANUSDT"]
+  },
+  "OGN": {
+    "bitvavo": ["OGN-EUR"],
+    "kucoin": ["OGN-EUR", "OGNUSDT", "OGN-USDT"],
+    "binance": ["OGN-EUR", "OGNUSDT"]
+  },
+  "OMG": {
+    "bitvavo": ["OMG-EUR"],
+    "kucoin": ["OMG-EUR", "OMGUSDT", "OMG-USDT"],
+    "binance": ["OMG-EUR", "OMGUSDT"]
+  },
+  "ONDO": {
+    "bitvavo": ["ONDO-EUR"],
+    "kucoin": ["ONDO-EUR", "ONDO-USDT"],
+    "binance": ["ONDO-EUR"]
+  },
+  "ONE": {
+    "bitvavo": ["ONE-EUR"],
+    "kucoin": ["ONE-EUR", "ONEUSDT", "ONE-USDT"],
+    "binance": ["ONE-EUR", "ONEUSDT"]
+  },
+  "ONG": {
+    "bitvavo": ["ONG-EUR"],
+    "kucoin": ["ONG-EUR", "ONGUSDT"],
+    "binance": ["ONG-EUR", "ONGUSDT"]
+  },
+  "ONT": {
+    "bitvavo": ["ONT-EUR"],
+    "kucoin": ["ONT-EUR", "ONTUSDT", "ONT-USDT"],
+    "binance": ["ONT-EUR", "ONTUSDT"]
+  },
+  "OP": {
+    "bitvavo": ["OP-EUR"],
+    "kucoin": [
+      "OP-EUR",
+      "OPUSDT",
+      "OPEUR",
+      "OPFDUSD",
+      "OPUSDC",
+      "OP-USDT",
+      "OP-USDC"
+    ],
+    "binance": ["OP-EUR", "OPUSDT", "OPEUR", "OPFDUSD", "OPUSDC"]
+  },
+  "ORDI": {
+    "bitvavo": ["ORDI-EUR"],
+    "kucoin": ["ORDI-EUR", "ORDIUSDT", "ORDIFDUSD", "ORDIUSDC", "ORDI-USDT"],
+    "binance": ["ORDI-EUR", "ORDIUSDT", "ORDIFDUSD", "ORDIUSDC"]
+  },
+  "OXT": {
+    "bitvavo": ["OXT-EUR"],
+    "kucoin": ["OXT-EUR", "OXTUSDT", "OXT-USDT"],
+    "binance": ["OXT-EUR", "OXTUSDT"]
+  },
+  "PEPE": {
+    "bitvavo": ["PEPE-EUR"],
+    "kucoin": ["PEPE-EUR", "PEPEUSDT", "PEPEFDUSD", "PEPE-USDT"],
+    "binance": ["PEPE-EUR", "PEPEUSDT", "PEPEFDUSD"]
+  },
+  "PERP": {
+    "bitvavo": ["PERP-EUR"],
+    "kucoin": ["PERP-EUR", "PERPUSDT", "PERP-USDT"],
+    "binance": ["PERP-EUR", "PERPUSDT"]
+  },
+  "PHA": {
+    "bitvavo": ["PHA-EUR"],
+    "kucoin": ["PHA-EUR", "PHAUSDT", "PHA-USDT"],
+    "binance": ["PHA-EUR", "PHAUSDT"]
+  },
+  "POLYX": {
+    "bitvavo": ["POLYX-EUR"],
+    "kucoin": ["POLYX-EUR", "POLYXUSDT", "POLYX-USDT"],
+    "binance": ["POLYX-EUR", "POLYXUSDT"]
+  },
+  "POND": {
+    "bitvavo": ["POND-EUR"],
+    "kucoin": ["POND-EUR", "PONDUSDT", "POND-USDT"],
+    "binance": ["POND-EUR", "PONDUSDT"]
+  },
+  "PORTAL": {
+    "bitvavo": ["PORTAL-EUR"],
+    "kucoin": ["PORTAL-EUR", "PORTALUSDT", "PORTALFDUSD", "PORTAL-USDT"],
+    "binance": ["PORTAL-EUR", "PORTALUSDT", "PORTALFDUSD"]
+  },
+  "POWR": {
+    "bitvavo": ["POWR-EUR"],
+    "kucoin": ["POWR-EUR", "POWRUSDT"],
+    "binance": ["POWR-EUR", "POWRUSDT"]
+  },
+  "PUNDIX": {
+    "bitvavo": ["PUNDIX-EUR"],
+    "kucoin": ["PUNDIX-EUR", "PUNDIXUSDT", "PUNDIX-USDT"],
+    "binance": ["PUNDIX-EUR", "PUNDIXUSDT"]
+  },
+  "PYTH": {
+    "bitvavo": ["PYTH-EUR"],
+    "kucoin": ["PYTH-EUR", "PYTHUSDT", "PYTHFDUSD", "PYTH-USDT"],
+    "binance": ["PYTH-EUR", "PYTHUSDT", "PYTHFDUSD"]
+  },
+  "QNT": {
+    "bitvavo": ["QNT-EUR"],
+    "kucoin": ["QNT-EUR", "QNTUSDT", "QNT-USDT"],
+    "binance": ["QNT-EUR", "QNTUSDT"]
+  },
+  "QTUM": {
+    "bitvavo": ["QTUM-EUR"],
+    "kucoin": ["QTUM-EUR", "QTUMUSDT"],
+    "binance": ["QTUM-EUR", "QTUMUSDT"]
+  },
+  "RAD": {
+    "bitvavo": ["RAD-EUR"],
+    "kucoin": ["RAD-EUR", "RADUSDT"],
+    "binance": ["RAD-EUR", "RADUSDT"]
+  },
+  "RAY": {
+    "bitvavo": ["RAY-EUR"],
+    "kucoin": ["RAY-EUR", "RAYUSDT", "RAY-USDT"],
+    "binance": ["RAY-EUR", "RAYUSDT"]
+  },
+  "RDNT": {
+    "bitvavo": ["RDNT-EUR"],
+    "kucoin": ["RDNT-EUR", "RDNTUSDT", "RDNT-USDT"],
+    "binance": ["RDNT-EUR", "RDNTUSDT"]
+  },
+  "REEF": {
+    "bitvavo": ["REEF-EUR"],
+    "kucoin": ["REEF-EUR", "REEFUSDT", "REEF-USDT"],
+    "binance": ["REEF-EUR", "REEFUSDT"]
+  },
+  "REN": {
+    "bitvavo": ["REN-EUR"],
+    "kucoin": ["REN-EUR", "RENUSDT", "REN-USDT"],
+    "binance": ["REN-EUR", "RENUSDT"]
+  },
+  "REQ": {
+    "bitvavo": ["REQ-EUR"],
+    "kucoin": ["REQ-EUR", "REQUSDT", "REQ-USDT"],
+    "binance": ["REQ-EUR", "REQUSDT"]
+  },
+  "RLC": {
+    "bitvavo": ["RLC-EUR"],
+    "kucoin": ["RLC-EUR", "RLCUSDT", "RLC-USDT"],
+    "binance": ["RLC-EUR", "RLCUSDT"]
+  },
+  "RNDR": {
+    "bitvavo": ["RNDR-EUR"],
+    "kucoin": ["RNDR-EUR", "RNDRUSDT", "RNDRFDUSD", "RNDR-USDT"],
+    "binance": ["RNDR-EUR", "RNDRUSDT", "RNDRFDUSD"]
+  },
+  "ROSE": {
+    "bitvavo": ["ROSE-EUR"],
+    "kucoin": ["ROSE-EUR", "ROSEUSDT", "ROSE-USDT"],
+    "binance": ["ROSE-EUR", "ROSEUSDT"]
+  },
+  "RPL": {
+    "bitvavo": ["RPL-EUR"],
+    "kucoin": ["RPL-EUR", "RPLUSDT", "RPL-USDT"],
+    "binance": ["RPL-EUR", "RPLUSDT"]
+  },
+  "RSR": {
+    "bitvavo": ["RSR-EUR"],
+    "kucoin": ["RSR-EUR", "RSRUSDT", "RSR-USDT"],
+    "binance": ["RSR-EUR", "RSRUSDT"]
+  },
+  "RUNE": {
+    "bitvavo": ["RUNE-EUR"],
+    "kucoin": ["RUNE-EUR", "RUNEUSDT", "RUNEFDUSD", "RUNE-USDT", "RUNE-USDC"],
+    "binance": ["RUNE-EUR", "RUNEUSDT", "RUNEFDUSD"]
+  },
+  "RVN": {
+    "bitvavo": ["RVN-EUR"],
+    "kucoin": ["RVN-EUR", "RVNUSDT", "RVN-USDT"],
+    "binance": ["RVN-EUR", "RVNUSDT"]
+  },
+  "SAND": {
+    "bitvavo": ["SAND-EUR"],
+    "kucoin": ["SAND-EUR", "SANDUSDT", "SANDFDUSD", "SAND-USDT"],
+    "binance": ["SAND-EUR", "SANDUSDT", "SANDFDUSD"]
+  },
+  "SEI": {
+    "bitvavo": ["SEI-EUR"],
+    "kucoin": ["SEI-EUR", "SEIFDUSD", "SEIUSDT", "SEIUSDC", "SEI-USDT"],
+    "binance": ["SEI-EUR", "SEIFDUSD", "SEIUSDT", "SEIUSDC"]
+  },
+  "SHIB": {
+    "bitvavo": ["SHIB-EUR"],
+    "kucoin": [
+      "SHIB-EUR",
+      "SHIBUSDT",
+      "SHIBEUR",
+      "SHIBFDUSD",
+      "SHIB-USDT",
+      "SHIB-USDC"
+    ],
+    "binance": ["SHIB-EUR", "SHIBUSDT", "SHIBEUR", "SHIBFDUSD"]
+  },
+  "SKL": {
+    "bitvavo": ["SKL-EUR"],
+    "kucoin": ["SKL-EUR", "SKLUSDT", "SKL-USDT"],
+    "binance": ["SKL-EUR", "SKLUSDT"]
+  },
+  "SLP": {
+    "bitvavo": ["SLP-EUR"],
+    "kucoin": ["SLP-EUR", "SLPUSDT", "SLP-USDT"],
+    "binance": ["SLP-EUR", "SLPUSDT"]
+  },
+  "SNT": {
+    "bitvavo": ["SNT-EUR"],
+    "kucoin": ["SNT-EUR", "SNTUSDT"],
+    "binance": ["SNT-EUR", "SNTUSDT"]
+  },
+  "SNX": {
+    "bitvavo": ["SNX-EUR"],
+    "kucoin": ["SNX-EUR", "SNXUSDT", "SNX-USDT"],
+    "binance": ["SNX-EUR", "SNXUSDT"]
+  },
+  "SOL": {
+    "bitvavo": ["SOL-EUR"],
+    "kucoin": [
+      "SOL-EUR",
+      "SOLUSDT",
+      "SOLEUR",
+      "SOLUSDC",
+      "SOLFDUSD",
+      "SOL-USDT",
+      "SOL-USDC"
+    ],
+    "binance": ["SOL-EUR", "SOLUSDT", "SOLEUR", "SOLUSDC", "SOLFDUSD"]
+  },
+  "SSV": {
+    "bitvavo": ["SSV-EUR"],
+    "kucoin": ["SSV-EUR", "SSVUSDT", "SSV-USDT"],
+    "binance": ["SSV-EUR", "SSVUSDT"]
+  },
+  "STEEM": {
+    "bitvavo": ["STEEM-EUR"],
+    "kucoin": ["STEEM-EUR", "STEEMUSDT"],
+    "binance": ["STEEM-EUR", "STEEMUSDT"]
+  },
+  "STMX": {
+    "bitvavo": ["STMX-EUR"],
+    "kucoin": ["STMX-EUR", "STMXUSDT"],
+    "binance": ["STMX-EUR", "STMXUSDT"]
+  },
+  "STORJ": {
+    "bitvavo": ["STORJ-EUR"],
+    "kucoin": ["STORJ-EUR", "STORJUSDT", "STORJ-USDT"],
+    "binance": ["STORJ-EUR", "STORJUSDT"]
+  },
+  "STRAX": {
+    "bitvavo": ["STRAX-EUR"],
+    "kucoin": ["STRAX-EUR", "STRAXUSDT", "STRAX-USDT"],
+    "binance": ["STRAX-EUR", "STRAXUSDT"]
+  },
+  "STRK": {
+    "bitvavo": ["STRK-EUR"],
+    "kucoin": ["STRK-EUR", "STRKUSDT", "STRKFDUSD", "STRKUSDC", "STRK-USDT"],
+    "binance": ["STRK-EUR", "STRKUSDT", "STRKFDUSD", "STRKUSDC"]
+  },
+  "STX": {
+    "bitvavo": ["STX-EUR"],
+    "kucoin": ["STX-EUR", "STXUSDT", "STXFDUSD", "STX-USDT"],
+    "binance": ["STX-EUR", "STXUSDT", "STXFDUSD"]
+  },
+  "SUI": {
+    "bitvavo": ["SUI-EUR"],
+    "kucoin": [
+      "SUI-EUR",
+      "SUIUSDT",
+      "SUIEUR",
+      "SUIFDUSD",
+      "SUIUSDC",
+      "SUI-USDT"
+    ],
+    "binance": ["SUI-EUR", "SUIUSDT", "SUIEUR", "SUIFDUSD", "SUIUSDC"]
+  },
+  "SUPER": {
+    "bitvavo": ["SUPER-EUR"],
+    "kucoin": ["SUPER-EUR", "SUPERUSDT", "SUPERFDUSD", "SUPER-USDT"],
+    "binance": ["SUPER-EUR", "SUPERUSDT", "SUPERFDUSD"]
+  },
+  "SUSHI": {
+    "bitvavo": ["SUSHI-EUR"],
+    "kucoin": ["SUSHI-EUR", "SUSHIUSDT", "SUSHI-USDT"],
+    "binance": ["SUSHI-EUR", "SUSHIUSDT"]
+  },
+  "SXP": {
+    "bitvavo": ["SXP-EUR"],
+    "kucoin": ["SXP-EUR", "SXPUSDT", "SXP-USDT"],
+    "binance": ["SXP-EUR", "SXPUSDT"]
+  },
+  "SYS": {
+    "bitvavo": ["SYS-EUR"],
+    "kucoin": ["SYS-EUR", "SYSUSDT", "SYS-USDT"],
+    "binance": ["SYS-EUR", "SYSUSDT"]
+  },
+  "T": {
+    "bitvavo": ["T-EUR"],
+    "kucoin": ["T-EUR", "TUSDT", "T-USDT"],
+    "binance": ["T-EUR", "TUSDT"]
+  },
+  "THETA": {
+    "bitvavo": ["THETA-EUR"],
+    "kucoin": ["THETA-EUR", "THETAUSDT", "THETA-USDT"],
+    "binance": ["THETA-EUR", "THETAUSDT"]
+  },
+  "TIA": {
+    "bitvavo": ["TIA-EUR"],
+    "kucoin": ["TIA-EUR", "TIAUSDT", "TIAFDUSD", "TIAUSDC", "TIA-USDT"],
+    "binance": ["TIA-EUR", "TIAUSDT", "TIAFDUSD", "TIAUSDC"]
+  },
+  "TRB": {
+    "bitvavo": ["TRB-EUR"],
+    "kucoin": ["TRB-EUR", "TRBUSDT", "TRB-USDT"],
+    "binance": ["TRB-EUR", "TRBUSDT"]
+  },
+  "TRX": {
+    "bitvavo": ["TRX-EUR"],
+    "kucoin": ["TRX-EUR", "TRXUSDT", "TRXEUR", "TRX-USDT", "TRX-USDC"],
+    "binance": ["TRX-EUR", "TRXUSDT", "TRXEUR"]
+  },
+  "UMA": {
+    "bitvavo": ["UMA-EUR"],
+    "kucoin": ["UMA-EUR", "UMAUSDT", "UMA-USDT"],
+    "binance": ["UMA-EUR", "UMAUSDT"]
+  },
+  "UNI": {
+    "bitvavo": ["UNI-EUR"],
+    "kucoin": ["UNI-EUR", "UNIUSDT", "UNIUSDC", "UNIFDUSD", "UNI-USDT"],
+    "binance": ["UNI-EUR", "UNIUSDT", "UNIUSDC", "UNIFDUSD"]
+  },
+  "USDC": {
+    "bitvavo": ["USDC-EUR"],
+    "kucoin": ["USDC-EUR", "USDCUSDT", "USDC-USDT"],
+    "binance": ["USDC-EUR", "USDCUSDT"]
+  },
+  "USDT": {
+    "bitvavo": ["USDT-EUR"],
+    "kucoin": ["USDT-EUR", "USDT-USDC", "USDT-EUR"],
+    "binance": ["USDT-EUR"]
+  },
+  "UTK": {
+    "bitvavo": ["UTK-EUR"],
+    "kucoin": ["UTK-EUR", "UTKUSDT", "UTK-USDT"],
+    "binance": ["UTK-EUR", "UTKUSDT"]
+  },
+  "VET": {
+    "bitvavo": ["VET-EUR"],
+    "kucoin": ["VET-EUR", "VETUSDT", "VETEUR", "VET-USDT"],
+    "binance": ["VET-EUR", "VETUSDT", "VETEUR"]
+  },
+  "VGX": {
+    "bitvavo": ["VGX-EUR"],
+    "kucoin": ["VGX-EUR", "VGXUSDT"],
+    "binance": ["VGX-EUR", "VGXUSDT"]
+  },
+  "VTHO": {
+    "bitvavo": ["VTHO-EUR"],
+    "kucoin": ["VTHO-EUR", "VTHOUSDT"],
+    "binance": ["VTHO-EUR", "VTHOUSDT"]
+  },
+  "WAVES": {
+    "bitvavo": ["WAVES-EUR"],
+    "kucoin": ["WAVES-EUR", "WAVESUSDT", "WAVES-USDT"],
+    "binance": ["WAVES-EUR", "WAVESUSDT"]
+  },
+  "WIN": {
+    "bitvavo": ["WIN-EUR"],
+    "kucoin": ["WIN-EUR", "WINUSDT", "WINEUR", "WIN-USDT"],
+    "binance": ["WIN-EUR", "WINUSDT", "WINEUR"]
+  },
+  "WLD": {
+    "bitvavo": ["WLD-EUR"],
+    "kucoin": ["WLD-EUR", "WLDUSDT", "WLDFDUSD", "WLDUSDC", "WLD-USDT"],
+    "binance": ["WLD-EUR", "WLDUSDT", "WLDFDUSD", "WLDUSDC"]
+  },
+  "WOO": {
+    "bitvavo": ["WOO-EUR"],
+    "kucoin": ["WOO-EUR", "WOOUSDT", "WOO-USDT"],
+    "binance": ["WOO-EUR", "WOOUSDT"]
+  },
+  "XAI": {
+    "bitvavo": ["XAI-EUR"],
+    "kucoin": ["XAI-EUR", "XAIUSDT", "XAIFDUSD", "XAI-USDT"],
+    "binance": ["XAI-EUR", "XAIUSDT", "XAIFDUSD"]
+  },
+  "XEM": {
+    "bitvavo": ["XEM-EUR"],
+    "kucoin": ["XEM-EUR", "XEMUSDT", "XEM-USDT"],
+    "binance": ["XEM-EUR", "XEMUSDT"]
+  },
+  "XLM": {
+    "bitvavo": ["XLM-EUR"],
+    "kucoin": ["XLM-EUR", "XLMUSDT", "XLMEUR", "XLM-USDT"],
+    "binance": ["XLM-EUR", "XLMUSDT", "XLMEUR"]
+  },
+  "XRP": {
+    "bitvavo": ["XRP-EUR"],
+    "kucoin": [
+      "XRP-EUR",
+      "XRPUSDT",
+      "XRPUSDC",
+      "XRPEUR",
+      "XRPFDUSD",
+      "XRP-USDC",
+      "XRP-USDT"
+    ],
+    "binance": ["XRP-EUR", "XRPUSDT", "XRPUSDC", "XRPEUR", "XRPFDUSD"]
+  },
+  "XTZ": {
+    "bitvavo": ["XTZ-EUR"],
+    "kucoin": ["XTZ-EUR", "XTZUSDT", "XTZ-USDT"],
+    "binance": ["XTZ-EUR", "XTZUSDT"]
+  },
+  "XVG": {
+    "bitvavo": ["XVG-EUR"],
+    "kucoin": ["XVG-EUR", "XVGUSDT"],
+    "binance": ["XVG-EUR", "XVGUSDT"]
+  },
+  "XYO": {
+    "bitvavo": ["XYO-EUR"],
+    "kucoin": ["XYO-EUR", "XYO-USDT"],
+    "binance": ["XYO-EUR"]
+  },
+  "YFI": {
+    "bitvavo": ["YFI-EUR"],
+    "kucoin": ["YFI-EUR", "YFIUSDT", "YFI-USDT"],
+    "binance": ["YFI-EUR", "YFIUSDT"]
+  },
+  "ZETA": {
+    "bitvavo": ["ZETA-EUR"],
+    "kucoin": ["ZETA-EUR", "ZETA-USDT"],
+    "binance": ["ZETA-EUR"]
+  },
+  "ZIL": {
+    "bitvavo": ["ZIL-EUR"],
+    "kucoin": ["ZIL-EUR", "ZILUSDT", "ZIL-USDC", "ZIL-USDT"],
+    "binance": ["ZIL-EUR", "ZILUSDT"]
+  },
+  "ZRX": {
+    "bitvavo": ["ZRX-EUR"],
+    "kucoin": ["ZRX-EUR", "ZRXUSDT", "ZRX-USDT"],
+    "binance": ["ZRX-EUR", "ZRXUSDT"]
+  }
+}
