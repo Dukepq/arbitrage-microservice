@@ -1,0 +1,4182 @@
+[
+  { "market": "AVA-USDT", "status": "trading", "base": "AVA", "quote": "USDT" },
+  { "market": "FET-BTC", "status": "trading", "base": "FET", "quote": "BTC" },
+  { "market": "FET-ETH", "status": "trading", "base": "FET", "quote": "ETH" },
+  { "market": "ANKR-BTC", "status": "trading", "base": "ANKR", "quote": "BTC" },
+  { "market": "XMR-BTC", "status": "trading", "base": "XMR", "quote": "BTC" },
+  { "market": "XMR-ETH", "status": "trading", "base": "XMR", "quote": "ETH" },
+  { "market": "MTV-BTC", "status": "trading", "base": "MTV", "quote": "BTC" },
+  { "market": "MTV-ETH", "status": "trading", "base": "MTV", "quote": "ETH" },
+  { "market": "CRO-BTC", "status": "trading", "base": "CRO", "quote": "BTC" },
+  { "market": "MTV-USDT", "status": "trading", "base": "MTV", "quote": "USDT" },
+  { "market": "KMD-BTC", "status": "trading", "base": "KMD", "quote": "BTC" },
+  { "market": "KMD-USDT", "status": "trading", "base": "KMD", "quote": "USDT" },
+  {
+    "market": "RFOX-USDT",
+    "status": "trading",
+    "base": "RFOX",
+    "quote": "USDT"
+  },
+  { "market": "TEL-USDT", "status": "trading", "base": "TEL", "quote": "USDT" },
+  { "market": "TT-USDT", "status": "trading", "base": "TT", "quote": "USDT" },
+  {
+    "market": "AERGO-USDT",
+    "status": "trading",
+    "base": "AERGO",
+    "quote": "USDT"
+  },
+  { "market": "XMR-USDT", "status": "trading", "base": "XMR", "quote": "USDT" },
+  { "market": "TRX-KCS", "status": "trading", "base": "TRX", "quote": "KCS" },
+  { "market": "ATOM-BTC", "status": "trading", "base": "ATOM", "quote": "BTC" },
+  { "market": "ATOM-ETH", "status": "trading", "base": "ATOM", "quote": "ETH" },
+  {
+    "market": "ATOM-USDT",
+    "status": "trading",
+    "base": "ATOM",
+    "quote": "USDT"
+  },
+  { "market": "ATOM-KCS", "status": "trading", "base": "ATOM", "quote": "KCS" },
+  { "market": "FTM-USDT", "status": "trading", "base": "FTM", "quote": "USDT" },
+  {
+    "market": "VSYS-USDT",
+    "status": "trading",
+    "base": "VSYS",
+    "quote": "USDT"
+  },
+  {
+    "market": "OCEAN-BTC",
+    "status": "trading",
+    "base": "OCEAN",
+    "quote": "BTC"
+  },
+  {
+    "market": "OCEAN-ETH",
+    "status": "trading",
+    "base": "OCEAN",
+    "quote": "ETH"
+  },
+  { "market": "CHR-BTC", "status": "trading", "base": "CHR", "quote": "BTC" },
+  { "market": "CHR-USDT", "status": "trading", "base": "CHR", "quote": "USDT" },
+  { "market": "FX-BTC", "status": "trading", "base": "FX", "quote": "BTC" },
+  { "market": "FX-ETH", "status": "trading", "base": "FX", "quote": "ETH" },
+  { "market": "NIM-BTC", "status": "trading", "base": "NIM", "quote": "BTC" },
+  { "market": "NIM-ETH", "status": "trading", "base": "NIM", "quote": "ETH" },
+  { "market": "COTI-BTC", "status": "trading", "base": "COTI", "quote": "BTC" },
+  {
+    "market": "COTI-USDT",
+    "status": "trading",
+    "base": "COTI",
+    "quote": "USDT"
+  },
+  { "market": "BNB-BTC", "status": "trading", "base": "BNB", "quote": "BTC" },
+  { "market": "BNB-USDT", "status": "trading", "base": "BNB", "quote": "USDT" },
+  { "market": "ALGO-BTC", "status": "trading", "base": "ALGO", "quote": "BTC" },
+  { "market": "ALGO-ETH", "status": "trading", "base": "ALGO", "quote": "ETH" },
+  {
+    "market": "ALGO-USDT",
+    "status": "trading",
+    "base": "ALGO",
+    "quote": "USDT"
+  },
+  { "market": "XEM-BTC", "status": "trading", "base": "XEM", "quote": "BTC" },
+  { "market": "XEM-USDT", "status": "trading", "base": "XEM", "quote": "USDT" },
+  { "market": "XTZ-BTC", "status": "trading", "base": "XTZ", "quote": "BTC" },
+  { "market": "XTZ-USDT", "status": "trading", "base": "XTZ", "quote": "USDT" },
+  { "market": "ZEC-BTC", "status": "trading", "base": "ZEC", "quote": "BTC" },
+  { "market": "ZEC-USDT", "status": "trading", "base": "ZEC", "quote": "USDT" },
+  { "market": "ADA-BTC", "status": "trading", "base": "ADA", "quote": "BTC" },
+  { "market": "ADA-USDT", "status": "trading", "base": "ADA", "quote": "USDT" },
+  { "market": "BOLT-BTC", "status": "trading", "base": "BOLT", "quote": "BTC" },
+  {
+    "market": "BOLT-USDT",
+    "status": "trading",
+    "base": "BOLT",
+    "quote": "USDT"
+  },
+  {
+    "market": "ARPA-USDT",
+    "status": "trading",
+    "base": "ARPA",
+    "quote": "USDT"
+  },
+  { "market": "CHZ-BTC", "status": "trading", "base": "CHZ", "quote": "BTC" },
+  { "market": "CHZ-USDT", "status": "trading", "base": "CHZ", "quote": "USDT" },
+  { "market": "NOIA-BTC", "status": "trading", "base": "NOIA", "quote": "BTC" },
+  {
+    "market": "NOIA-USDT",
+    "status": "trading",
+    "base": "NOIA",
+    "quote": "USDT"
+  },
+  { "market": "WIN-BTC", "status": "trading", "base": "WIN", "quote": "BTC" },
+  { "market": "WIN-USDT", "status": "trading", "base": "WIN", "quote": "USDT" },
+  { "market": "BTT-USDT", "status": "trading", "base": "BTT", "quote": "USDT" },
+  {
+    "market": "EOSC-USDT",
+    "status": "trading",
+    "base": "EOSC",
+    "quote": "USDT"
+  },
+  { "market": "ONE-BTC", "status": "trading", "base": "ONE", "quote": "BTC" },
+  { "market": "ONE-USDT", "status": "trading", "base": "ONE", "quote": "USDT" },
+  { "market": "TOKO-BTC", "status": "trading", "base": "TOKO", "quote": "BTC" },
+  {
+    "market": "TOKO-USDT",
+    "status": "trading",
+    "base": "TOKO",
+    "quote": "USDT"
+  },
+  {
+    "market": "LUNA-USDT",
+    "status": "trading",
+    "base": "LUNA",
+    "quote": "USDT"
+  },
+  { "market": "SXP-BTC", "status": "trading", "base": "SXP", "quote": "BTC" },
+  { "market": "SXP-USDT", "status": "trading", "base": "SXP", "quote": "USDT" },
+  { "market": "AKRO-BTC", "status": "trading", "base": "AKRO", "quote": "BTC" },
+  {
+    "market": "AKRO-USDT",
+    "status": "trading",
+    "base": "AKRO",
+    "quote": "USDT"
+  },
+  {
+    "market": "ROOBEE-BTC",
+    "status": "trading",
+    "base": "ROOBEE",
+    "quote": "BTC"
+  },
+  { "market": "WIN-TRX", "status": "trading", "base": "WIN", "quote": "TRX" },
+  { "market": "MAP-BTC", "status": "trading", "base": "MAP", "quote": "BTC" },
+  { "market": "MAP-USDT", "status": "trading", "base": "MAP", "quote": "USDT" },
+  { "market": "AMPL-BTC", "status": "trading", "base": "AMPL", "quote": "BTC" },
+  {
+    "market": "AMPL-USDT",
+    "status": "trading",
+    "base": "AMPL",
+    "quote": "USDT"
+  },
+  { "market": "DAG-USDT", "status": "trading", "base": "DAG", "quote": "USDT" },
+  {
+    "market": "KPOL-USDT",
+    "status": "trading",
+    "base": "KPOL",
+    "quote": "USDT"
+  },
+  { "market": "ARX-USDT", "status": "trading", "base": "ARX", "quote": "USDT" },
+  { "market": "NWC-BTC", "status": "trading", "base": "NWC", "quote": "BTC" },
+  { "market": "NWC-USDT", "status": "trading", "base": "NWC", "quote": "USDT" },
+  {
+    "market": "BEPRO-BTC",
+    "status": "trading",
+    "base": "BEPRO",
+    "quote": "BTC"
+  },
+  {
+    "market": "BEPRO-USDT",
+    "status": "trading",
+    "base": "BEPRO",
+    "quote": "USDT"
+  },
+  { "market": "VRA-BTC", "status": "trading", "base": "VRA", "quote": "BTC" },
+  { "market": "VRA-USDT", "status": "trading", "base": "VRA", "quote": "USDT" },
+  { "market": "KSM-BTC", "status": "trading", "base": "KSM", "quote": "BTC" },
+  { "market": "KSM-USDT", "status": "trading", "base": "KSM", "quote": "USDT" },
+  {
+    "market": "DASH-USDT",
+    "status": "trading",
+    "base": "DASH",
+    "quote": "USDT"
+  },
+  {
+    "market": "SUTER-USDT",
+    "status": "trading",
+    "base": "SUTER",
+    "quote": "USDT"
+  },
+  {
+    "market": "SENSO-USDT",
+    "status": "trading",
+    "base": "SENSO",
+    "quote": "USDT"
+  },
+  { "market": "PRE-BTC", "status": "trading", "base": "PRE", "quote": "BTC" },
+  { "market": "XDB-USDT", "status": "trading", "base": "XDB", "quote": "USDT" },
+  {
+    "market": "SYLO-USDT",
+    "status": "trading",
+    "base": "SYLO",
+    "quote": "USDT"
+  },
+  {
+    "market": "SENSO-BTC",
+    "status": "trading",
+    "base": "SENSO",
+    "quote": "BTC"
+  },
+  { "market": "DGB-USDT", "status": "trading", "base": "DGB", "quote": "USDT" },
+  { "market": "XDB-BTC", "status": "trading", "base": "XDB", "quote": "BTC" },
+  { "market": "STX-BTC", "status": "trading", "base": "STX", "quote": "BTC" },
+  { "market": "STX-USDT", "status": "trading", "base": "STX", "quote": "USDT" },
+  {
+    "market": "COMP-USDT",
+    "status": "trading",
+    "base": "COMP",
+    "quote": "USDT"
+  },
+  { "market": "CRO-USDT", "status": "trading", "base": "CRO", "quote": "USDT" },
+  { "market": "KAI-USDT", "status": "trading", "base": "KAI", "quote": "USDT" },
+  { "market": "KAI-BTC", "status": "trading", "base": "KAI", "quote": "BTC" },
+  { "market": "WEST-BTC", "status": "trading", "base": "WEST", "quote": "BTC" },
+  {
+    "market": "WEST-USDT",
+    "status": "trading",
+    "base": "WEST",
+    "quote": "USDT"
+  },
+  { "market": "EWT-BTC", "status": "trading", "base": "EWT", "quote": "BTC" },
+  {
+    "market": "WAVES-USDT",
+    "status": "trading",
+    "base": "WAVES",
+    "quote": "USDT"
+  },
+  {
+    "market": "WAVES-BTC",
+    "status": "trading",
+    "base": "WAVES",
+    "quote": "BTC"
+  },
+  { "market": "ORN-USDT", "status": "trading", "base": "ORN", "quote": "USDT" },
+  { "market": "AMPL-ETH", "status": "trading", "base": "AMPL", "quote": "ETH" },
+  { "market": "MKR-USDT", "status": "trading", "base": "MKR", "quote": "USDT" },
+  { "market": "SUKU-BTC", "status": "trading", "base": "SUKU", "quote": "BTC" },
+  { "market": "MLK-BTC", "status": "trading", "base": "MLK", "quote": "BTC" },
+  { "market": "MLK-USDT", "status": "trading", "base": "MLK", "quote": "USDT" },
+  { "market": "JST-USDT", "status": "trading", "base": "JST", "quote": "USDT" },
+  { "market": "KAI-ETH", "status": "trading", "base": "KAI", "quote": "ETH" },
+  {
+    "market": "SUKU-USDT",
+    "status": "trading",
+    "base": "SUKU",
+    "quote": "USDT"
+  },
+  { "market": "DIA-USDT", "status": "trading", "base": "DIA", "quote": "USDT" },
+  { "market": "DIA-BTC", "status": "trading", "base": "DIA", "quote": "BTC" },
+  { "market": "LINK-BTC", "status": "trading", "base": "LINK", "quote": "BTC" },
+  {
+    "market": "LINK-USDT",
+    "status": "trading",
+    "base": "LINK",
+    "quote": "USDT"
+  },
+  { "market": "DOT-USDT", "status": "trading", "base": "DOT", "quote": "USDT" },
+  { "market": "DOT-BTC", "status": "trading", "base": "DOT", "quote": "BTC" },
+  { "market": "SHA-BTC", "status": "trading", "base": "SHA", "quote": "BTC" },
+  { "market": "SHA-USDT", "status": "trading", "base": "SHA", "quote": "USDT" },
+  { "market": "EWT-USDT", "status": "trading", "base": "EWT", "quote": "USDT" },
+  {
+    "market": "USDJ-USDT",
+    "status": "trading",
+    "base": "USDJ",
+    "quote": "USDT"
+  },
+  { "market": "CKB-BTC", "status": "trading", "base": "CKB", "quote": "BTC" },
+  { "market": "CKB-USDT", "status": "trading", "base": "CKB", "quote": "USDT" },
+  { "market": "UMA-USDT", "status": "trading", "base": "UMA", "quote": "USDT" },
+  {
+    "market": "ALEPH-USDT",
+    "status": "trading",
+    "base": "ALEPH",
+    "quote": "USDT"
+  },
+  {
+    "market": "VELO-USDT",
+    "status": "trading",
+    "base": "VELO",
+    "quote": "USDT"
+  },
+  { "market": "SUN-USDT", "status": "trading", "base": "SUN", "quote": "USDT" },
+  { "market": "YFI-USDT", "status": "trading", "base": "YFI", "quote": "USDT" },
+  { "market": "UNI-USDT", "status": "trading", "base": "UNI", "quote": "USDT" },
+  { "market": "UOS-USDT", "status": "trading", "base": "UOS", "quote": "USDT" },
+  { "market": "UOS-BTC", "status": "trading", "base": "UOS", "quote": "BTC" },
+  { "market": "NIM-USDT", "status": "trading", "base": "NIM", "quote": "USDT" },
+  {
+    "market": "DEGO-USDT",
+    "status": "trading",
+    "base": "DEGO",
+    "quote": "USDT"
+  },
+  { "market": "DEGO-ETH", "status": "trading", "base": "DEGO", "quote": "ETH" },
+  { "market": "FIL-USDT", "status": "trading", "base": "FIL", "quote": "USDT" },
+  {
+    "market": "REAP-USDT",
+    "status": "trading",
+    "base": "REAP",
+    "quote": "USDT"
+  },
+  {
+    "market": "AAVE-USDT",
+    "status": "trading",
+    "base": "AAVE",
+    "quote": "USDT"
+  },
+  { "market": "AAVE-BTC", "status": "trading", "base": "AAVE", "quote": "BTC" },
+  {
+    "market": "AERGO-BTC",
+    "status": "trading",
+    "base": "AERGO",
+    "quote": "BTC"
+  },
+  { "market": "IOST-ETH", "status": "trading", "base": "IOST", "quote": "ETH" },
+  { "market": "KCS-USDT", "status": "trading", "base": "KCS", "quote": "USDT" },
+  { "market": "SNX-ETH", "status": "trading", "base": "SNX", "quote": "ETH" },
+  { "market": "KCS-ETH", "status": "trading", "base": "KCS", "quote": "ETH" },
+  { "market": "WAN-ETH", "status": "trading", "base": "WAN", "quote": "ETH" },
+  { "market": "QTUM-BTC", "status": "trading", "base": "QTUM", "quote": "BTC" },
+  { "market": "MANA-BTC", "status": "trading", "base": "MANA", "quote": "BTC" },
+  { "market": "TEL-BTC", "status": "trading", "base": "TEL", "quote": "BTC" },
+  { "market": "XYO-ETH", "status": "trading", "base": "XYO", "quote": "ETH" },
+  { "market": "VET-BTC", "status": "trading", "base": "VET", "quote": "BTC" },
+  { "market": "KCS-BTC", "status": "trading", "base": "KCS", "quote": "BTC" },
+  { "market": "CAPP-ETH", "status": "trading", "base": "CAPP", "quote": "ETH" },
+  { "market": "ONT-BTC", "status": "trading", "base": "ONT", "quote": "BTC" },
+  { "market": "DAG-ETH", "status": "trading", "base": "DAG", "quote": "ETH" },
+  { "market": "WAN-BTC", "status": "trading", "base": "WAN", "quote": "BTC" },
+  { "market": "KNC-ETH", "status": "trading", "base": "KNC", "quote": "ETH" },
+  { "market": "CRPT-ETH", "status": "trading", "base": "CRPT", "quote": "ETH" },
+  { "market": "LTC-USDT", "status": "trading", "base": "LTC", "quote": "USDT" },
+  { "market": "BAX-ETH", "status": "trading", "base": "BAX", "quote": "ETH" },
+  {
+    "market": "BCHSV-USDT",
+    "status": "trading",
+    "base": "BCHSV",
+    "quote": "USDT"
+  },
+  { "market": "DENT-ETH", "status": "trading", "base": "DENT", "quote": "ETH" },
+  { "market": "LYM-ETH", "status": "trading", "base": "LYM", "quote": "ETH" },
+  { "market": "TRAC-ETH", "status": "trading", "base": "TRAC", "quote": "ETH" },
+  { "market": "ENJ-BTC", "status": "trading", "base": "ENJ", "quote": "BTC" },
+  { "market": "WAX-BTC", "status": "trading", "base": "WAX", "quote": "BTC" },
+  { "market": "DGB-BTC", "status": "trading", "base": "DGB", "quote": "BTC" },
+  { "market": "ELA-BTC", "status": "trading", "base": "ELA", "quote": "BTC" },
+  { "market": "ZIL-BTC", "status": "trading", "base": "ZIL", "quote": "BTC" },
+  {
+    "market": "BCHSV-BTC",
+    "status": "trading",
+    "base": "BCHSV",
+    "quote": "BTC"
+  },
+  { "market": "XLM-USDT", "status": "trading", "base": "XLM", "quote": "USDT" },
+  { "market": "IOTX-ETH", "status": "trading", "base": "IOTX", "quote": "ETH" },
+  { "market": "SOUL-BTC", "status": "trading", "base": "SOUL", "quote": "BTC" },
+  { "market": "DOCK-BTC", "status": "trading", "base": "DOCK", "quote": "BTC" },
+  { "market": "AMB-ETH", "status": "trading", "base": "AMB", "quote": "ETH" },
+  { "market": "TRX-BTC", "status": "trading", "base": "TRX", "quote": "BTC" },
+  { "market": "ETH-DAI", "status": "trading", "base": "ETH", "quote": "DAI" },
+  { "market": "NEO-ETH", "status": "trading", "base": "NEO", "quote": "ETH" },
+  { "market": "OMG-ETH", "status": "trading", "base": "OMG", "quote": "ETH" },
+  { "market": "KNC-BTC", "status": "trading", "base": "KNC", "quote": "BTC" },
+  { "market": "ELF-BTC", "status": "trading", "base": "ELF", "quote": "BTC" },
+  { "market": "MANA-ETH", "status": "trading", "base": "MANA", "quote": "ETH" },
+  { "market": "ETC-USDT", "status": "trading", "base": "ETC", "quote": "USDT" },
+  { "market": "ONT-ETH", "status": "trading", "base": "ONT", "quote": "ETH" },
+  { "market": "MKR-BTC", "status": "trading", "base": "MKR", "quote": "BTC" },
+  { "market": "XRP-USDC", "status": "trading", "base": "XRP", "quote": "USDC" },
+  { "market": "XYO-BTC", "status": "trading", "base": "XYO", "quote": "BTC" },
+  { "market": "ZRX-BTC", "status": "trading", "base": "ZRX", "quote": "BTC" },
+  { "market": "OLT-BTC", "status": "trading", "base": "OLT", "quote": "BTC" },
+  { "market": "TRAC-BTC", "status": "trading", "base": "TRAC", "quote": "BTC" },
+  { "market": "XLM-ETH", "status": "trading", "base": "XLM", "quote": "ETH" },
+  { "market": "ETH-USDT", "status": "trading", "base": "ETH", "quote": "USDT" },
+  {
+    "market": "BCHSV-ETH",
+    "status": "trading",
+    "base": "BCHSV",
+    "quote": "ETH"
+  },
+  { "market": "TRX-ETH", "status": "trading", "base": "TRX", "quote": "ETH" },
+  { "market": "DOCK-ETH", "status": "trading", "base": "DOCK", "quote": "ETH" },
+  { "market": "KEY-BTC", "status": "trading", "base": "KEY", "quote": "BTC" },
+  { "market": "EOS-KCS", "status": "trading", "base": "EOS", "quote": "KCS" },
+  { "market": "XLM-BTC", "status": "trading", "base": "XLM", "quote": "BTC" },
+  { "market": "TIME-ETH", "status": "trading", "base": "TIME", "quote": "ETH" },
+  { "market": "CVC-BTC", "status": "trading", "base": "CVC", "quote": "BTC" },
+  { "market": "LSK-ETH", "status": "trading", "base": "LSK", "quote": "ETH" },
+  { "market": "QKC-BTC", "status": "trading", "base": "QKC", "quote": "BTC" },
+  { "market": "AMB-BTC", "status": "trading", "base": "AMB", "quote": "BTC" },
+  { "market": "ETC-ETH", "status": "trading", "base": "ETC", "quote": "ETH" },
+  { "market": "XRP-BTC", "status": "trading", "base": "XRP", "quote": "BTC" },
+  { "market": "NEO-KCS", "status": "trading", "base": "NEO", "quote": "KCS" },
+  { "market": "SNX-USDT", "status": "trading", "base": "SNX", "quote": "USDT" },
+  { "market": "CRPT-BTC", "status": "trading", "base": "CRPT", "quote": "BTC" },
+  { "market": "IOTX-BTC", "status": "trading", "base": "IOTX", "quote": "BTC" },
+  { "market": "LTC-ETH", "status": "trading", "base": "LTC", "quote": "ETH" },
+  { "market": "XRP-KCS", "status": "trading", "base": "XRP", "quote": "KCS" },
+  { "market": "LTC-KCS", "status": "trading", "base": "LTC", "quote": "KCS" },
+  { "market": "TEL-ETH", "status": "trading", "base": "TEL", "quote": "ETH" },
+  { "market": "LYM-USDT", "status": "trading", "base": "LYM", "quote": "USDT" },
+  {
+    "market": "USDT-USDC",
+    "status": "trading",
+    "base": "USDT",
+    "quote": "USDC"
+  },
+  { "market": "ETH-USDC", "status": "trading", "base": "ETH", "quote": "USDC" },
+  { "market": "DAG-BTC", "status": "trading", "base": "DAG", "quote": "BTC" },
+  { "market": "AVA-BTC", "status": "trading", "base": "AVA", "quote": "BTC" },
+  { "market": "BTC-USDT", "status": "trading", "base": "BTC", "quote": "USDT" },
+  { "market": "WAX-ETH", "status": "trading", "base": "WAX", "quote": "ETH" },
+  { "market": "XRP-USDT", "status": "trading", "base": "XRP", "quote": "USDT" },
+  { "market": "KEY-ETH", "status": "trading", "base": "KEY", "quote": "ETH" },
+  { "market": "VET-ETH", "status": "trading", "base": "VET", "quote": "ETH" },
+  { "market": "FTM-BTC", "status": "trading", "base": "FTM", "quote": "BTC" },
+  { "market": "USDT-DAI", "status": "trading", "base": "USDT", "quote": "DAI" },
+  { "market": "ETH-BTC", "status": "trading", "base": "ETH", "quote": "BTC" },
+  { "market": "MAN-BTC", "status": "trading", "base": "MAN", "quote": "BTC" },
+  { "market": "TRX-USDT", "status": "trading", "base": "TRX", "quote": "USDT" },
+  { "market": "BTC-DAI", "status": "trading", "base": "BTC", "quote": "DAI" },
+  { "market": "ONT-USDT", "status": "trading", "base": "ONT", "quote": "USDT" },
+  { "market": "DASH-ETH", "status": "trading", "base": "DASH", "quote": "ETH" },
+  { "market": "BAX-BTC", "status": "trading", "base": "BAX", "quote": "BTC" },
+  { "market": "AVA-ETH", "status": "trading", "base": "AVA", "quote": "ETH" },
+  { "market": "LOOM-BTC", "status": "trading", "base": "LOOM", "quote": "BTC" },
+  { "market": "MKR-ETH", "status": "trading", "base": "MKR", "quote": "ETH" },
+  { "market": "REQ-ETH", "status": "trading", "base": "REQ", "quote": "ETH" },
+  { "market": "EOS-BTC", "status": "trading", "base": "EOS", "quote": "BTC" },
+  { "market": "LTC-BTC", "status": "trading", "base": "LTC", "quote": "BTC" },
+  { "market": "XRP-ETH", "status": "trading", "base": "XRP", "quote": "ETH" },
+  { "market": "CAPP-BTC", "status": "trading", "base": "CAPP", "quote": "BTC" },
+  { "market": "FTM-ETH", "status": "trading", "base": "FTM", "quote": "ETH" },
+  { "market": "DGB-ETH", "status": "trading", "base": "DGB", "quote": "ETH" },
+  { "market": "VET-USDT", "status": "trading", "base": "VET", "quote": "USDT" },
+  { "market": "REQ-BTC", "status": "trading", "base": "REQ", "quote": "BTC" },
+  { "market": "UTK-BTC", "status": "trading", "base": "UTK", "quote": "BTC" },
+  { "market": "UTK-ETH", "status": "trading", "base": "UTK", "quote": "ETH" },
+  { "market": "SNX-BTC", "status": "trading", "base": "SNX", "quote": "BTC" },
+  { "market": "NEO-BTC", "status": "trading", "base": "NEO", "quote": "BTC" },
+  { "market": "SOUL-ETH", "status": "trading", "base": "SOUL", "quote": "ETH" },
+  { "market": "NEO-USDT", "status": "trading", "base": "NEO", "quote": "USDT" },
+  { "market": "ELA-ETH", "status": "trading", "base": "ELA", "quote": "ETH" },
+  { "market": "OMG-BTC", "status": "trading", "base": "OMG", "quote": "BTC" },
+  { "market": "TIME-BTC", "status": "trading", "base": "TIME", "quote": "BTC" },
+  { "market": "ETC-BTC", "status": "trading", "base": "ETC", "quote": "BTC" },
+  { "market": "DCR-BTC", "status": "trading", "base": "DCR", "quote": "BTC" },
+  { "market": "BTC-USDC", "status": "trading", "base": "BTC", "quote": "USDC" },
+  { "market": "ENJ-ETH", "status": "trading", "base": "ENJ", "quote": "ETH" },
+  { "market": "IOST-BTC", "status": "trading", "base": "IOST", "quote": "BTC" },
+  { "market": "DASH-BTC", "status": "trading", "base": "DASH", "quote": "BTC" },
+  { "market": "EOS-USDT", "status": "trading", "base": "EOS", "quote": "USDT" },
+  { "market": "EOS-ETH", "status": "trading", "base": "EOS", "quote": "ETH" },
+  { "market": "ZIL-ETH", "status": "trading", "base": "ZIL", "quote": "ETH" },
+  { "market": "OLT-USDT", "status": "trading", "base": "OLT", "quote": "USDT" },
+  { "market": "GAS-BTC", "status": "trading", "base": "GAS", "quote": "BTC" },
+  { "market": "BCH-BTC", "status": "trading", "base": "BCH", "quote": "BTC" },
+  { "market": "VSYS-BTC", "status": "trading", "base": "VSYS", "quote": "BTC" },
+  { "market": "BCH-USDT", "status": "trading", "base": "BCH", "quote": "USDT" },
+  {
+    "market": "SOLVE-BTC",
+    "status": "trading",
+    "base": "SOLVE",
+    "quote": "BTC"
+  },
+  { "market": "UQC-ETH", "status": "trading", "base": "UQC", "quote": "ETH" },
+  { "market": "PRE-USDT", "status": "trading", "base": "PRE", "quote": "USDT" },
+  { "market": "SHR-BTC", "status": "trading", "base": "SHR", "quote": "BTC" },
+  { "market": "SHR-USDT", "status": "trading", "base": "SHR", "quote": "USDT" },
+  {
+    "market": "VIDT-USDT",
+    "status": "trading",
+    "base": "VIDT",
+    "quote": "USDT"
+  },
+  {
+    "market": "ROSE-USDT",
+    "status": "trading",
+    "base": "ROSE",
+    "quote": "USDT"
+  },
+  {
+    "market": "USDC-USDT",
+    "status": "trading",
+    "base": "USDC",
+    "quote": "USDT"
+  },
+  { "market": "CTI-USDT", "status": "trading", "base": "CTI", "quote": "USDT" },
+  { "market": "CTI-ETH", "status": "trading", "base": "CTI", "quote": "ETH" },
+  { "market": "ETH2-ETH", "status": "trading", "base": "ETH2", "quote": "ETH" },
+  { "market": "PLU-USDT", "status": "trading", "base": "PLU", "quote": "USDT" },
+  { "market": "GRT-USDT", "status": "trading", "base": "GRT", "quote": "USDT" },
+  { "market": "CAS-BTC", "status": "trading", "base": "CAS", "quote": "BTC" },
+  { "market": "CAS-USDT", "status": "trading", "base": "CAS", "quote": "USDT" },
+  {
+    "market": "REVV-USDT",
+    "status": "trading",
+    "base": "REVV",
+    "quote": "USDT"
+  },
+  {
+    "market": "1INCH-USDT",
+    "status": "trading",
+    "base": "1INCH",
+    "quote": "USDT"
+  },
+  {
+    "market": "API3-USDT",
+    "status": "trading",
+    "base": "API3",
+    "quote": "USDT"
+  },
+  {
+    "market": "UNFI-USDT",
+    "status": "trading",
+    "base": "UNFI",
+    "quote": "USDT"
+  },
+  { "market": "HTR-USDT", "status": "trading", "base": "HTR", "quote": "USDT" },
+  {
+    "market": "FRONT-USDT",
+    "status": "trading",
+    "base": "FRONT",
+    "quote": "USDT"
+  },
+  {
+    "market": "FRONT-BTC",
+    "status": "trading",
+    "base": "FRONT",
+    "quote": "BTC"
+  },
+  { "market": "WBTC-BTC", "status": "trading", "base": "WBTC", "quote": "BTC" },
+  { "market": "LTC-USDC", "status": "trading", "base": "LTC", "quote": "USDC" },
+  { "market": "BCH-USDC", "status": "trading", "base": "BCH", "quote": "USDC" },
+  {
+    "market": "HYDRA-USDT",
+    "status": "trading",
+    "base": "HYDRA",
+    "quote": "USDT"
+  },
+  { "market": "DFI-USDT", "status": "trading", "base": "DFI", "quote": "USDT" },
+  { "market": "DFI-BTC", "status": "trading", "base": "DFI", "quote": "BTC" },
+  { "market": "CRV-USDT", "status": "trading", "base": "CRV", "quote": "USDT" },
+  {
+    "market": "SUSHI-USDT",
+    "status": "trading",
+    "base": "SUSHI",
+    "quote": "USDT"
+  },
+  { "market": "FRM-USDT", "status": "trading", "base": "FRM", "quote": "USDT" },
+  { "market": "EOS-USDC", "status": "trading", "base": "EOS", "quote": "USDC" },
+  {
+    "market": "BCHSV-USDC",
+    "status": "trading",
+    "base": "BCHSV",
+    "quote": "USDC"
+  },
+  { "market": "ZEN-USDT", "status": "trading", "base": "ZEN", "quote": "USDT" },
+  {
+    "market": "CUDOS-USDT",
+    "status": "trading",
+    "base": "CUDOS",
+    "quote": "USDT"
+  },
+  { "market": "ADA-USDC", "status": "trading", "base": "ADA", "quote": "USDC" },
+  { "market": "REN-USDT", "status": "trading", "base": "REN", "quote": "USDT" },
+  { "market": "LRC-USDT", "status": "trading", "base": "LRC", "quote": "USDT" },
+  {
+    "market": "LINK-USDC",
+    "status": "trading",
+    "base": "LINK",
+    "quote": "USDC"
+  },
+  { "market": "KLV-USDT", "status": "trading", "base": "KLV", "quote": "USDT" },
+  { "market": "KLV-BTC", "status": "trading", "base": "KLV", "quote": "BTC" },
+  {
+    "market": "THETA-USDT",
+    "status": "trading",
+    "base": "THETA",
+    "quote": "USDT"
+  },
+  { "market": "QNT-USDT", "status": "trading", "base": "QNT", "quote": "USDT" },
+  { "market": "BAT-USDT", "status": "trading", "base": "BAT", "quote": "USDT" },
+  {
+    "market": "DOGE-USDT",
+    "status": "trading",
+    "base": "DOGE",
+    "quote": "USDT"
+  },
+  {
+    "market": "DOGE-USDC",
+    "status": "trading",
+    "base": "DOGE",
+    "quote": "USDC"
+  },
+  { "market": "DAO-USDT", "status": "trading", "base": "DAO", "quote": "USDT" },
+  {
+    "market": "TRIAS-USDT",
+    "status": "trading",
+    "base": "TRIAS",
+    "quote": "USDT"
+  },
+  {
+    "market": "TRIAS-BTC",
+    "status": "trading",
+    "base": "TRIAS",
+    "quote": "BTC"
+  },
+  { "market": "DOGE-BTC", "status": "trading", "base": "DOGE", "quote": "BTC" },
+  {
+    "market": "CAKE-USDT",
+    "status": "trading",
+    "base": "CAKE",
+    "quote": "USDT"
+  },
+  {
+    "market": "ORAI-USDT",
+    "status": "trading",
+    "base": "ORAI",
+    "quote": "USDT"
+  },
+  { "market": "ZEE-USDT", "status": "trading", "base": "ZEE", "quote": "USDT" },
+  {
+    "market": "MASK-USDT",
+    "status": "trading",
+    "base": "MASK",
+    "quote": "USDT"
+  },
+  { "market": "KLV-TRX", "status": "trading", "base": "KLV", "quote": "TRX" },
+  {
+    "market": "IDEA-USDT",
+    "status": "trading",
+    "base": "IDEA",
+    "quote": "USDT"
+  },
+  { "market": "PHA-USDT", "status": "trading", "base": "PHA", "quote": "USDT" },
+  { "market": "PHA-ETH", "status": "trading", "base": "PHA", "quote": "ETH" },
+  { "market": "BCH-KCS", "status": "trading", "base": "BCH", "quote": "KCS" },
+  { "market": "ADA-KCS", "status": "trading", "base": "ADA", "quote": "KCS" },
+  { "market": "HTR-BTC", "status": "trading", "base": "HTR", "quote": "BTC" },
+  { "market": "DOT-KCS", "status": "trading", "base": "DOT", "quote": "KCS" },
+  { "market": "LINK-KCS", "status": "trading", "base": "LINK", "quote": "KCS" },
+  { "market": "BNB-KCS", "status": "trading", "base": "BNB", "quote": "KCS" },
+  { "market": "XLM-KCS", "status": "trading", "base": "XLM", "quote": "KCS" },
+  { "market": "VET-KCS", "status": "trading", "base": "VET", "quote": "KCS" },
+  { "market": "DASH-KCS", "status": "trading", "base": "DASH", "quote": "KCS" },
+  { "market": "UNI-KCS", "status": "trading", "base": "UNI", "quote": "KCS" },
+  { "market": "AAVE-KCS", "status": "trading", "base": "AAVE", "quote": "KCS" },
+  { "market": "DOGE-KCS", "status": "trading", "base": "DOGE", "quote": "KCS" },
+  { "market": "ZEC-KCS", "status": "trading", "base": "ZEC", "quote": "KCS" },
+  { "market": "GRT-KCS", "status": "trading", "base": "GRT", "quote": "KCS" },
+  { "market": "ALGO-KCS", "status": "trading", "base": "ALGO", "quote": "KCS" },
+  { "market": "EWT-KCS", "status": "trading", "base": "EWT", "quote": "KCS" },
+  { "market": "GAS-USDT", "status": "trading", "base": "GAS", "quote": "USDT" },
+  {
+    "market": "AVAX-USDT",
+    "status": "trading",
+    "base": "AVAX",
+    "quote": "USDT"
+  },
+  { "market": "AVAX-BTC", "status": "trading", "base": "AVAX", "quote": "BTC" },
+  { "market": "KRL-BTC", "status": "trading", "base": "KRL", "quote": "BTC" },
+  { "market": "KRL-USDT", "status": "trading", "base": "KRL", "quote": "USDT" },
+  {
+    "market": "POLK-USDT",
+    "status": "trading",
+    "base": "POLK",
+    "quote": "USDT"
+  },
+  { "market": "POLK-BTC", "status": "trading", "base": "POLK", "quote": "BTC" },
+  { "market": "ENJ-USDT", "status": "trading", "base": "ENJ", "quote": "USDT" },
+  {
+    "market": "MANA-USDT",
+    "status": "trading",
+    "base": "MANA",
+    "quote": "USDT"
+  },
+  {
+    "market": "RNDR-USDT",
+    "status": "trading",
+    "base": "RNDR",
+    "quote": "USDT"
+  },
+  { "market": "RNDR-BTC", "status": "trading", "base": "RNDR", "quote": "BTC" },
+  {
+    "market": "SKEY-USDT",
+    "status": "trading",
+    "base": "SKEY",
+    "quote": "USDT"
+  },
+  {
+    "market": "LAYER-USDT",
+    "status": "trading",
+    "base": "LAYER",
+    "quote": "USDT"
+  },
+  {
+    "market": "TARA-USDT",
+    "status": "trading",
+    "base": "TARA",
+    "quote": "USDT"
+  },
+  { "market": "TARA-ETH", "status": "trading", "base": "TARA", "quote": "ETH" },
+  {
+    "market": "IOST-USDT",
+    "status": "trading",
+    "base": "IOST",
+    "quote": "USDT"
+  },
+  { "market": "DYP-USDT", "status": "trading", "base": "DYP", "quote": "USDT" },
+  { "market": "DYP-ETH", "status": "trading", "base": "DYP", "quote": "ETH" },
+  { "market": "XYM-USDT", "status": "trading", "base": "XYM", "quote": "USDT" },
+  { "market": "XYM-BTC", "status": "trading", "base": "XYM", "quote": "BTC" },
+  {
+    "market": "ORBS-USDT",
+    "status": "trading",
+    "base": "ORBS",
+    "quote": "USDT"
+  },
+  { "market": "ORBS-BTC", "status": "trading", "base": "ORBS", "quote": "BTC" },
+  {
+    "market": "BTC3L-USDT",
+    "status": "trading",
+    "base": "BTC3L",
+    "quote": "USDT"
+  },
+  {
+    "market": "BTC3S-USDT",
+    "status": "trading",
+    "base": "BTC3S",
+    "quote": "USDT"
+  },
+  {
+    "market": "ETH3L-USDT",
+    "status": "trading",
+    "base": "ETH3L",
+    "quote": "USDT"
+  },
+  {
+    "market": "ETH3S-USDT",
+    "status": "trading",
+    "base": "ETH3S",
+    "quote": "USDT"
+  },
+  {
+    "market": "ANKR-USDT",
+    "status": "trading",
+    "base": "ANKR",
+    "quote": "USDT"
+  },
+  {
+    "market": "DSLA-USDT",
+    "status": "trading",
+    "base": "DSLA",
+    "quote": "USDT"
+  },
+  { "market": "DSLA-BTC", "status": "trading", "base": "DSLA", "quote": "BTC" },
+  {
+    "market": "SAND-USDT",
+    "status": "trading",
+    "base": "SAND",
+    "quote": "USDT"
+  },
+  { "market": "VAI-USDT", "status": "trading", "base": "VAI", "quote": "USDT" },
+  {
+    "market": "XCUR-USDT",
+    "status": "trading",
+    "base": "XCUR",
+    "quote": "USDT"
+  },
+  { "market": "XCUR-BTC", "status": "trading", "base": "XCUR", "quote": "BTC" },
+  {
+    "market": "FLUX-USDT",
+    "status": "trading",
+    "base": "FLUX",
+    "quote": "USDT"
+  },
+  { "market": "OMG-USDT", "status": "trading", "base": "OMG", "quote": "USDT" },
+  { "market": "ZIL-USDT", "status": "trading", "base": "ZIL", "quote": "USDT" },
+  {
+    "market": "DODO-USDT",
+    "status": "trading",
+    "base": "DODO",
+    "quote": "USDT"
+  },
+  { "market": "MAN-USDT", "status": "trading", "base": "MAN", "quote": "USDT" },
+  { "market": "BAX-USDT", "status": "trading", "base": "BAX", "quote": "USDT" },
+  {
+    "market": "BOSON-USDT",
+    "status": "trading",
+    "base": "BOSON",
+    "quote": "USDT"
+  },
+  {
+    "market": "BOSON-ETH",
+    "status": "trading",
+    "base": "BOSON",
+    "quote": "ETH"
+  },
+  {
+    "market": "PUNDIX-USDT",
+    "status": "trading",
+    "base": "PUNDIX",
+    "quote": "USDT"
+  },
+  {
+    "market": "PUNDIX-BTC",
+    "status": "trading",
+    "base": "PUNDIX",
+    "quote": "BTC"
+  },
+  { "market": "WAX-USDT", "status": "trading", "base": "WAX", "quote": "USDT" },
+  {
+    "market": "PDEX-USDT",
+    "status": "trading",
+    "base": "PDEX",
+    "quote": "USDT"
+  },
+  {
+    "market": "LABS-USDT",
+    "status": "trading",
+    "base": "LABS",
+    "quote": "USDT"
+  },
+  { "market": "LABS-ETH", "status": "trading", "base": "LABS", "quote": "ETH" },
+  { "market": "HAI-USDT", "status": "trading", "base": "HAI", "quote": "USDT" },
+  {
+    "market": "FORTH-USDT",
+    "status": "trading",
+    "base": "FORTH",
+    "quote": "USDT"
+  },
+  { "market": "GHX-USDT", "status": "trading", "base": "GHX", "quote": "USDT" },
+  {
+    "market": "STND-USDT",
+    "status": "trading",
+    "base": "STND",
+    "quote": "USDT"
+  },
+  { "market": "STND-ETH", "status": "trading", "base": "STND", "quote": "ETH" },
+  {
+    "market": "TOWER-USDT",
+    "status": "trading",
+    "base": "TOWER",
+    "quote": "USDT"
+  },
+  { "market": "ACE-USDT", "status": "trading", "base": "ACE", "quote": "USDT" },
+  { "market": "FLY-USDT", "status": "trading", "base": "FLY", "quote": "USDT" },
+  { "market": "CWS-USDT", "status": "trading", "base": "CWS", "quote": "USDT" },
+  { "market": "XDC-USDT", "status": "trading", "base": "XDC", "quote": "USDT" },
+  { "market": "XDC-ETH", "status": "trading", "base": "XDC", "quote": "ETH" },
+  {
+    "market": "STRIKE-BTC",
+    "status": "trading",
+    "base": "STRIKE",
+    "quote": "BTC"
+  },
+  {
+    "market": "SHIB-USDT",
+    "status": "trading",
+    "base": "SHIB",
+    "quote": "USDT"
+  },
+  {
+    "market": "POLX-USDT",
+    "status": "trading",
+    "base": "POLX",
+    "quote": "USDT"
+  },
+  { "market": "KDA-USDT", "status": "trading", "base": "KDA", "quote": "USDT" },
+  { "market": "KDA-BTC", "status": "trading", "base": "KDA", "quote": "BTC" },
+  { "market": "ICP-USDT", "status": "trading", "base": "ICP", "quote": "USDT" },
+  { "market": "ICP-BTC", "status": "trading", "base": "ICP", "quote": "BTC" },
+  { "market": "STC-USDT", "status": "trading", "base": "STC", "quote": "USDT" },
+  { "market": "STC-BTC", "status": "trading", "base": "STC", "quote": "BTC" },
+  {
+    "market": "CELO-USDT",
+    "status": "trading",
+    "base": "CELO",
+    "quote": "USDT"
+  },
+  { "market": "CELO-BTC", "status": "trading", "base": "CELO", "quote": "BTC" },
+  {
+    "market": "MATIC-USDT",
+    "status": "trading",
+    "base": "MATIC",
+    "quote": "USDT"
+  },
+  {
+    "market": "MATIC-BTC",
+    "status": "trading",
+    "base": "MATIC",
+    "quote": "BTC"
+  },
+  { "market": "ELA-USDT", "status": "trading", "base": "ELA", "quote": "USDT" },
+  {
+    "market": "CRPT-USDT",
+    "status": "trading",
+    "base": "CRPT",
+    "quote": "USDT"
+  },
+  { "market": "OGN-USDT", "status": "trading", "base": "OGN", "quote": "USDT" },
+  { "market": "OGN-BTC", "status": "trading", "base": "OGN", "quote": "BTC" },
+  {
+    "market": "OUSD-USDT",
+    "status": "trading",
+    "base": "OUSD",
+    "quote": "USDT"
+  },
+  { "market": "OUSD-BTC", "status": "trading", "base": "OUSD", "quote": "BTC" },
+  {
+    "market": "TLOS-USDT",
+    "status": "trading",
+    "base": "TLOS",
+    "quote": "USDT"
+  },
+  { "market": "TLOS-BTC", "status": "trading", "base": "TLOS", "quote": "BTC" },
+  { "market": "GLQ-USDT", "status": "trading", "base": "GLQ", "quote": "USDT" },
+  { "market": "GLQ-BTC", "status": "trading", "base": "GLQ", "quote": "BTC" },
+  { "market": "MXC-USDT", "status": "trading", "base": "MXC", "quote": "USDT" },
+  {
+    "market": "HOTCROSS-USDT",
+    "status": "trading",
+    "base": "HOTCROSS",
+    "quote": "USDT"
+  },
+  {
+    "market": "ADA3L-USDT",
+    "status": "trading",
+    "base": "ADA3L",
+    "quote": "USDT"
+  },
+  {
+    "market": "ADA3S-USDT",
+    "status": "trading",
+    "base": "ADA3S",
+    "quote": "USDT"
+  },
+  {
+    "market": "HYVE-USDT",
+    "status": "trading",
+    "base": "HYVE",
+    "quote": "USDT"
+  },
+  { "market": "HYVE-BTC", "status": "trading", "base": "HYVE", "quote": "BTC" },
+  {
+    "market": "DAPPX-USDT",
+    "status": "trading",
+    "base": "DAPPX",
+    "quote": "USDT"
+  },
+  {
+    "market": "KONO-USDT",
+    "status": "trading",
+    "base": "KONO",
+    "quote": "USDT"
+  },
+  { "market": "PRQ-USDT", "status": "trading", "base": "PRQ", "quote": "USDT" },
+  {
+    "market": "MAHA-USDT",
+    "status": "trading",
+    "base": "MAHA",
+    "quote": "USDT"
+  },
+  { "market": "MAHA-BTC", "status": "trading", "base": "MAHA", "quote": "BTC" },
+  {
+    "market": "FEAR-USDT",
+    "status": "trading",
+    "base": "FEAR",
+    "quote": "USDT"
+  },
+  { "market": "PYR-USDT", "status": "trading", "base": "PYR", "quote": "USDT" },
+  { "market": "PYR-BTC", "status": "trading", "base": "PYR", "quote": "BTC" },
+  {
+    "market": "PROM-USDT",
+    "status": "trading",
+    "base": "PROM",
+    "quote": "USDT"
+  },
+  { "market": "PROM-BTC", "status": "trading", "base": "PROM", "quote": "BTC" },
+  { "market": "UNO-USDT", "status": "trading", "base": "UNO", "quote": "USDT" },
+  {
+    "market": "XCAD-USDT",
+    "status": "trading",
+    "base": "XCAD",
+    "quote": "USDT"
+  },
+  {
+    "market": "EOS3L-USDT",
+    "status": "trading",
+    "base": "EOS3L",
+    "quote": "USDT"
+  },
+  {
+    "market": "EOS3S-USDT",
+    "status": "trading",
+    "base": "EOS3S",
+    "quote": "USDT"
+  },
+  {
+    "market": "BCH3L-USDT",
+    "status": "trading",
+    "base": "BCH3L",
+    "quote": "USDT"
+  },
+  {
+    "market": "BCH3S-USDT",
+    "status": "trading",
+    "base": "BCH3S",
+    "quote": "USDT"
+  },
+  {
+    "market": "ELON-USDT",
+    "status": "trading",
+    "base": "ELON",
+    "quote": "USDT"
+  },
+  {
+    "market": "DIVI-USDT",
+    "status": "trading",
+    "base": "DIVI",
+    "quote": "USDT"
+  },
+  { "market": "PDEX-BTC", "status": "trading", "base": "PDEX", "quote": "BTC" },
+  {
+    "market": "POLS-USDT",
+    "status": "trading",
+    "base": "POLS",
+    "quote": "USDT"
+  },
+  { "market": "POLS-BTC", "status": "trading", "base": "POLS", "quote": "BTC" },
+  {
+    "market": "LPOOL-USDT",
+    "status": "trading",
+    "base": "LPOOL",
+    "quote": "USDT"
+  },
+  {
+    "market": "LPOOL-BTC",
+    "status": "trading",
+    "base": "LPOOL",
+    "quote": "BTC"
+  },
+  { "market": "LSS-USDT", "status": "trading", "base": "LSS", "quote": "USDT" },
+  {
+    "market": "VET3L-USDT",
+    "status": "trading",
+    "base": "VET3L",
+    "quote": "USDT"
+  },
+  {
+    "market": "VET3S-USDT",
+    "status": "trading",
+    "base": "VET3S",
+    "quote": "USDT"
+  },
+  {
+    "market": "LTC3L-USDT",
+    "status": "trading",
+    "base": "LTC3L",
+    "quote": "USDT"
+  },
+  {
+    "market": "LTC3S-USDT",
+    "status": "trading",
+    "base": "LTC3S",
+    "quote": "USDT"
+  },
+  {
+    "market": "ABBC-USDT",
+    "status": "trading",
+    "base": "ABBC",
+    "quote": "USDT"
+  },
+  { "market": "ABBC-BTC", "status": "trading", "base": "ABBC", "quote": "BTC" },
+  { "market": "KOK-USDT", "status": "trading", "base": "KOK", "quote": "USDT" },
+  { "market": "ZCX-USDT", "status": "trading", "base": "ZCX", "quote": "USDT" },
+  { "market": "ZCX-BTC", "status": "trading", "base": "ZCX", "quote": "BTC" },
+  {
+    "market": "NORD-USDT",
+    "status": "trading",
+    "base": "NORD",
+    "quote": "USDT"
+  },
+  {
+    "market": "GMEE-USDT",
+    "status": "trading",
+    "base": "GMEE",
+    "quote": "USDT"
+  },
+  {
+    "market": "SFUND-USDT",
+    "status": "trading",
+    "base": "SFUND",
+    "quote": "USDT"
+  },
+  {
+    "market": "XAVA-USDT",
+    "status": "trading",
+    "base": "XAVA",
+    "quote": "USDT"
+  },
+  { "market": "AI-USDT", "status": "trading", "base": "AI", "quote": "USDT" },
+  { "market": "IOI-USDT", "status": "trading", "base": "IOI", "quote": "USDT" },
+  { "market": "NFT-USDT", "status": "trading", "base": "NFT", "quote": "USDT" },
+  { "market": "NFT-TRX", "status": "trading", "base": "NFT", "quote": "TRX" },
+  {
+    "market": "AGIX-USDT",
+    "status": "trading",
+    "base": "AGIX",
+    "quote": "USDT"
+  },
+  { "market": "AGIX-BTC", "status": "trading", "base": "AGIX", "quote": "BTC" },
+  { "market": "AGIX-ETH", "status": "trading", "base": "AGIX", "quote": "ETH" },
+  { "market": "CQT-USDT", "status": "trading", "base": "CQT", "quote": "USDT" },
+  {
+    "market": "AIOZ-USDT",
+    "status": "trading",
+    "base": "AIOZ",
+    "quote": "USDT"
+  },
+  {
+    "market": "MARSH-USDT",
+    "status": "trading",
+    "base": "MARSH",
+    "quote": "USDT"
+  },
+  {
+    "market": "HAPI-USDT",
+    "status": "trading",
+    "base": "HAPI",
+    "quote": "USDT"
+  },
+  {
+    "market": "YFDAI-USDT",
+    "status": "trading",
+    "base": "YFDAI",
+    "quote": "USDT"
+  },
+  {
+    "market": "YFDAI-BTC",
+    "status": "trading",
+    "base": "YFDAI",
+    "quote": "BTC"
+  },
+  { "market": "TOKO-KCS", "status": "trading", "base": "TOKO", "quote": "KCS" },
+  { "market": "LPT-USDT", "status": "trading", "base": "LPT", "quote": "USDT" },
+  { "market": "ASD-USDT", "status": "trading", "base": "ASD", "quote": "USDT" },
+  {
+    "market": "BOND-USDT",
+    "status": "trading",
+    "base": "BOND",
+    "quote": "USDT"
+  },
+  { "market": "HAI-BTC", "status": "trading", "base": "HAI", "quote": "BTC" },
+  {
+    "market": "SOUL-USDT",
+    "status": "trading",
+    "base": "SOUL",
+    "quote": "USDT"
+  },
+  {
+    "market": "NEAR-USDT",
+    "status": "trading",
+    "base": "NEAR",
+    "quote": "USDT"
+  },
+  { "market": "NEAR-BTC", "status": "trading", "base": "NEAR", "quote": "BTC" },
+  {
+    "market": "DFYN-USDT",
+    "status": "trading",
+    "base": "DFYN",
+    "quote": "USDT"
+  },
+  { "market": "OOE-USDT", "status": "trading", "base": "OOE", "quote": "USDT" },
+  { "market": "CFG-USDT", "status": "trading", "base": "CFG", "quote": "USDT" },
+  { "market": "CFG-BTC", "status": "trading", "base": "CFG", "quote": "BTC" },
+  { "market": "AXS-USDT", "status": "trading", "base": "AXS", "quote": "USDT" },
+  { "market": "CLV-USDT", "status": "trading", "base": "CLV", "quote": "USDT" },
+  {
+    "market": "ROUTE-USDT",
+    "status": "trading",
+    "base": "ROUTE",
+    "quote": "USDT"
+  },
+  { "market": "XDC-BTC", "status": "trading", "base": "XDC", "quote": "BTC" },
+  {
+    "market": "PMON-USDT",
+    "status": "trading",
+    "base": "PMON",
+    "quote": "USDT"
+  },
+  {
+    "market": "DPET-USDT",
+    "status": "trading",
+    "base": "DPET",
+    "quote": "USDT"
+  },
+  { "market": "ERG-USDT", "status": "trading", "base": "ERG", "quote": "USDT" },
+  { "market": "ERG-BTC", "status": "trading", "base": "ERG", "quote": "BTC" },
+  { "market": "SOL-USDT", "status": "trading", "base": "SOL", "quote": "USDT" },
+  { "market": "SLP-USDT", "status": "trading", "base": "SLP", "quote": "USDT" },
+  {
+    "market": "LITH-USDT",
+    "status": "trading",
+    "base": "LITH",
+    "quote": "USDT"
+  },
+  { "market": "XCH-USDT", "status": "trading", "base": "XCH", "quote": "USDT" },
+  {
+    "market": "HAKA-USDT",
+    "status": "trading",
+    "base": "HAKA",
+    "quote": "USDT"
+  },
+  {
+    "market": "LAYER-BTC",
+    "status": "trading",
+    "base": "LAYER",
+    "quote": "BTC"
+  },
+  { "market": "MTL-USDT", "status": "trading", "base": "MTL", "quote": "USDT" },
+  { "market": "MTL-BTC", "status": "trading", "base": "MTL", "quote": "BTC" },
+  {
+    "market": "IOTX-USDT",
+    "status": "trading",
+    "base": "IOTX",
+    "quote": "USDT"
+  },
+  {
+    "market": "GALAX-USDT",
+    "status": "trading",
+    "base": "GALAX",
+    "quote": "USDT"
+  },
+  { "market": "REQ-USDT", "status": "trading", "base": "REQ", "quote": "USDT" },
+  { "market": "TXA-USDT", "status": "trading", "base": "TXA", "quote": "USDT" },
+  { "market": "TXA-USDC", "status": "trading", "base": "TXA", "quote": "USDC" },
+  {
+    "market": "CIRUS-USDT",
+    "status": "trading",
+    "base": "CIRUS",
+    "quote": "USDT"
+  },
+  { "market": "QI-USDT", "status": "trading", "base": "QI", "quote": "USDT" },
+  { "market": "QI-BTC", "status": "trading", "base": "QI", "quote": "BTC" },
+  {
+    "market": "ODDZ-USDT",
+    "status": "trading",
+    "base": "ODDZ",
+    "quote": "USDT"
+  },
+  { "market": "XPR-USDT", "status": "trading", "base": "XPR", "quote": "USDT" },
+  { "market": "XPR-BTC", "status": "trading", "base": "XPR", "quote": "BTC" },
+  {
+    "market": "MOVR-USDT",
+    "status": "trading",
+    "base": "MOVR",
+    "quote": "USDT"
+  },
+  { "market": "MOVR-ETH", "status": "trading", "base": "MOVR", "quote": "ETH" },
+  { "market": "WOO-USDT", "status": "trading", "base": "WOO", "quote": "USDT" },
+  {
+    "market": "WILD-USDT",
+    "status": "trading",
+    "base": "WILD",
+    "quote": "USDT"
+  },
+  {
+    "market": "QRDO-USDT",
+    "status": "trading",
+    "base": "QRDO",
+    "quote": "USDT"
+  },
+  { "market": "QRDO-ETH", "status": "trading", "base": "QRDO", "quote": "ETH" },
+  { "market": "OXT-USDT", "status": "trading", "base": "OXT", "quote": "USDT" },
+  { "market": "OXT-BTC", "status": "trading", "base": "OXT", "quote": "BTC" },
+  { "market": "OXT-ETH", "status": "trading", "base": "OXT", "quote": "ETH" },
+  { "market": "BAL-USDT", "status": "trading", "base": "BAL", "quote": "USDT" },
+  { "market": "BAL-BTC", "status": "trading", "base": "BAL", "quote": "BTC" },
+  { "market": "BAL-ETH", "status": "trading", "base": "BAL", "quote": "ETH" },
+  {
+    "market": "STORJ-USDT",
+    "status": "trading",
+    "base": "STORJ",
+    "quote": "USDT"
+  },
+  {
+    "market": "STORJ-BTC",
+    "status": "trading",
+    "base": "STORJ",
+    "quote": "BTC"
+  },
+  {
+    "market": "STORJ-ETH",
+    "status": "trading",
+    "base": "STORJ",
+    "quote": "ETH"
+  },
+  { "market": "YGG-USDT", "status": "trading", "base": "YGG", "quote": "USDT" },
+  {
+    "market": "SDAO-USDT",
+    "status": "trading",
+    "base": "SDAO",
+    "quote": "USDT"
+  },
+  { "market": "SDAO-ETH", "status": "trading", "base": "SDAO", "quote": "ETH" },
+  {
+    "market": "XRP3L-USDT",
+    "status": "trading",
+    "base": "XRP3L",
+    "quote": "USDT"
+  },
+  {
+    "market": "XRP3S-USDT",
+    "status": "trading",
+    "base": "XRP3S",
+    "quote": "USDT"
+  },
+  { "market": "SKL-USDT", "status": "trading", "base": "SKL", "quote": "USDT" },
+  { "market": "SKL-BTC", "status": "trading", "base": "SKL", "quote": "BTC" },
+  { "market": "NMR-USDT", "status": "trading", "base": "NMR", "quote": "USDT" },
+  { "market": "NMR-BTC", "status": "trading", "base": "NMR", "quote": "BTC" },
+  { "market": "TRB-USDT", "status": "trading", "base": "TRB", "quote": "USDT" },
+  { "market": "TRB-BTC", "status": "trading", "base": "TRB", "quote": "BTC" },
+  {
+    "market": "DYDX-USDT",
+    "status": "trading",
+    "base": "DYDX",
+    "quote": "USDT"
+  },
+  { "market": "XYO-USDT", "status": "trading", "base": "XYO", "quote": "USDT" },
+  { "market": "GTC-USDT", "status": "trading", "base": "GTC", "quote": "USDT" },
+  { "market": "GTC-BTC", "status": "trading", "base": "GTC", "quote": "BTC" },
+  { "market": "EQX-USDT", "status": "trading", "base": "EQX", "quote": "USDT" },
+  { "market": "EQX-BTC", "status": "trading", "base": "EQX", "quote": "BTC" },
+  { "market": "RLC-USDT", "status": "trading", "base": "RLC", "quote": "USDT" },
+  { "market": "RLC-BTC", "status": "trading", "base": "RLC", "quote": "BTC" },
+  {
+    "market": "XPRT-USDT",
+    "status": "trading",
+    "base": "XPRT",
+    "quote": "USDT"
+  },
+  {
+    "market": "EGLD-USDT",
+    "status": "trading",
+    "base": "EGLD",
+    "quote": "USDT"
+  },
+  { "market": "EGLD-BTC", "status": "trading", "base": "EGLD", "quote": "BTC" },
+  {
+    "market": "HBAR-USDT",
+    "status": "trading",
+    "base": "HBAR",
+    "quote": "USDT"
+  },
+  { "market": "HBAR-BTC", "status": "trading", "base": "HBAR", "quote": "BTC" },
+  {
+    "market": "DOGE3L-USDT",
+    "status": "trading",
+    "base": "DOGE3L",
+    "quote": "USDT"
+  },
+  {
+    "market": "DOGE3S-USDT",
+    "status": "trading",
+    "base": "DOGE3S",
+    "quote": "USDT"
+  },
+  {
+    "market": "FLOW-USDT",
+    "status": "trading",
+    "base": "FLOW",
+    "quote": "USDT"
+  },
+  { "market": "FLOW-BTC", "status": "trading", "base": "FLOW", "quote": "BTC" },
+  { "market": "NKN-USDT", "status": "trading", "base": "NKN", "quote": "USDT" },
+  { "market": "NKN-BTC", "status": "trading", "base": "NKN", "quote": "BTC" },
+  { "market": "PBX-USDT", "status": "trading", "base": "PBX", "quote": "USDT" },
+  {
+    "market": "SOL3L-USDT",
+    "status": "trading",
+    "base": "SOL3L",
+    "quote": "USDT"
+  },
+  {
+    "market": "SOL3S-USDT",
+    "status": "trading",
+    "base": "SOL3S",
+    "quote": "USDT"
+  },
+  { "market": "XNL-USDT", "status": "trading", "base": "XNL", "quote": "USDT" },
+  {
+    "market": "SOLVE-USDT",
+    "status": "trading",
+    "base": "SOLVE",
+    "quote": "USDT"
+  },
+  {
+    "market": "DMTR-USDT",
+    "status": "trading",
+    "base": "DMTR",
+    "quote": "USDT"
+  },
+  {
+    "market": "LINK3L-USDT",
+    "status": "trading",
+    "base": "LINK3L",
+    "quote": "USDT"
+  },
+  {
+    "market": "LINK3S-USDT",
+    "status": "trading",
+    "base": "LINK3S",
+    "quote": "USDT"
+  },
+  {
+    "market": "DOT3L-USDT",
+    "status": "trading",
+    "base": "DOT3L",
+    "quote": "USDT"
+  },
+  {
+    "market": "DOT3S-USDT",
+    "status": "trading",
+    "base": "DOT3S",
+    "quote": "USDT"
+  },
+  {
+    "market": "CTSI-USDT",
+    "status": "trading",
+    "base": "CTSI",
+    "quote": "USDT"
+  },
+  { "market": "CTSI-BTC", "status": "trading", "base": "CTSI", "quote": "BTC" },
+  {
+    "market": "ALICE-USDT",
+    "status": "trading",
+    "base": "ALICE",
+    "quote": "USDT"
+  },
+  {
+    "market": "ALICE-BTC",
+    "status": "trading",
+    "base": "ALICE",
+    "quote": "BTC"
+  },
+  {
+    "market": "ALICE-ETH",
+    "status": "trading",
+    "base": "ALICE",
+    "quote": "ETH"
+  },
+  {
+    "market": "OPUL-USDT",
+    "status": "trading",
+    "base": "OPUL",
+    "quote": "USDT"
+  },
+  { "market": "ILV-USDT", "status": "trading", "base": "ILV", "quote": "USDT" },
+  {
+    "market": "BAND-USDT",
+    "status": "trading",
+    "base": "BAND",
+    "quote": "USDT"
+  },
+  { "market": "BAND-BTC", "status": "trading", "base": "BAND", "quote": "BTC" },
+  { "market": "FTT-USDT", "status": "trading", "base": "FTT", "quote": "USDT" },
+  { "market": "FTT-BTC", "status": "trading", "base": "FTT", "quote": "BTC" },
+  {
+    "market": "DVPN-USDT",
+    "status": "trading",
+    "base": "DVPN",
+    "quote": "USDT"
+  },
+  {
+    "market": "SLIM-USDT",
+    "status": "trading",
+    "base": "SLIM",
+    "quote": "USDT"
+  },
+  { "market": "TLM-USDT", "status": "trading", "base": "TLM", "quote": "USDT" },
+  { "market": "TLM-BTC", "status": "trading", "base": "TLM", "quote": "BTC" },
+  { "market": "TLM-ETH", "status": "trading", "base": "TLM", "quote": "ETH" },
+  {
+    "market": "DEXE-USDT",
+    "status": "trading",
+    "base": "DEXE",
+    "quote": "USDT"
+  },
+  { "market": "DEXE-BTC", "status": "trading", "base": "DEXE", "quote": "BTC" },
+  { "market": "DEXE-ETH", "status": "trading", "base": "DEXE", "quote": "ETH" },
+  {
+    "market": "CUDOS-BTC",
+    "status": "trading",
+    "base": "CUDOS",
+    "quote": "BTC"
+  },
+  {
+    "market": "RUNE-USDT",
+    "status": "trading",
+    "base": "RUNE",
+    "quote": "USDT"
+  },
+  { "market": "RUNE-BTC", "status": "trading", "base": "RUNE", "quote": "BTC" },
+  {
+    "market": "RMRK-USDT",
+    "status": "trading",
+    "base": "RMRK",
+    "quote": "USDT"
+  },
+  { "market": "C98-USDT", "status": "trading", "base": "C98", "quote": "USDT" },
+  {
+    "market": "BLOK-USDT",
+    "status": "trading",
+    "base": "BLOK",
+    "quote": "USDT"
+  },
+  {
+    "market": "SOLR-USDT",
+    "status": "trading",
+    "base": "SOLR",
+    "quote": "USDT"
+  },
+  {
+    "market": "ATOM3L-USDT",
+    "status": "trading",
+    "base": "ATOM3L",
+    "quote": "USDT"
+  },
+  {
+    "market": "ATOM3S-USDT",
+    "status": "trading",
+    "base": "ATOM3S",
+    "quote": "USDT"
+  },
+  {
+    "market": "UNI3L-USDT",
+    "status": "trading",
+    "base": "UNI3L",
+    "quote": "USDT"
+  },
+  {
+    "market": "UNI3S-USDT",
+    "status": "trading",
+    "base": "UNI3S",
+    "quote": "USDT"
+  },
+  {
+    "market": "PUSH-USDT",
+    "status": "trading",
+    "base": "PUSH",
+    "quote": "USDT"
+  },
+  { "market": "PUSH-BTC", "status": "trading", "base": "PUSH", "quote": "BTC" },
+  {
+    "market": "AXS3L-USDT",
+    "status": "trading",
+    "base": "AXS3L",
+    "quote": "USDT"
+  },
+  {
+    "market": "AXS3S-USDT",
+    "status": "trading",
+    "base": "AXS3S",
+    "quote": "USDT"
+  },
+  {
+    "market": "FTM3L-USDT",
+    "status": "trading",
+    "base": "FTM3L",
+    "quote": "USDT"
+  },
+  {
+    "market": "FTM3S-USDT",
+    "status": "trading",
+    "base": "FTM3S",
+    "quote": "USDT"
+  },
+  {
+    "market": "FLAME-USDT",
+    "status": "trading",
+    "base": "FLAME",
+    "quote": "USDT"
+  },
+  {
+    "market": "AGLD-USDT",
+    "status": "trading",
+    "base": "AGLD",
+    "quote": "USDT"
+  },
+  {
+    "market": "NAKA-USDT",
+    "status": "trading",
+    "base": "NAKA",
+    "quote": "USDT"
+  },
+  { "market": "YLD-USDT", "status": "trading", "base": "YLD", "quote": "USDT" },
+  {
+    "market": "REEF-USDT",
+    "status": "trading",
+    "base": "REEF",
+    "quote": "USDT"
+  },
+  { "market": "REEF-BTC", "status": "trading", "base": "REEF", "quote": "BTC" },
+  {
+    "market": "TIDAL-USDT",
+    "status": "trading",
+    "base": "TIDAL",
+    "quote": "USDT"
+  },
+  { "market": "INJ-USDT", "status": "trading", "base": "INJ", "quote": "USDT" },
+  { "market": "INJ-BTC", "status": "trading", "base": "INJ", "quote": "BTC" },
+  {
+    "market": "BNB3L-USDT",
+    "status": "trading",
+    "base": "BNB3L",
+    "quote": "USDT"
+  },
+  {
+    "market": "BNB3S-USDT",
+    "status": "trading",
+    "base": "BNB3S",
+    "quote": "USDT"
+  },
+  {
+    "market": "MATIC3L-USDT",
+    "status": "trading",
+    "base": "MATIC3L",
+    "quote": "USDT"
+  },
+  {
+    "market": "MATIC3S-USDT",
+    "status": "trading",
+    "base": "MATIC3S",
+    "quote": "USDT"
+  },
+  {
+    "market": "VEGA-USDT",
+    "status": "trading",
+    "base": "VEGA",
+    "quote": "USDT"
+  },
+  { "market": "VEGA-ETH", "status": "trading", "base": "VEGA", "quote": "ETH" },
+  {
+    "market": "ALPHA-USDT",
+    "status": "trading",
+    "base": "ALPHA",
+    "quote": "USDT"
+  },
+  {
+    "market": "ALPHA-BTC",
+    "status": "trading",
+    "base": "ALPHA",
+    "quote": "BTC"
+  },
+  { "market": "UNO-BTC", "status": "trading", "base": "UNO", "quote": "BTC" },
+  { "market": "AR-USDT", "status": "trading", "base": "AR", "quote": "USDT" },
+  { "market": "AR-BTC", "status": "trading", "base": "AR", "quote": "BTC" },
+  {
+    "market": "JASMY-USDT",
+    "status": "trading",
+    "base": "JASMY",
+    "quote": "USDT"
+  },
+  {
+    "market": "PERP-USDT",
+    "status": "trading",
+    "base": "PERP",
+    "quote": "USDT"
+  },
+  { "market": "PERP-BTC", "status": "trading", "base": "PERP", "quote": "BTC" },
+  {
+    "market": "SCLP-USDT",
+    "status": "trading",
+    "base": "SCLP",
+    "quote": "USDT"
+  },
+  { "market": "SCLP-BTC", "status": "trading", "base": "SCLP", "quote": "BTC" },
+  {
+    "market": "SUPER-USDT",
+    "status": "trading",
+    "base": "SUPER",
+    "quote": "USDT"
+  },
+  {
+    "market": "SUPER-BTC",
+    "status": "trading",
+    "base": "SUPER",
+    "quote": "BTC"
+  },
+  {
+    "market": "CPOOL-USDT",
+    "status": "trading",
+    "base": "CPOOL",
+    "quote": "USDT"
+  },
+  {
+    "market": "HERO-USDT",
+    "status": "trading",
+    "base": "HERO",
+    "quote": "USDT"
+  },
+  {
+    "market": "AURY-USDT",
+    "status": "trading",
+    "base": "AURY",
+    "quote": "USDT"
+  },
+  {
+    "market": "SWASH-USDT",
+    "status": "trading",
+    "base": "SWASH",
+    "quote": "USDT"
+  },
+  { "market": "LTO-USDT", "status": "trading", "base": "LTO", "quote": "USDT" },
+  { "market": "LTO-BTC", "status": "trading", "base": "LTO", "quote": "BTC" },
+  {
+    "market": "MTRG-USDT",
+    "status": "trading",
+    "base": "MTRG",
+    "quote": "USDT"
+  },
+  {
+    "market": "DREAMS-USDT",
+    "status": "trading",
+    "base": "DREAMS",
+    "quote": "USDT"
+  },
+  {
+    "market": "SHIB-DOGE",
+    "status": "trading",
+    "base": "SHIB",
+    "quote": "DOGE"
+  },
+  {
+    "market": "QUICK-USDT",
+    "status": "trading",
+    "base": "QUICK",
+    "quote": "USDT"
+  },
+  { "market": "TRU-USDT", "status": "trading", "base": "TRU", "quote": "USDT" },
+  { "market": "TRU-BTC", "status": "trading", "base": "TRU", "quote": "BTC" },
+  { "market": "WRX-USDT", "status": "trading", "base": "WRX", "quote": "USDT" },
+  { "market": "WRX-BTC", "status": "trading", "base": "WRX", "quote": "BTC" },
+  {
+    "market": "SUSHI3L-USDT",
+    "status": "trading",
+    "base": "SUSHI3L",
+    "quote": "USDT"
+  },
+  {
+    "market": "SUSHI3S-USDT",
+    "status": "trading",
+    "base": "SUSHI3S",
+    "quote": "USDT"
+  },
+  {
+    "market": "NEAR3L-USDT",
+    "status": "trading",
+    "base": "NEAR3L",
+    "quote": "USDT"
+  },
+  {
+    "market": "NEAR3S-USDT",
+    "status": "trading",
+    "base": "NEAR3S",
+    "quote": "USDT"
+  },
+  {
+    "market": "DATA-USDT",
+    "status": "trading",
+    "base": "DATA",
+    "quote": "USDT"
+  },
+  { "market": "DATA-BTC", "status": "trading", "base": "DATA", "quote": "BTC" },
+  { "market": "NORD-BTC", "status": "trading", "base": "NORD", "quote": "BTC" },
+  { "market": "ISP-USDT", "status": "trading", "base": "ISP", "quote": "USDT" },
+  {
+    "market": "CERE-USDT",
+    "status": "trading",
+    "base": "CERE",
+    "quote": "USDT"
+  },
+  {
+    "market": "SHILL-USDT",
+    "status": "trading",
+    "base": "SHILL",
+    "quote": "USDT"
+  },
+  { "market": "ERN-USDT", "status": "trading", "base": "ERN", "quote": "USDT" },
+  { "market": "ERN-BTC", "status": "trading", "base": "ERN", "quote": "BTC" },
+  { "market": "FTG-USDT", "status": "trading", "base": "FTG", "quote": "USDT" },
+  {
+    "market": "PAXG-USDT",
+    "status": "trading",
+    "base": "PAXG",
+    "quote": "USDT"
+  },
+  { "market": "PAXG-BTC", "status": "trading", "base": "PAXG", "quote": "BTC" },
+  {
+    "market": "AUDIO-USDT",
+    "status": "trading",
+    "base": "AUDIO",
+    "quote": "USDT"
+  },
+  {
+    "market": "AUDIO-BTC",
+    "status": "trading",
+    "base": "AUDIO",
+    "quote": "BTC"
+  },
+  { "market": "ENS-USDT", "status": "trading", "base": "ENS", "quote": "USDT" },
+  {
+    "market": "AAVE3L-USDT",
+    "status": "trading",
+    "base": "AAVE3L",
+    "quote": "USDT"
+  },
+  {
+    "market": "AAVE3S-USDT",
+    "status": "trading",
+    "base": "AAVE3S",
+    "quote": "USDT"
+  },
+  {
+    "market": "SAND3L-USDT",
+    "status": "trading",
+    "base": "SAND3L",
+    "quote": "USDT"
+  },
+  {
+    "market": "SAND3S-USDT",
+    "status": "trading",
+    "base": "SAND3S",
+    "quote": "USDT"
+  },
+  { "market": "XTM-USDT", "status": "trading", "base": "XTM", "quote": "USDT" },
+  { "market": "MNW-USDT", "status": "trading", "base": "MNW", "quote": "USDT" },
+  { "market": "FXS-USDT", "status": "trading", "base": "FXS", "quote": "USDT" },
+  { "market": "FXS-BTC", "status": "trading", "base": "FXS", "quote": "BTC" },
+  { "market": "ATA-USDT", "status": "trading", "base": "ATA", "quote": "USDT" },
+  { "market": "ATA-BTC", "status": "trading", "base": "ATA", "quote": "BTC" },
+  { "market": "VXV-USDT", "status": "trading", "base": "VXV", "quote": "USDT" },
+  { "market": "LRC-BTC", "status": "trading", "base": "LRC", "quote": "BTC" },
+  { "market": "LRC-ETH", "status": "trading", "base": "LRC", "quote": "ETH" },
+  { "market": "DPR-USDT", "status": "trading", "base": "DPR", "quote": "USDT" },
+  {
+    "market": "CWAR-USDT",
+    "status": "trading",
+    "base": "CWAR",
+    "quote": "USDT"
+  },
+  { "market": "FLUX-BTC", "status": "trading", "base": "FLUX", "quote": "BTC" },
+  { "market": "PBR-USDT", "status": "trading", "base": "PBR", "quote": "USDT" },
+  { "market": "TWT-USDT", "status": "trading", "base": "TWT", "quote": "USDT" },
+  { "market": "TWT-BTC", "status": "trading", "base": "TWT", "quote": "BTC" },
+  { "market": "OM-USDT", "status": "trading", "base": "OM", "quote": "USDT" },
+  { "market": "OM-BTC", "status": "trading", "base": "OM", "quote": "BTC" },
+  { "market": "ADX-USDT", "status": "trading", "base": "ADX", "quote": "USDT" },
+  {
+    "market": "AVAX3L-USDT",
+    "status": "trading",
+    "base": "AVAX3L",
+    "quote": "USDT"
+  },
+  {
+    "market": "AVAX3S-USDT",
+    "status": "trading",
+    "base": "AVAX3S",
+    "quote": "USDT"
+  },
+  {
+    "market": "MANA3L-USDT",
+    "status": "trading",
+    "base": "MANA3L",
+    "quote": "USDT"
+  },
+  {
+    "market": "MANA3S-USDT",
+    "status": "trading",
+    "base": "MANA3S",
+    "quote": "USDT"
+  },
+  { "market": "GLM-USDT", "status": "trading", "base": "GLM", "quote": "USDT" },
+  { "market": "GLM-BTC", "status": "trading", "base": "GLM", "quote": "BTC" },
+  { "market": "NUM-USDT", "status": "trading", "base": "NUM", "quote": "USDT" },
+  { "market": "VLX-USDT", "status": "trading", "base": "VLX", "quote": "USDT" },
+  { "market": "VLX-BTC", "status": "trading", "base": "VLX", "quote": "BTC" },
+  {
+    "market": "TRADE-USDT",
+    "status": "trading",
+    "base": "TRADE",
+    "quote": "USDT"
+  },
+  {
+    "market": "TRADE-BTC",
+    "status": "trading",
+    "base": "TRADE",
+    "quote": "BTC"
+  },
+  {
+    "market": "1EARTH-USDT",
+    "status": "trading",
+    "base": "1EARTH",
+    "quote": "USDT"
+  },
+  {
+    "market": "MONI-USDT",
+    "status": "trading",
+    "base": "MONI",
+    "quote": "USDT"
+  },
+  {
+    "market": "LIKE-USDT",
+    "status": "trading",
+    "base": "LIKE",
+    "quote": "USDT"
+  },
+  { "market": "LIT-USDT", "status": "trading", "base": "LIT", "quote": "USDT" },
+  { "market": "LIT-BTC", "status": "trading", "base": "LIT", "quote": "BTC" },
+  {
+    "market": "KAVA-USDT",
+    "status": "trading",
+    "base": "KAVA",
+    "quote": "USDT"
+  },
+  { "market": "SFP-USDT", "status": "trading", "base": "SFP", "quote": "USDT" },
+  { "market": "SFP-BTC", "status": "trading", "base": "SFP", "quote": "BTC" },
+  {
+    "market": "BURGER-USDT",
+    "status": "trading",
+    "base": "BURGER",
+    "quote": "USDT"
+  },
+  {
+    "market": "BURGER-BTC",
+    "status": "trading",
+    "base": "BURGER",
+    "quote": "BTC"
+  },
+  {
+    "market": "CREAM-USDT",
+    "status": "trading",
+    "base": "CREAM",
+    "quote": "USDT"
+  },
+  {
+    "market": "CREAM-BTC",
+    "status": "trading",
+    "base": "CREAM",
+    "quote": "BTC"
+  },
+  { "market": "RSR-USDT", "status": "trading", "base": "RSR", "quote": "USDT" },
+  { "market": "RSR-BTC", "status": "trading", "base": "RSR", "quote": "BTC" },
+  { "market": "IMX-USDT", "status": "trading", "base": "IMX", "quote": "USDT" },
+  {
+    "market": "GODS-USDT",
+    "status": "trading",
+    "base": "GODS",
+    "quote": "USDT"
+  },
+  { "market": "KMA-USDT", "status": "trading", "base": "KMA", "quote": "USDT" },
+  {
+    "market": "POLC-USDT",
+    "status": "trading",
+    "base": "POLC",
+    "quote": "USDT"
+  },
+  {
+    "market": "XTAG-USDT",
+    "status": "trading",
+    "base": "XTAG",
+    "quote": "USDT"
+  },
+  { "market": "NGC-USDT", "status": "trading", "base": "NGC", "quote": "USDT" },
+  {
+    "market": "HARD-USDT",
+    "status": "trading",
+    "base": "HARD",
+    "quote": "USDT"
+  },
+  {
+    "market": "GALAX3L-USDT",
+    "status": "trading",
+    "base": "GALAX3L",
+    "quote": "USDT"
+  },
+  {
+    "market": "GALAX3S-USDT",
+    "status": "trading",
+    "base": "GALAX3S",
+    "quote": "USDT"
+  },
+  {
+    "market": "POND-USDT",
+    "status": "trading",
+    "base": "POND",
+    "quote": "USDT"
+  },
+  { "market": "POND-BTC", "status": "trading", "base": "POND", "quote": "BTC" },
+  { "market": "VR-USDT", "status": "trading", "base": "VR", "quote": "USDT" },
+  {
+    "market": "EPIK-USDT",
+    "status": "trading",
+    "base": "EPIK",
+    "quote": "USDT"
+  },
+  { "market": "NGL-USDT", "status": "trading", "base": "NGL", "quote": "USDT" },
+  { "market": "NGL-BTC", "status": "trading", "base": "NGL", "quote": "BTC" },
+  { "market": "PEL-USDT", "status": "trading", "base": "PEL", "quote": "USDT" },
+  {
+    "market": "LINA-USDT",
+    "status": "trading",
+    "base": "LINA",
+    "quote": "USDT"
+  },
+  { "market": "LINA-BTC", "status": "trading", "base": "LINA", "quote": "BTC" },
+  {
+    "market": "KLAY-USDT",
+    "status": "trading",
+    "base": "KLAY",
+    "quote": "USDT"
+  },
+  { "market": "KLAY-BTC", "status": "trading", "base": "KLAY", "quote": "BTC" },
+  {
+    "market": "CREDI-USDT",
+    "status": "trading",
+    "base": "CREDI",
+    "quote": "USDT"
+  },
+  {
+    "market": "TRVL-USDT",
+    "status": "trading",
+    "base": "TRVL",
+    "quote": "USDT"
+  },
+  {
+    "market": "ARKER-USDT",
+    "status": "trading",
+    "base": "ARKER",
+    "quote": "USDT"
+  },
+  {
+    "market": "BONDLY-USDT",
+    "status": "trading",
+    "base": "BONDLY",
+    "quote": "USDT"
+  },
+  {
+    "market": "BONDLY-ETH",
+    "status": "trading",
+    "base": "BONDLY",
+    "quote": "ETH"
+  },
+  { "market": "XEC-USDT", "status": "trading", "base": "XEC", "quote": "USDT" },
+  {
+    "market": "HEART-USDT",
+    "status": "trading",
+    "base": "HEART",
+    "quote": "USDT"
+  },
+  {
+    "market": "HEART-BTC",
+    "status": "trading",
+    "base": "HEART",
+    "quote": "BTC"
+  },
+  { "market": "UNB-USDT", "status": "trading", "base": "UNB", "quote": "USDT" },
+  {
+    "market": "GAFI-USDT",
+    "status": "trading",
+    "base": "GAFI",
+    "quote": "USDT"
+  },
+  { "market": "UFO-USDT", "status": "trading", "base": "UFO", "quote": "USDT" },
+  {
+    "market": "CHMB-USDT",
+    "status": "trading",
+    "base": "CHMB",
+    "quote": "USDT"
+  },
+  {
+    "market": "GEEQ-USDT",
+    "status": "trading",
+    "base": "GEEQ",
+    "quote": "USDT"
+  },
+  { "market": "ORC-USDT", "status": "trading", "base": "ORC", "quote": "USDT" },
+  {
+    "market": "PEOPLE-USDT",
+    "status": "trading",
+    "base": "PEOPLE",
+    "quote": "USDT"
+  },
+  { "market": "ADS-USDT", "status": "trading", "base": "ADS", "quote": "USDT" },
+  { "market": "ADS-BTC", "status": "trading", "base": "ADS", "quote": "BTC" },
+  {
+    "market": "OCEAN-USDT",
+    "status": "trading",
+    "base": "OCEAN",
+    "quote": "USDT"
+  },
+  {
+    "market": "WHALE-USDT",
+    "status": "trading",
+    "base": "WHALE",
+    "quote": "USDT"
+  },
+  {
+    "market": "TIME-USDT",
+    "status": "trading",
+    "base": "TIME",
+    "quote": "USDT"
+  },
+  {
+    "market": "CWEB-USDT",
+    "status": "trading",
+    "base": "CWEB",
+    "quote": "USDT"
+  },
+  {
+    "market": "IOTA-USDT",
+    "status": "trading",
+    "base": "IOTA",
+    "quote": "USDT"
+  },
+  { "market": "IOTA-BTC", "status": "trading", "base": "IOTA", "quote": "BTC" },
+  { "market": "HNT-USDT", "status": "trading", "base": "HNT", "quote": "USDT" },
+  { "market": "HNT-BTC", "status": "trading", "base": "HNT", "quote": "BTC" },
+  { "market": "GGG-USDT", "status": "trading", "base": "GGG", "quote": "USDT" },
+  {
+    "market": "REVU-USDT",
+    "status": "trading",
+    "base": "REVU",
+    "quote": "USDT"
+  },
+  { "market": "CLH-USDT", "status": "trading", "base": "CLH", "quote": "USDT" },
+  {
+    "market": "GLMR-USDT",
+    "status": "trading",
+    "base": "GLMR",
+    "quote": "USDT"
+  },
+  { "market": "GLMR-BTC", "status": "trading", "base": "GLMR", "quote": "BTC" },
+  { "market": "CTC-USDT", "status": "trading", "base": "CTC", "quote": "USDT" },
+  { "market": "CTC-BTC", "status": "trading", "base": "CTC", "quote": "BTC" },
+  {
+    "market": "GARI-USDT",
+    "status": "trading",
+    "base": "GARI",
+    "quote": "USDT"
+  },
+  { "market": "FRR-USDT", "status": "trading", "base": "FRR", "quote": "USDT" },
+  {
+    "market": "ASTR-USDT",
+    "status": "trading",
+    "base": "ASTR",
+    "quote": "USDT"
+  },
+  { "market": "ASTR-BTC", "status": "trading", "base": "ASTR", "quote": "BTC" },
+  {
+    "market": "ERTHA-USDT",
+    "status": "trading",
+    "base": "ERTHA",
+    "quote": "USDT"
+  },
+  {
+    "market": "FCON-USDT",
+    "status": "trading",
+    "base": "FCON",
+    "quote": "USDT"
+  },
+  { "market": "MTS-USDT", "status": "trading", "base": "MTS", "quote": "USDT" },
+  { "market": "HBB-USDT", "status": "trading", "base": "HBB", "quote": "USDT" },
+  { "market": "CVX-USDT", "status": "trading", "base": "CVX", "quote": "USDT" },
+  { "market": "AMP-USDT", "status": "trading", "base": "AMP", "quote": "USDT" },
+  { "market": "ACT-USDT", "status": "trading", "base": "ACT", "quote": "USDT" },
+  { "market": "MJT-USDT", "status": "trading", "base": "MJT", "quote": "USDT" },
+  { "market": "MJT-KCS", "status": "trading", "base": "MJT", "quote": "KCS" },
+  {
+    "market": "STARLY-USDT",
+    "status": "trading",
+    "base": "STARLY",
+    "quote": "USDT"
+  },
+  {
+    "market": "RANKER-USDT",
+    "status": "trading",
+    "base": "RANKER",
+    "quote": "USDT"
+  },
+  { "market": "WMT-USDT", "status": "trading", "base": "WMT", "quote": "USDT" },
+  { "market": "XNO-USDT", "status": "trading", "base": "XNO", "quote": "USDT" },
+  { "market": "XNO-BTC", "status": "trading", "base": "XNO", "quote": "BTC" },
+  {
+    "market": "MARS4-USDT",
+    "status": "trading",
+    "base": "MARS4",
+    "quote": "USDT"
+  },
+  {
+    "market": "TFUEL-USDT",
+    "status": "trading",
+    "base": "TFUEL",
+    "quote": "USDT"
+  },
+  {
+    "market": "TFUEL-BTC",
+    "status": "trading",
+    "base": "TFUEL",
+    "quote": "BTC"
+  },
+  {
+    "market": "METIS-USDT",
+    "status": "trading",
+    "base": "METIS",
+    "quote": "USDT"
+  },
+  {
+    "market": "BULL-USDT",
+    "status": "trading",
+    "base": "BULL",
+    "quote": "USDT"
+  },
+  { "market": "SON-USDT", "status": "trading", "base": "SON", "quote": "USDT" },
+  {
+    "market": "MELOS-USDT",
+    "status": "trading",
+    "base": "MELOS",
+    "quote": "USDT"
+  },
+  { "market": "APE-USDT", "status": "trading", "base": "APE", "quote": "USDT" },
+  { "market": "GMT-USDT", "status": "trading", "base": "GMT", "quote": "USDT" },
+  {
+    "market": "BICO-USDT",
+    "status": "trading",
+    "base": "BICO",
+    "quote": "USDT"
+  },
+  { "market": "STG-USDT", "status": "trading", "base": "STG", "quote": "USDT" },
+  { "market": "LMR-USDT", "status": "trading", "base": "LMR", "quote": "USDT" },
+  { "market": "LMR-BTC", "status": "trading", "base": "LMR", "quote": "BTC" },
+  {
+    "market": "LOKA-USDT",
+    "status": "trading",
+    "base": "LOKA",
+    "quote": "USDT"
+  },
+  { "market": "JAM-USDT", "status": "trading", "base": "JAM", "quote": "USDT" },
+  { "market": "JAM-ETH", "status": "trading", "base": "JAM", "quote": "ETH" },
+  { "market": "BNC-USDT", "status": "trading", "base": "BNC", "quote": "USDT" },
+  { "market": "LBP-USDT", "status": "trading", "base": "LBP", "quote": "USDT" },
+  { "market": "CFX-USDT", "status": "trading", "base": "CFX", "quote": "USDT" },
+  {
+    "market": "LOOKS-USDT",
+    "status": "trading",
+    "base": "LOOKS",
+    "quote": "USDT"
+  },
+  { "market": "XCN-USDT", "status": "trading", "base": "XCN", "quote": "USDT" },
+  { "market": "XCN-BTC", "status": "trading", "base": "XCN", "quote": "BTC" },
+  { "market": "UPO-USDT", "status": "trading", "base": "UPO", "quote": "USDT" },
+  {
+    "market": "CEEK-USDT",
+    "status": "trading",
+    "base": "CEEK",
+    "quote": "USDT"
+  },
+  {
+    "market": "NHCT-USDT",
+    "status": "trading",
+    "base": "NHCT",
+    "quote": "USDT"
+  },
+  { "market": "FRA-USDT", "status": "trading", "base": "FRA", "quote": "USDT" },
+  {
+    "market": "VISION-USDT",
+    "status": "trading",
+    "base": "VISION",
+    "quote": "USDT"
+  },
+  {
+    "market": "ALPINE-USDT",
+    "status": "trading",
+    "base": "ALPINE",
+    "quote": "USDT"
+  },
+  { "market": "ZBC-USDT", "status": "trading", "base": "ZBC", "quote": "USDT" },
+  {
+    "market": "WOOP-USDT",
+    "status": "trading",
+    "base": "WOOP",
+    "quote": "USDT"
+  },
+  { "market": "T-USDT", "status": "trading", "base": "T", "quote": "USDT" },
+  { "market": "NYM-USDT", "status": "trading", "base": "NYM", "quote": "USDT" },
+  {
+    "market": "VOXEL-USDT",
+    "status": "trading",
+    "base": "VOXEL",
+    "quote": "USDT"
+  },
+  {
+    "market": "VOXEL-ETH",
+    "status": "trading",
+    "base": "VOXEL",
+    "quote": "ETH"
+  },
+  {
+    "market": "PSTAKE-USDT",
+    "status": "trading",
+    "base": "PSTAKE",
+    "quote": "USDT"
+  },
+  { "market": "SPA-USDT", "status": "trading", "base": "SPA", "quote": "USDT" },
+  { "market": "SPA-ETH", "status": "trading", "base": "SPA", "quote": "ETH" },
+  { "market": "DAR-USDT", "status": "trading", "base": "DAR", "quote": "USDT" },
+  { "market": "DAR-BTC", "status": "trading", "base": "DAR", "quote": "BTC" },
+  { "market": "MV-USDT", "status": "trading", "base": "MV", "quote": "USDT" },
+  {
+    "market": "XDEFI-USDT",
+    "status": "trading",
+    "base": "XDEFI",
+    "quote": "USDT"
+  },
+  {
+    "market": "RACA-USDT",
+    "status": "trading",
+    "base": "RACA",
+    "quote": "USDT"
+  },
+  { "market": "XWG-USDT", "status": "trading", "base": "XWG", "quote": "USDT" },
+  { "market": "TRVL-BTC", "status": "trading", "base": "TRVL", "quote": "BTC" },
+  {
+    "market": "SWFTC-USDT",
+    "status": "trading",
+    "base": "SWFTC",
+    "quote": "USDT"
+  },
+  {
+    "market": "BRWL-USDT",
+    "status": "trading",
+    "base": "BRWL",
+    "quote": "USDT"
+  },
+  {
+    "market": "CELR-USDT",
+    "status": "trading",
+    "base": "CELR",
+    "quote": "USDT"
+  },
+  {
+    "market": "AURORA-USDT",
+    "status": "trading",
+    "base": "AURORA",
+    "quote": "USDT"
+  },
+  { "market": "KNC-USDT", "status": "trading", "base": "KNC", "quote": "USDT" },
+  { "market": "PSL-USDT", "status": "trading", "base": "PSL", "quote": "USDT" },
+  { "market": "OVR-USDT", "status": "trading", "base": "OVR", "quote": "USDT" },
+  { "market": "SYS-USDT", "status": "trading", "base": "SYS", "quote": "USDT" },
+  { "market": "SYS-BTC", "status": "trading", "base": "SYS", "quote": "BTC" },
+  {
+    "market": "BRISE-USDT",
+    "status": "trading",
+    "base": "BRISE",
+    "quote": "USDT"
+  },
+  { "market": "EPX-USDT", "status": "trading", "base": "EPX", "quote": "USDT" },
+  { "market": "GST-USDT", "status": "trading", "base": "GST", "quote": "USDT" },
+  { "market": "GAL-USDT", "status": "trading", "base": "GAL", "quote": "USDT" },
+  { "market": "BSW-USDT", "status": "trading", "base": "BSW", "quote": "USDT" },
+  {
+    "market": "FITFI-USDT",
+    "status": "trading",
+    "base": "FITFI",
+    "quote": "USDT"
+  },
+  { "market": "FSN-USDT", "status": "trading", "base": "FSN", "quote": "USDT" },
+  { "market": "H2O-USDT", "status": "trading", "base": "H2O", "quote": "USDT" },
+  { "market": "GMM-USDT", "status": "trading", "base": "GMM", "quote": "USDT" },
+  { "market": "AKT-USDT", "status": "trading", "base": "AKT", "quote": "USDT" },
+  { "market": "SIN-USDT", "status": "trading", "base": "SIN", "quote": "USDT" },
+  {
+    "market": "AUSD-USDT",
+    "status": "trading",
+    "base": "AUSD",
+    "quote": "USDT"
+  },
+  {
+    "market": "BOBA-USDT",
+    "status": "trading",
+    "base": "BOBA",
+    "quote": "USDT"
+  },
+  { "market": "BFC-USDT", "status": "trading", "base": "BFC", "quote": "USDT" },
+  {
+    "market": "BIFI-USDT",
+    "status": "trading",
+    "base": "BIFI",
+    "quote": "USDT"
+  },
+  { "market": "MBL-USDT", "status": "trading", "base": "MBL", "quote": "USDT" },
+  {
+    "market": "DUSK-USDT",
+    "status": "trading",
+    "base": "DUSK",
+    "quote": "USDT"
+  },
+  {
+    "market": "USDD-USDT",
+    "status": "trading",
+    "base": "USDD",
+    "quote": "USDT"
+  },
+  {
+    "market": "USDD-USDC",
+    "status": "trading",
+    "base": "USDD",
+    "quote": "USDC"
+  },
+  { "market": "APE-USDC", "status": "trading", "base": "APE", "quote": "USDC" },
+  {
+    "market": "AVAX-USDC",
+    "status": "trading",
+    "base": "AVAX",
+    "quote": "USDC"
+  },
+  {
+    "market": "SHIB-USDC",
+    "status": "trading",
+    "base": "SHIB",
+    "quote": "USDC"
+  },
+  { "market": "TRX-USDC", "status": "trading", "base": "TRX", "quote": "USDC" },
+  {
+    "market": "NEAR-USDC",
+    "status": "trading",
+    "base": "NEAR",
+    "quote": "USDC"
+  },
+  {
+    "market": "MATIC-USDC",
+    "status": "trading",
+    "base": "MATIC",
+    "quote": "USDC"
+  },
+  { "market": "FTM-USDC", "status": "trading", "base": "FTM", "quote": "USDC" },
+  { "market": "ZIL-USDC", "status": "trading", "base": "ZIL", "quote": "USDC" },
+  { "market": "SOL-USDC", "status": "trading", "base": "SOL", "quote": "USDC" },
+  { "market": "MLS-USDT", "status": "trading", "base": "MLS", "quote": "USDT" },
+  { "market": "ACH-USDT", "status": "trading", "base": "ACH", "quote": "USDT" },
+  {
+    "market": "SCRT-USDT",
+    "status": "trading",
+    "base": "SCRT",
+    "quote": "USDT"
+  },
+  { "market": "SCRT-BTC", "status": "trading", "base": "SCRT", "quote": "BTC" },
+  {
+    "market": "APE3L-USDT",
+    "status": "trading",
+    "base": "APE3L",
+    "quote": "USDT"
+  },
+  {
+    "market": "APE3S-USDT",
+    "status": "trading",
+    "base": "APE3S",
+    "quote": "USDT"
+  },
+  {
+    "market": "STORE-USDT",
+    "status": "trading",
+    "base": "STORE",
+    "quote": "USDT"
+  },
+  {
+    "market": "STORE-ETH",
+    "status": "trading",
+    "base": "STORE",
+    "quote": "ETH"
+  },
+  {
+    "market": "GMT3L-USDT",
+    "status": "trading",
+    "base": "GMT3L",
+    "quote": "USDT"
+  },
+  {
+    "market": "GMT3S-USDT",
+    "status": "trading",
+    "base": "GMT3S",
+    "quote": "USDT"
+  },
+  { "market": "CCD-USDT", "status": "trading", "base": "CCD", "quote": "USDT" },
+  {
+    "market": "DOSE-USDC",
+    "status": "trading",
+    "base": "DOSE",
+    "quote": "USDC"
+  },
+  {
+    "market": "LUNC-USDT",
+    "status": "trading",
+    "base": "LUNC",
+    "quote": "USDT"
+  },
+  {
+    "market": "LUNC-USDC",
+    "status": "trading",
+    "base": "LUNC",
+    "quote": "USDC"
+  },
+  {
+    "market": "USTC-USDT",
+    "status": "trading",
+    "base": "USTC",
+    "quote": "USDT"
+  },
+  {
+    "market": "USTC-USDC",
+    "status": "trading",
+    "base": "USTC",
+    "quote": "USDC"
+  },
+  { "market": "GMT-USDC", "status": "trading", "base": "GMT", "quote": "USDC" },
+  { "market": "VRA-USDC", "status": "trading", "base": "VRA", "quote": "USDC" },
+  { "market": "DOT-USDC", "status": "trading", "base": "DOT", "quote": "USDC" },
+  {
+    "market": "RUNE-USDC",
+    "status": "trading",
+    "base": "RUNE",
+    "quote": "USDC"
+  },
+  {
+    "market": "ATOM-USDC",
+    "status": "trading",
+    "base": "ATOM",
+    "quote": "USDC"
+  },
+  { "market": "BNB-USDC", "status": "trading", "base": "BNB", "quote": "USDC" },
+  {
+    "market": "JASMY-USDC",
+    "status": "trading",
+    "base": "JASMY",
+    "quote": "USDC"
+  },
+  { "market": "KCS-USDC", "status": "trading", "base": "KCS", "quote": "USDC" },
+  { "market": "KDA-USDC", "status": "trading", "base": "KDA", "quote": "USDC" },
+  {
+    "market": "ALGO-USDC",
+    "status": "trading",
+    "base": "ALGO",
+    "quote": "USDC"
+  },
+  {
+    "market": "LUNA-USDC",
+    "status": "trading",
+    "base": "LUNA",
+    "quote": "USDC"
+  },
+  { "market": "OP-USDT", "status": "trading", "base": "OP", "quote": "USDT" },
+  { "market": "OP-USDC", "status": "trading", "base": "OP", "quote": "USDC" },
+  {
+    "market": "JASMY3L-USDT",
+    "status": "trading",
+    "base": "JASMY3L",
+    "quote": "USDT"
+  },
+  {
+    "market": "JASMY3S-USDT",
+    "status": "trading",
+    "base": "JASMY3S",
+    "quote": "USDT"
+  },
+  {
+    "market": "EVER-USDT",
+    "status": "trading",
+    "base": "EVER",
+    "quote": "USDT"
+  },
+  { "market": "ICX-USDT", "status": "trading", "base": "ICX", "quote": "USDT" },
+  { "market": "ICX-ETH", "status": "trading", "base": "ICX", "quote": "ETH" },
+  { "market": "BTC-BRL", "status": "trading", "base": "BTC", "quote": "BRL" },
+  { "market": "ETH-BRL", "status": "trading", "base": "ETH", "quote": "BRL" },
+  { "market": "USDT-BRL", "status": "trading", "base": "USDT", "quote": "BRL" },
+  {
+    "market": "WELL-USDT",
+    "status": "trading",
+    "base": "WELL",
+    "quote": "USDT"
+  },
+  {
+    "market": "FORT-USDT",
+    "status": "trading",
+    "base": "FORT",
+    "quote": "USDT"
+  },
+  {
+    "market": "USDP-USDT",
+    "status": "trading",
+    "base": "USDP",
+    "quote": "USDT"
+  },
+  { "market": "USDD-TRX", "status": "trading", "base": "USDD", "quote": "TRX" },
+  { "market": "BTC-EUR", "status": "trading", "base": "BTC", "quote": "EUR" },
+  { "market": "ETH-EUR", "status": "trading", "base": "ETH", "quote": "EUR" },
+  { "market": "USDT-EUR", "status": "trading", "base": "USDT", "quote": "EUR" },
+  {
+    "market": "CSPR-USDT",
+    "status": "trading",
+    "base": "CSPR",
+    "quote": "USDT"
+  },
+  { "market": "CSPR-ETH", "status": "trading", "base": "CSPR", "quote": "ETH" },
+  {
+    "market": "WEMIX-USDT",
+    "status": "trading",
+    "base": "WEMIX",
+    "quote": "USDT"
+  },
+  {
+    "market": "REV3L-USDT",
+    "status": "trading",
+    "base": "REV3L",
+    "quote": "USDT"
+  },
+  { "market": "OLE-USDT", "status": "trading", "base": "OLE", "quote": "USDT" },
+  { "market": "LDO-USDT", "status": "trading", "base": "LDO", "quote": "USDT" },
+  { "market": "LDO-USDC", "status": "trading", "base": "LDO", "quote": "USDC" },
+  {
+    "market": "CULT-USDT",
+    "status": "trading",
+    "base": "CULT",
+    "quote": "USDT"
+  },
+  {
+    "market": "SWFTC-USDC",
+    "status": "trading",
+    "base": "SWFTC",
+    "quote": "USDC"
+  },
+  {
+    "market": "FIDA-USDT",
+    "status": "trading",
+    "base": "FIDA",
+    "quote": "USDT"
+  },
+  { "market": "RBP-USDT", "status": "trading", "base": "RBP", "quote": "USDT" },
+  {
+    "market": "SRBP-USDT",
+    "status": "trading",
+    "base": "SRBP",
+    "quote": "USDT"
+  },
+  {
+    "market": "HIBAYC-USDT",
+    "status": "trading",
+    "base": "HIBAYC",
+    "quote": "USDT"
+  },
+  { "market": "OGV-USDT", "status": "trading", "base": "OGV", "quote": "USDT" },
+  {
+    "market": "WOMBAT-USDT",
+    "status": "trading",
+    "base": "WOMBAT",
+    "quote": "USDT"
+  },
+  {
+    "market": "HIPUNKS-USDT",
+    "status": "trading",
+    "base": "HIPUNKS",
+    "quote": "USDT"
+  },
+  { "market": "FT-USDT", "status": "trading", "base": "FT", "quote": "USDT" },
+  { "market": "ETC-USDC", "status": "trading", "base": "ETC", "quote": "USDC" },
+  {
+    "market": "HIENS4-USDT",
+    "status": "trading",
+    "base": "HIENS4",
+    "quote": "USDT"
+  },
+  {
+    "market": "EGAME-USDT",
+    "status": "trading",
+    "base": "EGAME",
+    "quote": "USDT"
+  },
+  {
+    "market": "EGAME-BTC",
+    "status": "trading",
+    "base": "EGAME",
+    "quote": "BTC"
+  },
+  {
+    "market": "HISAND33-USDT",
+    "status": "trading",
+    "base": "HISAND33",
+    "quote": "USDT"
+  },
+  { "market": "DC-USDT", "status": "trading", "base": "DC", "quote": "USDT" },
+  {
+    "market": "NEER-USDT",
+    "status": "trading",
+    "base": "NEER",
+    "quote": "USDT"
+  },
+  { "market": "RVN-USDT", "status": "trading", "base": "RVN", "quote": "USDT" },
+  {
+    "market": "HIENS3-USDT",
+    "status": "trading",
+    "base": "HIENS3",
+    "quote": "USDT"
+  },
+  { "market": "MC-USDT", "status": "trading", "base": "MC", "quote": "USDT" },
+  {
+    "market": "SWEAT-USDT",
+    "status": "trading",
+    "base": "SWEAT",
+    "quote": "USDT"
+  },
+  {
+    "market": "HIODBS-USDT",
+    "status": "trading",
+    "base": "HIODBS",
+    "quote": "USDT"
+  },
+  { "market": "CMP-USDT", "status": "trading", "base": "CMP", "quote": "USDT" },
+  { "market": "PIX-USDT", "status": "trading", "base": "PIX", "quote": "USDT" },
+  {
+    "market": "MPLX-USDT",
+    "status": "trading",
+    "base": "MPLX",
+    "quote": "USDT"
+  },
+  {
+    "market": "HIDOODLES-USDT",
+    "status": "trading",
+    "base": "HIDOODLES",
+    "quote": "USDT"
+  },
+  {
+    "market": "ETHW-USDT",
+    "status": "trading",
+    "base": "ETHW",
+    "quote": "USDT"
+  },
+  { "market": "ACQ-USDT", "status": "trading", "base": "ACQ", "quote": "USDT" },
+  { "market": "ACQ-USDC", "status": "trading", "base": "ACQ", "quote": "USDC" },
+  { "market": "AOG-USDT", "status": "trading", "base": "AOG", "quote": "USDT" },
+  {
+    "market": "HIMAYC-USDT",
+    "status": "trading",
+    "base": "HIMAYC",
+    "quote": "USDT"
+  },
+  {
+    "market": "PUMLX-USDT",
+    "status": "trading",
+    "base": "PUMLX",
+    "quote": "USDT"
+  },
+  {
+    "market": "XETA-USDT",
+    "status": "trading",
+    "base": "XETA",
+    "quote": "USDT"
+  },
+  { "market": "GEM-USDT", "status": "trading", "base": "GEM", "quote": "USDT" },
+  {
+    "market": "DERC-USDT",
+    "status": "trading",
+    "base": "DERC",
+    "quote": "USDT"
+  },
+  {
+    "market": "KICKS-USDT",
+    "status": "trading",
+    "base": "KICKS",
+    "quote": "USDT"
+  },
+  {
+    "market": "TRIBL-USDT",
+    "status": "trading",
+    "base": "TRIBL",
+    "quote": "USDT"
+  },
+  { "market": "GMX-USDT", "status": "trading", "base": "GMX", "quote": "USDT" },
+  {
+    "market": "HIOD-USDT",
+    "status": "trading",
+    "base": "HIOD",
+    "quote": "USDT"
+  },
+  {
+    "market": "POKT-USDT",
+    "status": "trading",
+    "base": "POKT",
+    "quote": "USDT"
+  },
+  { "market": "APT-USDT", "status": "trading", "base": "APT", "quote": "USDT" },
+  { "market": "EUL-USDT", "status": "trading", "base": "EUL", "quote": "USDT" },
+  { "market": "TON-USDT", "status": "trading", "base": "TON", "quote": "USDT" },
+  {
+    "market": "HIMEEBITS-USDT",
+    "status": "trading",
+    "base": "HIMEEBITS",
+    "quote": "USDT"
+  },
+  {
+    "market": "HISQUIGGLE-USDT",
+    "status": "trading",
+    "base": "HISQUIGGLE",
+    "quote": "USDT"
+  },
+  { "market": "XCV-USDT", "status": "trading", "base": "XCV", "quote": "USDT" },
+  { "market": "HFT-USDT", "status": "trading", "base": "HFT", "quote": "USDT" },
+  { "market": "HFT-USDC", "status": "trading", "base": "HFT", "quote": "USDC" },
+  {
+    "market": "ECOX-USDT",
+    "status": "trading",
+    "base": "ECOX",
+    "quote": "USDT"
+  },
+  { "market": "AMB-USDT", "status": "trading", "base": "AMB", "quote": "USDT" },
+  {
+    "market": "AZERO-USDT",
+    "status": "trading",
+    "base": "AZERO",
+    "quote": "USDT"
+  },
+  {
+    "market": "HIFIDENZA-USDT",
+    "status": "trading",
+    "base": "HIFIDENZA",
+    "quote": "USDT"
+  },
+  {
+    "market": "BEAT-USDT",
+    "status": "trading",
+    "base": "BEAT",
+    "quote": "USDT"
+  },
+  {
+    "market": "HIGAZERS-USDT",
+    "status": "trading",
+    "base": "HIGAZERS",
+    "quote": "USDT"
+  },
+  {
+    "market": "NAVI-USDT",
+    "status": "trading",
+    "base": "NAVI",
+    "quote": "USDT"
+  },
+  {
+    "market": "HIPENGUINS-USDT",
+    "status": "trading",
+    "base": "HIPENGUINS",
+    "quote": "USDT"
+  },
+  { "market": "ALT-USDT", "status": "trading", "base": "ALT", "quote": "USDT" },
+  {
+    "market": "HICLONEX-USDT",
+    "status": "trading",
+    "base": "HICLONEX",
+    "quote": "USDT"
+  },
+  { "market": "OAS-USDT", "status": "trading", "base": "OAS", "quote": "USDT" },
+  {
+    "market": "VEMP-USDC",
+    "status": "trading",
+    "base": "VEMP",
+    "quote": "USDC"
+  },
+  {
+    "market": "HICOOLCATS-USDT",
+    "status": "trading",
+    "base": "HICOOLCATS",
+    "quote": "USDT"
+  },
+  {
+    "market": "HIAZUKI-USDT",
+    "status": "trading",
+    "base": "HIAZUKI",
+    "quote": "USDT"
+  },
+  {
+    "market": "HIFLUF-USDT",
+    "status": "trading",
+    "base": "HIFLUF",
+    "quote": "USDT"
+  },
+  {
+    "market": "HIBIRDS-USDT",
+    "status": "trading",
+    "base": "HIBIRDS",
+    "quote": "USDT"
+  },
+  { "market": "BDX-USDT", "status": "trading", "base": "BDX", "quote": "USDT" },
+  { "market": "BDX-BTC", "status": "trading", "base": "BDX", "quote": "BTC" },
+  { "market": "FLR-USDT", "status": "trading", "base": "FLR", "quote": "USDT" },
+  { "market": "FLR-USDC", "status": "trading", "base": "FLR", "quote": "USDC" },
+  {
+    "market": "HIMFERS-USDT",
+    "status": "trading",
+    "base": "HIMFERS",
+    "quote": "USDT"
+  },
+  {
+    "market": "OSMO-USDT",
+    "status": "trading",
+    "base": "OSMO",
+    "quote": "USDT"
+  },
+  {
+    "market": "ASTRA-USDT",
+    "status": "trading",
+    "base": "ASTRA",
+    "quote": "USDT"
+  },
+  {
+    "market": "MAGIC-USDT",
+    "status": "trading",
+    "base": "MAGIC",
+    "quote": "USDT"
+  },
+  {
+    "market": "SQUAD-USDT",
+    "status": "trading",
+    "base": "SQUAD",
+    "quote": "USDT"
+  },
+  {
+    "market": "SIMP-USDT",
+    "status": "trading",
+    "base": "SIMP",
+    "quote": "USDT"
+  },
+  {
+    "market": "HIVALHALLA-USDT",
+    "status": "trading",
+    "base": "HIVALHALLA",
+    "quote": "USDT"
+  },
+  { "market": "RPL-USDT", "status": "trading", "base": "RPL", "quote": "USDT" },
+  {
+    "market": "HIRENGA-USDT",
+    "status": "trading",
+    "base": "HIRENGA",
+    "quote": "USDT"
+  },
+  {
+    "market": "KING-USDT",
+    "status": "trading",
+    "base": "KING",
+    "quote": "USDT"
+  },
+  {
+    "market": "SHIB2L-USDT",
+    "status": "trading",
+    "base": "SHIB2L",
+    "quote": "USDT"
+  },
+  {
+    "market": "SHIB2S-USDT",
+    "status": "trading",
+    "base": "SHIB2S",
+    "quote": "USDT"
+  },
+  {
+    "market": "HIGH-USDT",
+    "status": "trading",
+    "base": "HIGH",
+    "quote": "USDT"
+  },
+  { "market": "HIGH-ETH", "status": "trading", "base": "HIGH", "quote": "ETH" },
+  {
+    "market": "HIUNDEAD-USDT",
+    "status": "trading",
+    "base": "HIUNDEAD",
+    "quote": "USDT"
+  },
+  {
+    "market": "TRAC-USDT",
+    "status": "trading",
+    "base": "TRAC",
+    "quote": "USDT"
+  },
+  { "market": "GFT-USDT", "status": "trading", "base": "GFT", "quote": "USDT" },
+  { "market": "GFT-BTC", "status": "trading", "base": "GFT", "quote": "BTC" },
+  {
+    "market": "BLUR-USDT",
+    "status": "trading",
+    "base": "BLUR",
+    "quote": "USDT"
+  },
+  {
+    "market": "HIFRIENDS-USDT",
+    "status": "trading",
+    "base": "HIFRIENDS",
+    "quote": "USDT"
+  },
+  {
+    "market": "WAXL-USDT",
+    "status": "trading",
+    "base": "WAXL",
+    "quote": "USDT"
+  },
+  {
+    "market": "FLOKI-USDT",
+    "status": "trading",
+    "base": "FLOKI",
+    "quote": "USDT"
+  },
+  { "market": "SSV-USDT", "status": "trading", "base": "SSV", "quote": "USDT" },
+  {
+    "market": "FLOKI-USDC",
+    "status": "trading",
+    "base": "FLOKI",
+    "quote": "USDC"
+  },
+  { "market": "ACS-USDT", "status": "trading", "base": "ACS", "quote": "USDT" },
+  { "market": "IGU-USDT", "status": "trading", "base": "IGU", "quote": "USDT" },
+  { "market": "IGU-BTC", "status": "trading", "base": "IGU", "quote": "BTC" },
+  {
+    "market": "CSIX-USDT",
+    "status": "trading",
+    "base": "CSIX",
+    "quote": "USDT"
+  },
+  { "market": "FET-USDT", "status": "trading", "base": "FET", "quote": "USDT" },
+  { "market": "CSIX-ETH", "status": "trading", "base": "CSIX", "quote": "ETH" },
+  {
+    "market": "CFX2L-USDT",
+    "status": "trading",
+    "base": "CFX2L",
+    "quote": "USDT"
+  },
+  {
+    "market": "CFX2S-USDT",
+    "status": "trading",
+    "base": "CFX2S",
+    "quote": "USDT"
+  },
+  {
+    "market": "HISEALS-USDT",
+    "status": "trading",
+    "base": "HISEALS",
+    "quote": "USDT"
+  },
+  {
+    "market": "SIDUS-USDT",
+    "status": "trading",
+    "base": "SIDUS",
+    "quote": "USDT"
+  },
+  {
+    "market": "GOAL-USDT",
+    "status": "trading",
+    "base": "GOAL",
+    "quote": "USDT"
+  },
+  {
+    "market": "AIPAD-USDT",
+    "status": "trading",
+    "base": "AIPAD",
+    "quote": "USDT"
+  },
+  {
+    "market": "RDNT-USDT",
+    "status": "trading",
+    "base": "RDNT",
+    "quote": "USDT"
+  },
+  { "market": "SYN-USDT", "status": "trading", "base": "SYN", "quote": "USDT" },
+  { "market": "GNS-USDT", "status": "trading", "base": "GNS", "quote": "USDT" },
+  {
+    "market": "GRAIL-USDT",
+    "status": "trading",
+    "base": "GRAIL",
+    "quote": "USDT"
+  },
+  { "market": "BLZ-USDT", "status": "trading", "base": "BLZ", "quote": "USDT" },
+  {
+    "market": "HIBEANZ-USDT",
+    "status": "trading",
+    "base": "HIBEANZ",
+    "quote": "USDT"
+  },
+  { "market": "BTC-GBP", "status": "trading", "base": "BTC", "quote": "GBP" },
+  { "market": "ETH-GBP", "status": "trading", "base": "ETH", "quote": "GBP" },
+  { "market": "USDT-GBP", "status": "trading", "base": "USDT", "quote": "GBP" },
+  {
+    "market": "HALO-USDT",
+    "status": "trading",
+    "base": "HALO",
+    "quote": "USDT"
+  },
+  {
+    "market": "NXRA-USDT",
+    "status": "trading",
+    "base": "NXRA",
+    "quote": "USDT"
+  },
+  { "market": "NXRA-ETH", "status": "trading", "base": "NXRA", "quote": "ETH" },
+  {
+    "market": "MINA-USDT",
+    "status": "trading",
+    "base": "MINA",
+    "quote": "USDT"
+  },
+  { "market": "XRD-USDT", "status": "trading", "base": "XRD", "quote": "USDT" },
+  { "market": "NOM-USDT", "status": "trading", "base": "NOM", "quote": "USDT" },
+  {
+    "market": "LQTY-USDT",
+    "status": "trading",
+    "base": "LQTY",
+    "quote": "USDT"
+  },
+  { "market": "CFX-BTC", "status": "trading", "base": "CFX", "quote": "BTC" },
+  { "market": "CFX-ETH", "status": "trading", "base": "CFX", "quote": "ETH" },
+  { "market": "ID-USDT", "status": "trading", "base": "ID", "quote": "USDT" },
+  { "market": "ARB-USDT", "status": "trading", "base": "ARB", "quote": "USDT" },
+  {
+    "market": "ARB3S-USDT",
+    "status": "trading",
+    "base": "ARB3S",
+    "quote": "USDT"
+  },
+  {
+    "market": "ARB3L-USDT",
+    "status": "trading",
+    "base": "ARB3L",
+    "quote": "USDT"
+  },
+  {
+    "market": "ID3L-USDT",
+    "status": "trading",
+    "base": "ID3L",
+    "quote": "USDT"
+  },
+  {
+    "market": "ID3S-USDT",
+    "status": "trading",
+    "base": "ID3S",
+    "quote": "USDT"
+  },
+  {
+    "market": "HMND-USDT",
+    "status": "trading",
+    "base": "HMND",
+    "quote": "USDT"
+  },
+  {
+    "market": "BTCUP-USDT",
+    "status": "trading",
+    "base": "BTCUP",
+    "quote": "USDT"
+  },
+  {
+    "market": "BTCDOWN-USDT",
+    "status": "trading",
+    "base": "BTCDOWN",
+    "quote": "USDT"
+  },
+  {
+    "market": "ETHUP-USDT",
+    "status": "trading",
+    "base": "ETHUP",
+    "quote": "USDT"
+  },
+  {
+    "market": "ETHDOWN-USDT",
+    "status": "trading",
+    "base": "ETHDOWN",
+    "quote": "USDT"
+  },
+  {
+    "market": "HIFI-USDT",
+    "status": "trading",
+    "base": "HIFI",
+    "quote": "USDT"
+  },
+  {
+    "market": "MYRIA-USDT",
+    "status": "trading",
+    "base": "MYRIA",
+    "quote": "USDT"
+  },
+  { "market": "SD-USDT", "status": "trading", "base": "SD", "quote": "USDT" },
+  {
+    "market": "CGPT-USDT",
+    "status": "trading",
+    "base": "CGPT",
+    "quote": "USDT"
+  },
+  {
+    "market": "STRAX-USDT",
+    "status": "trading",
+    "base": "STRAX",
+    "quote": "USDT"
+  },
+  {
+    "market": "KAGI-USDT",
+    "status": "trading",
+    "base": "KAGI",
+    "quote": "USDT"
+  },
+  {
+    "market": "DYDXUP-USDT",
+    "status": "trading",
+    "base": "DYDXUP",
+    "quote": "USDT"
+  },
+  {
+    "market": "DYDXDOWN-USDT",
+    "status": "trading",
+    "base": "DYDXDOWN",
+    "quote": "USDT"
+  },
+  { "market": "OTK-USDT", "status": "trading", "base": "OTK", "quote": "USDT" },
+  {
+    "market": "RNDRUP-USDT",
+    "status": "trading",
+    "base": "RNDRUP",
+    "quote": "USDT"
+  },
+  {
+    "market": "RNDRDOWN-USDT",
+    "status": "trading",
+    "base": "RNDRDOWN",
+    "quote": "USDT"
+  },
+  {
+    "market": "BABYDOGE-USDT",
+    "status": "trading",
+    "base": "BABYDOGE",
+    "quote": "USDT"
+  },
+  { "market": "PZP-USDT", "status": "trading", "base": "PZP", "quote": "USDT" },
+  {
+    "market": "INJDOWN-USDT",
+    "status": "trading",
+    "base": "INJDOWN",
+    "quote": "USDT"
+  },
+  {
+    "market": "INJUP-USDT",
+    "status": "trading",
+    "base": "INJUP",
+    "quote": "USDT"
+  },
+  {
+    "market": "LOCUS-USDT",
+    "status": "trading",
+    "base": "LOCUS",
+    "quote": "USDT"
+  },
+  {
+    "market": "IRON-USDT",
+    "status": "trading",
+    "base": "IRON",
+    "quote": "USDT"
+  },
+  {
+    "market": "ZPAY-USDT",
+    "status": "trading",
+    "base": "ZPAY",
+    "quote": "USDT"
+  },
+  { "market": "IZI-USDT", "status": "trading", "base": "IZI", "quote": "USDT" },
+  { "market": "SUI-USDT", "status": "trading", "base": "SUI", "quote": "USDT" },
+  {
+    "market": "SUI3S-USDT",
+    "status": "trading",
+    "base": "SUI3S",
+    "quote": "USDT"
+  },
+  {
+    "market": "SUI3L-USDT",
+    "status": "trading",
+    "base": "SUI3L",
+    "quote": "USDT"
+  },
+  { "market": "KAS-USDT", "status": "trading", "base": "KAS", "quote": "USDT" },
+  {
+    "market": "PEPE-USDT",
+    "status": "trading",
+    "base": "PEPE",
+    "quote": "USDT"
+  },
+  {
+    "market": "PEPEUP-USDT",
+    "status": "trading",
+    "base": "PEPEUP",
+    "quote": "USDT"
+  },
+  {
+    "market": "PEPEDOWN-USDT",
+    "status": "trading",
+    "base": "PEPEDOWN",
+    "quote": "USDT"
+  },
+  {
+    "market": "CETUS-USDT",
+    "status": "trading",
+    "base": "CETUS",
+    "quote": "USDT"
+  },
+  {
+    "market": "SUIP-USDT",
+    "status": "trading",
+    "base": "SUIP",
+    "quote": "USDT"
+  },
+  {
+    "market": "KARATE-USDT",
+    "status": "trading",
+    "base": "KARATE",
+    "quote": "USDT"
+  },
+  {
+    "market": "WLKN-USDT",
+    "status": "trading",
+    "base": "WLKN",
+    "quote": "USDT"
+  },
+  {
+    "market": "TURBOS-USDT",
+    "status": "trading",
+    "base": "TURBOS",
+    "quote": "USDT"
+  },
+  {
+    "market": "LUNCUP-USDT",
+    "status": "trading",
+    "base": "LUNCUP",
+    "quote": "USDT"
+  },
+  {
+    "market": "LUNCDOWN-USDT",
+    "status": "trading",
+    "base": "LUNCDOWN",
+    "quote": "USDT"
+  },
+  {
+    "market": "SUIA-USDT",
+    "status": "trading",
+    "base": "SUIA",
+    "quote": "USDT"
+  },
+  {
+    "market": "LMWR-USDT",
+    "status": "trading",
+    "base": "LMWR",
+    "quote": "USDT"
+  },
+  { "market": "BOB-USDT", "status": "trading", "base": "BOB", "quote": "USDT" },
+  {
+    "market": "LADYS-USDT",
+    "status": "trading",
+    "base": "LADYS",
+    "quote": "USDT"
+  },
+  { "market": "RFD-USDT", "status": "trading", "base": "RFD", "quote": "USDT" },
+  {
+    "market": "TENET-USDT",
+    "status": "trading",
+    "base": "TENET",
+    "quote": "USDT"
+  },
+  {
+    "market": "HIBAKC-USDT",
+    "status": "trading",
+    "base": "HIBAKC",
+    "quote": "USDT"
+  },
+  {
+    "market": "VERSE-USDT",
+    "status": "trading",
+    "base": "VERSE",
+    "quote": "USDT"
+  },
+  { "market": "OBI-USDT", "status": "trading", "base": "OBI", "quote": "USDT" },
+  {
+    "market": "INFRA-USDT",
+    "status": "trading",
+    "base": "INFRA",
+    "quote": "USDT"
+  },
+  {
+    "market": "TSUGT-USDT",
+    "status": "trading",
+    "base": "TSUGT",
+    "quote": "USDT"
+  },
+  { "market": "EDU-USDT", "status": "trading", "base": "EDU", "quote": "USDT" },
+  {
+    "market": "ORDI-USDT",
+    "status": "trading",
+    "base": "ORDI",
+    "quote": "USDT"
+  },
+  { "market": "LAI-USDT", "status": "trading", "base": "LAI", "quote": "USDT" },
+  {
+    "market": "VOLT-USDT",
+    "status": "trading",
+    "base": "VOLT",
+    "quote": "USDT"
+  },
+  {
+    "market": "TOMI-USDT",
+    "status": "trading",
+    "base": "TOMI",
+    "quote": "USDT"
+  },
+  {
+    "market": "COMBO-USDT",
+    "status": "trading",
+    "base": "COMBO",
+    "quote": "USDT"
+  },
+  {
+    "market": "XPLL-USDT",
+    "status": "trading",
+    "base": "XPLL",
+    "quote": "USDT"
+  },
+  {
+    "market": "CANDY-USDT",
+    "status": "trading",
+    "base": "CANDY",
+    "quote": "USDT"
+  },
+  { "market": "PIP-USDT", "status": "trading", "base": "PIP", "quote": "USDT" },
+  {
+    "market": "VCORE-USDT",
+    "status": "trading",
+    "base": "VCORE",
+    "quote": "USDT"
+  },
+  { "market": "MMM-USDT", "status": "trading", "base": "MMM", "quote": "USDT" },
+  { "market": "MAV-USDT", "status": "trading", "base": "MAV", "quote": "USDT" },
+  { "market": "XEN-USDT", "status": "trading", "base": "XEN", "quote": "USDT" },
+  { "market": "LBR-USDT", "status": "trading", "base": "LBR", "quote": "USDT" },
+  {
+    "market": "PENDLE-USDT",
+    "status": "trading",
+    "base": "PENDLE",
+    "quote": "USDT"
+  },
+  { "market": "EGO-USDT", "status": "trading", "base": "EGO", "quote": "USDT" },
+  {
+    "market": "PEPE2-USDT",
+    "status": "trading",
+    "base": "PEPE2",
+    "quote": "USDT"
+  },
+  { "market": "MM-USDT", "status": "trading", "base": "MM", "quote": "USDT" },
+  { "market": "DCK-USDT", "status": "trading", "base": "DCK", "quote": "USDT" },
+  { "market": "LYX-USDT", "status": "trading", "base": "LYX", "quote": "USDT" },
+  { "market": "LYX-ETH", "status": "trading", "base": "LYX", "quote": "ETH" },
+  { "market": "WLD-USDT", "status": "trading", "base": "WLD", "quote": "USDT" },
+  {
+    "market": "WLDUP-USDT",
+    "status": "trading",
+    "base": "WLDUP",
+    "quote": "USDT"
+  },
+  {
+    "market": "WLDDOWN-USDT",
+    "status": "trading",
+    "base": "WLDDOWN",
+    "quote": "USDT"
+  },
+  {
+    "market": "AIEPK-USDT",
+    "status": "trading",
+    "base": "AIEPK",
+    "quote": "USDT"
+  },
+  { "market": "SEI-USDT", "status": "trading", "base": "SEI", "quote": "USDT" },
+  {
+    "market": "UNFIUP-USDT",
+    "status": "trading",
+    "base": "UNFIUP",
+    "quote": "USDT"
+  },
+  {
+    "market": "UNFIDOWN-USDT",
+    "status": "trading",
+    "base": "UNFIDOWN",
+    "quote": "USDT"
+  },
+  {
+    "market": "PYUSD-USDT",
+    "status": "trading",
+    "base": "PYUSD",
+    "quote": "USDT"
+  },
+  {
+    "market": "ISLM-USDT",
+    "status": "trading",
+    "base": "ISLM",
+    "quote": "USDT"
+  },
+  {
+    "market": "TRBUP-USDT",
+    "status": "trading",
+    "base": "TRBUP",
+    "quote": "USDT"
+  },
+  {
+    "market": "TRBDOWN-USDT",
+    "status": "trading",
+    "base": "TRBDOWN",
+    "quote": "USDT"
+  },
+  {
+    "market": "BIGTIME-USDT",
+    "status": "trading",
+    "base": "BIGTIME",
+    "quote": "USDT"
+  },
+  {
+    "market": "NTRN-USDT",
+    "status": "trading",
+    "base": "NTRN",
+    "quote": "USDT"
+  },
+  {
+    "market": "ARKM-USDT",
+    "status": "trading",
+    "base": "ARKM",
+    "quote": "USDT"
+  },
+  {
+    "market": "VRAUP-USDT",
+    "status": "trading",
+    "base": "VRAUP",
+    "quote": "USDT"
+  },
+  {
+    "market": "VRADOWN-USDT",
+    "status": "trading",
+    "base": "VRADOWN",
+    "quote": "USDT"
+  },
+  { "market": "OFN-USDT", "status": "trading", "base": "OFN", "quote": "USDT" },
+  {
+    "market": "ZELIX-USDT",
+    "status": "trading",
+    "base": "ZELIX",
+    "quote": "USDT"
+  },
+  { "market": "TIA-USDT", "status": "trading", "base": "TIA", "quote": "USDT" },
+  {
+    "market": "KLUB-USDT",
+    "status": "trading",
+    "base": "KLUB",
+    "quote": "USDT"
+  },
+  {
+    "market": "CYBER-USDT",
+    "status": "trading",
+    "base": "CYBER",
+    "quote": "USDT"
+  },
+  {
+    "market": "MEME-USDT",
+    "status": "trading",
+    "base": "MEME",
+    "quote": "USDT"
+  },
+  {
+    "market": "TOKEN-USDT",
+    "status": "trading",
+    "base": "TOKEN",
+    "quote": "USDT"
+  },
+  {
+    "market": "SHRAP-USDT",
+    "status": "trading",
+    "base": "SHRAP",
+    "quote": "USDT"
+  },
+  {
+    "market": "ORDIUP-USDT",
+    "status": "trading",
+    "base": "ORDIUP",
+    "quote": "USDT"
+  },
+  {
+    "market": "ORDIDOWN-USDT",
+    "status": "trading",
+    "base": "ORDIDOWN",
+    "quote": "USDT"
+  },
+  { "market": "POL-USDT", "status": "trading", "base": "POL", "quote": "USDT" },
+  {
+    "market": "SATS-USDT",
+    "status": "trading",
+    "base": "SATS",
+    "quote": "USDT"
+  },
+  { "market": "RPK-USDT", "status": "trading", "base": "RPK", "quote": "USDT" },
+  {
+    "market": "ATEM-USDT",
+    "status": "trading",
+    "base": "ATEM",
+    "quote": "USDT"
+  },
+  {
+    "market": "ATOR-USDT",
+    "status": "trading",
+    "base": "ATOR",
+    "quote": "USDT"
+  },
+  {
+    "market": "PYTH-USDT",
+    "status": "trading",
+    "base": "PYTH",
+    "quote": "USDT"
+  },
+  {
+    "market": "RATS-USDT",
+    "status": "trading",
+    "base": "RATS",
+    "quote": "USDT"
+  },
+  {
+    "market": "VRTX-USDT",
+    "status": "trading",
+    "base": "VRTX",
+    "quote": "USDT"
+  },
+  {
+    "market": "ROOT-USDT",
+    "status": "trading",
+    "base": "ROOT",
+    "quote": "USDT"
+  },
+  {
+    "market": "WBTC-USDT",
+    "status": "trading",
+    "base": "WBTC",
+    "quote": "USDT"
+  },
+  {
+    "market": "LOOM-USDT",
+    "status": "trading",
+    "base": "LOOM",
+    "quote": "USDT"
+  },
+  { "market": "ELF-USDT", "status": "trading", "base": "ELF", "quote": "USDT" },
+  { "market": "DCR-USDT", "status": "trading", "base": "DCR", "quote": "USDT" },
+  { "market": "ZRX-USDT", "status": "trading", "base": "ZRX", "quote": "USDT" },
+  {
+    "market": "KASUP-USDT",
+    "status": "trading",
+    "base": "KASUP",
+    "quote": "USDT"
+  },
+  {
+    "market": "KASDOWN-USDT",
+    "status": "trading",
+    "base": "KASDOWN",
+    "quote": "USDT"
+  },
+  {
+    "market": "TIAUP-USDT",
+    "status": "trading",
+    "base": "TIAUP",
+    "quote": "USDT"
+  },
+  {
+    "market": "TIADOWN-USDT",
+    "status": "trading",
+    "base": "TIADOWN",
+    "quote": "USDT"
+  },
+  {
+    "market": "PYTHUP-USDT",
+    "status": "trading",
+    "base": "PYTHUP",
+    "quote": "USDT"
+  },
+  {
+    "market": "PYTHDOWN-USDT",
+    "status": "trading",
+    "base": "PYTHDOWN",
+    "quote": "USDT"
+  },
+  {
+    "market": "FLIP-USDT",
+    "status": "trading",
+    "base": "FLIP",
+    "quote": "USDT"
+  },
+  { "market": "UQC-USDT", "status": "trading", "base": "UQC", "quote": "USDT" },
+  { "market": "LSK-USDT", "status": "trading", "base": "LSK", "quote": "USDT" },
+  {
+    "market": "DENT-USDT",
+    "status": "trading",
+    "base": "DENT",
+    "quote": "USDT"
+  },
+  { "market": "QKC-USDT", "status": "trading", "base": "QKC", "quote": "USDT" },
+  {
+    "market": "BONK-USDT",
+    "status": "trading",
+    "base": "BONK",
+    "quote": "USDT"
+  },
+  {
+    "market": "MIND-USDT",
+    "status": "trading",
+    "base": "MIND",
+    "quote": "USDT"
+  },
+  { "market": "MNT-USDT", "status": "trading", "base": "MNT", "quote": "USDT" },
+  {
+    "market": "WORK-USDT",
+    "status": "trading",
+    "base": "WORK",
+    "quote": "USDT"
+  },
+  {
+    "market": "INSP-USDT",
+    "status": "trading",
+    "base": "INSP",
+    "quote": "USDT"
+  },
+  {
+    "market": "AUCTION-USDT",
+    "status": "trading",
+    "base": "AUCTION",
+    "quote": "USDT"
+  },
+  { "market": "JTO-USDT", "status": "trading", "base": "JTO", "quote": "USDT" },
+  {
+    "market": "BAKEUP-USDT",
+    "status": "trading",
+    "base": "BAKEUP",
+    "quote": "USDT"
+  },
+  {
+    "market": "BAKEDOWN-USDT",
+    "status": "trading",
+    "base": "BAKEDOWN",
+    "quote": "USDT"
+  },
+  { "market": "UTK-USDT", "status": "trading", "base": "UTK", "quote": "USDT" },
+  { "market": "SNS-USDT", "status": "trading", "base": "SNS", "quote": "USDT" },
+  {
+    "market": "DOVI-USDT",
+    "status": "trading",
+    "base": "DOVI",
+    "quote": "USDT"
+  },
+  {
+    "market": "SEAM-USDT",
+    "status": "trading",
+    "base": "SEAM",
+    "quote": "USDT"
+  },
+  {
+    "market": "FINC-USDT",
+    "status": "trading",
+    "base": "FINC",
+    "quote": "USDT"
+  },
+  {
+    "market": "VANRY-USDT",
+    "status": "trading",
+    "base": "VANRY",
+    "quote": "USDT"
+  },
+  { "market": "GTT-USDT", "status": "trading", "base": "GTT", "quote": "USDT" },
+  {
+    "market": "MNDE-USDT",
+    "status": "trading",
+    "base": "MNDE",
+    "quote": "USDT"
+  },
+  { "market": "COQ-USDT", "status": "trading", "base": "COQ", "quote": "USDT" },
+  { "market": "IRL-USDT", "status": "trading", "base": "IRL", "quote": "USDT" },
+  {
+    "market": "SOLS-USDT",
+    "status": "trading",
+    "base": "SOLS",
+    "quote": "USDT"
+  },
+  {
+    "market": "POLYX-USDT",
+    "status": "trading",
+    "base": "POLYX",
+    "quote": "USDT"
+  },
+  {
+    "market": "SCPT-USDT",
+    "status": "trading",
+    "base": "SCPT",
+    "quote": "USDT"
+  },
+  { "market": "TAO-USDT", "status": "trading", "base": "TAO", "quote": "USDT" },
+  {
+    "market": "TURT-USDT",
+    "status": "trading",
+    "base": "TURT",
+    "quote": "USDT"
+  },
+  {
+    "market": "BIIS-USDT",
+    "status": "trading",
+    "base": "BIIS",
+    "quote": "USDT"
+  },
+  {
+    "market": "ARTY-USDT",
+    "status": "trading",
+    "base": "ARTY",
+    "quote": "USDT"
+  },
+  {
+    "market": "GRAPE-USDT",
+    "status": "trading",
+    "base": "GRAPE",
+    "quote": "USDT"
+  },
+  {
+    "market": "MUBI-USDT",
+    "status": "trading",
+    "base": "MUBI",
+    "quote": "USDT"
+  },
+  { "market": "AA-USDT", "status": "trading", "base": "AA", "quote": "USDT" },
+  {
+    "market": "ZOOA-USDT",
+    "status": "trading",
+    "base": "ZOOA",
+    "quote": "USDT"
+  },
+  {
+    "market": "ANALOS-USDT",
+    "status": "trading",
+    "base": "ANALOS",
+    "quote": "USDT"
+  },
+  {
+    "market": "SEIUP-USDT",
+    "status": "trading",
+    "base": "SEIUP",
+    "quote": "USDT"
+  },
+  {
+    "market": "SEIDOWN-USDT",
+    "status": "trading",
+    "base": "SEIDOWN",
+    "quote": "USDT"
+  },
+  {
+    "market": "OPUP-USDT",
+    "status": "trading",
+    "base": "OPUP",
+    "quote": "USDT"
+  },
+  {
+    "market": "OPDOWN-USDT",
+    "status": "trading",
+    "base": "OPDOWN",
+    "quote": "USDT"
+  },
+  {
+    "market": "MYRO-USDT",
+    "status": "trading",
+    "base": "MYRO",
+    "quote": "USDT"
+  },
+  {
+    "market": "SILLY-USDT",
+    "status": "trading",
+    "base": "SILLY",
+    "quote": "USDT"
+  },
+  {
+    "market": "MOBILE-USDT",
+    "status": "trading",
+    "base": "MOBILE",
+    "quote": "USDT"
+  },
+  {
+    "market": "ROUP-USDT",
+    "status": "trading",
+    "base": "ROUP",
+    "quote": "USDT"
+  },
+  {
+    "market": "OOFP-USDT",
+    "status": "trading",
+    "base": "OOFP",
+    "quote": "USDT"
+  },
+  {
+    "market": "1CAT-USDT",
+    "status": "trading",
+    "base": "1CAT",
+    "quote": "USDT"
+  },
+  { "market": "RAY-USDT", "status": "trading", "base": "RAY", "quote": "USDT" },
+  {
+    "market": "ALEX-USDT",
+    "status": "trading",
+    "base": "ALEX",
+    "quote": "USDT"
+  },
+  { "market": "ZKF-USDT", "status": "trading", "base": "ZKF", "quote": "USDT" },
+  {
+    "market": "PORT3-USDT",
+    "status": "trading",
+    "base": "PORT3",
+    "quote": "USDT"
+  },
+  { "market": "XAI-USDT", "status": "trading", "base": "XAI", "quote": "USDT" },
+  { "market": "NFP-USDT", "status": "trading", "base": "NFP", "quote": "USDT" },
+  {
+    "market": "ORCA-USDT",
+    "status": "trading",
+    "base": "ORCA",
+    "quote": "USDT"
+  },
+  {
+    "market": "KACE-USDT",
+    "status": "trading",
+    "base": "KACE",
+    "quote": "USDT"
+  },
+  { "market": "APP-USDT", "status": "trading", "base": "APP", "quote": "USDT" },
+  {
+    "market": "NEON-USDT",
+    "status": "trading",
+    "base": "NEON",
+    "quote": "USDT"
+  },
+  {
+    "market": "ISSP-USDT",
+    "status": "trading",
+    "base": "ISSP",
+    "quote": "USDT"
+  },
+  {
+    "market": "BIDP-USDT",
+    "status": "trading",
+    "base": "BIDP",
+    "quote": "USDT"
+  },
+  { "market": "HON-USDT", "status": "trading", "base": "HON", "quote": "USDT" },
+  {
+    "market": "TUNE-USDT",
+    "status": "trading",
+    "base": "TUNE",
+    "quote": "USDT"
+  },
+  {
+    "market": "ETGM-USDT",
+    "status": "trading",
+    "base": "ETGM",
+    "quote": "USDT"
+  },
+  {
+    "market": "MANTA-USDT",
+    "status": "trading",
+    "base": "MANTA",
+    "quote": "USDT"
+  },
+  {
+    "market": "ONDO-USDT",
+    "status": "trading",
+    "base": "ONDO",
+    "quote": "USDT"
+  },
+  { "market": "WIF-USDT", "status": "trading", "base": "WIF", "quote": "USDT" },
+  {
+    "market": "SAROS-USDT",
+    "status": "trading",
+    "base": "SAROS",
+    "quote": "USDT"
+  },
+  { "market": "AMU-USDT", "status": "trading", "base": "AMU", "quote": "USDT" },
+  {
+    "market": "GTAI-USDT",
+    "status": "trading",
+    "base": "GTAI",
+    "quote": "USDT"
+  },
+  {
+    "market": "KALT-USDT",
+    "status": "trading",
+    "base": "KALT",
+    "quote": "USDT"
+  },
+  {
+    "market": "DMAIL-USDT",
+    "status": "trading",
+    "base": "DMAIL",
+    "quote": "USDT"
+  },
+  { "market": "AFG-USDT", "status": "trading", "base": "AFG", "quote": "USDT" },
+  { "market": "WEN-USDT", "status": "trading", "base": "WEN", "quote": "USDT" },
+  {
+    "market": "ZETA-USDT",
+    "status": "trading",
+    "base": "ZETA",
+    "quote": "USDT"
+  },
+  {
+    "market": "DEFI-USDT",
+    "status": "trading",
+    "base": "DEFI",
+    "quote": "USDT"
+  },
+  { "market": "PMG-USDT", "status": "trading", "base": "PMG", "quote": "USDT" },
+  { "market": "JUP-USDT", "status": "trading", "base": "JUP", "quote": "USDT" },
+  {
+    "market": "FIRE-USDT",
+    "status": "trading",
+    "base": "FIRE",
+    "quote": "USDT"
+  },
+  {
+    "market": "STRIKE-USDT",
+    "status": "trading",
+    "base": "STRIKE",
+    "quote": "USDT"
+  },
+  { "market": "MXM-USDT", "status": "trading", "base": "MXM", "quote": "USDT" },
+  { "market": "BMX-USDT", "status": "trading", "base": "BMX", "quote": "USDT" },
+  {
+    "market": "MAVIA-USDT",
+    "status": "trading",
+    "base": "MAVIA",
+    "quote": "USDT"
+  },
+  {
+    "market": "FORWARD-USDT",
+    "status": "trading",
+    "base": "FORWARD",
+    "quote": "USDT"
+  },
+  { "market": "DYM-USDT", "status": "trading", "base": "DYM", "quote": "USDT" },
+  {
+    "market": "NETVR-USDT",
+    "status": "trading",
+    "base": "NETVR",
+    "quote": "USDT"
+  },
+  {
+    "market": "NAVX-USDT",
+    "status": "trading",
+    "base": "NAVX",
+    "quote": "USDT"
+  },
+  {
+    "market": "LENDS-USDT",
+    "status": "trading",
+    "base": "LENDS",
+    "quote": "USDT"
+  },
+  {
+    "market": "PIXEL-USDT",
+    "status": "trading",
+    "base": "PIXEL",
+    "quote": "USDT"
+  },
+  {
+    "market": "STRK-USDT",
+    "status": "trading",
+    "base": "STRK",
+    "quote": "USDT"
+  },
+  {
+    "market": "BCUT-USDT",
+    "status": "trading",
+    "base": "BCUT",
+    "quote": "USDT"
+  },
+  {
+    "market": "TADA-USDT",
+    "status": "trading",
+    "base": "TADA",
+    "quote": "USDT"
+  },
+  { "market": "SLN-USDT", "status": "trading", "base": "SLN", "quote": "USDT" },
+  {
+    "market": "PANDORA-USDT",
+    "status": "trading",
+    "base": "PANDORA",
+    "quote": "USDT"
+  },
+  {
+    "market": "DECHAT-USDT",
+    "status": "trading",
+    "base": "DECHAT",
+    "quote": "USDT"
+  },
+  {
+    "market": "SAVM-USDT",
+    "status": "trading",
+    "base": "SAVM",
+    "quote": "USDT"
+  },
+  { "market": "BBL-USDT", "status": "trading", "base": "BBL", "quote": "USDT" },
+  { "market": "ICE-USDT", "status": "trading", "base": "ICE", "quote": "USDT" },
+  {
+    "market": "AGIXUP-USDT",
+    "status": "trading",
+    "base": "AGIXUP",
+    "quote": "USDT"
+  },
+  {
+    "market": "AGIXDOWN-USDT",
+    "status": "trading",
+    "base": "AGIXDOWN",
+    "quote": "USDT"
+  },
+  {
+    "market": "PORTAL-USDT",
+    "status": "trading",
+    "base": "PORTAL",
+    "quote": "USDT"
+  },
+  {
+    "market": "QORPO-USDT",
+    "status": "trading",
+    "base": "QORPO",
+    "quote": "USDT"
+  },
+  { "market": "HGP-USDT", "status": "trading", "base": "HGP", "quote": "USDT" },
+  {
+    "market": "STAMP-USDT",
+    "status": "trading",
+    "base": "STAMP",
+    "quote": "USDT"
+  },
+  {
+    "market": "VOYA-USDT",
+    "status": "trading",
+    "base": "VOYA",
+    "quote": "USDT"
+  },
+  { "market": "KAS-BTC", "status": "trading", "base": "KAS", "quote": "BTC" },
+  { "market": "AEG-USDT", "status": "trading", "base": "AEG", "quote": "USDT" },
+  {
+    "market": "TUSD-USDT",
+    "status": "trading",
+    "base": "TUSD",
+    "quote": "USDT"
+  }
+]
