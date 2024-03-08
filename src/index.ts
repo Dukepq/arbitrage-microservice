@@ -7,6 +7,8 @@ import { z } from "zod";
 import { convertMarketInfo } from "./lib/convertMarketInfo";
 import { equivalentQuotes } from "./staticData/stablecoinPegs";
 import forceStringToNum from "./utils/forceStringToNum";
+import authMiddleware from "./middleware/authMiddleware";
+
 const PORT = envHelper("PORT");
 const app = express();
 app.use(limiter);
@@ -15,6 +17,8 @@ app.use(
     methods: ["GET"],
   })
 );
+
+app.use(authMiddleware);
 
 type FormattedResponse = {
   [key: string]: (MarketInfo & { exchange: string })[];
