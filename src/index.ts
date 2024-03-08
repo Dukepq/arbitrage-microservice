@@ -70,14 +70,13 @@ const deviatingRequestSchema = z.object({
 });
 type DeviatingReturnType = z.infer<typeof deviatingRequestSchema>;
 
-// type DeviatingResponseType = FormattedResponse;
 app.get("/deviating", (req, res) => {
   const result = deviatingRequestSchema.safeParse(req);
   if (!result.success) {
     return res.status(400).json({ success: false });
   }
-  const data = result.data;
-  const deviation = data.query.deviation;
+  const data = result.data.query;
+  const deviation = data.deviation;
   try {
     const preResObj = convertResponse(data);
     const resObj: any = {};
@@ -107,12 +106,71 @@ app.get("/deviating", (req, res) => {
   }
 });
 
+const spreadRequestSchema = z.object({
+  query: z.object({
+    minSpread: z.coerce.number().optional(),
+    rate: z.coerce.number(),
+    conversion: z.string().regex(new RegExp("^[A-Z]+/[A-Z]+$")),
+    exchanges: z
+      .string()
+      .regex(/\[[^\]]*\]/)
+      .optional(),
+  }),
+});
+
+app.get("/spread", (req, res) => {
+  const result = spreadRequestSchema.safeParse(req);
+  if (!result.success) {
+    return res.status(400).json({ success: false });
+  }
+  const data = result.data.query;
+  const minSpread = data.minSpread;
+  try {
+    const preResObj = convertResponse(data);
+    const resObj: {
+      [key: string]: { spread: number; exchange: string; market: string }[];
+    } = {};
+    for (let asset in preResObj) {
+      const markets = preResObj[asset];
+      for (let marketEntry of markets) {
+        const { exchange, ask, bid, market } = marketEntry;
+
+        const askNum = forceStringToNum(ask);
+        const bidNum = forceStringToNum(bid);
+        const spread = (askNum - bidNum) / askNum;
+
+        if (minSpread && spread < minSpread) continue;
+        if (!resObj[asset]) resObj[asset] = [];
+
+        resObj[asset].push({ exchange, spread, market });
+      }
+    }
+    res.status(200).json(resObj);
+  } catch (err) {
+    return res.status(400).json({ success: false });
+  }
+});
+
 app.listen(PORT, () => {
   console.log("listening on: " + PORT);
 });
 
-function convertResponse(data: DeviatingReturnType) {
-  const { exchanges, rate, conversion } = data.query;
+type ConvertResponseReturnType = {
+  [key: string]: {
+    exchange: string;
+    market: string;
+    quote: string;
+    base: string;
+    bid: string;
+    ask: string;
+    spread: number;
+    timestamp: number;
+  }[];
+};
+function convertResponse(
+  data: Omit<DeviatingReturnType["query"], "deviation">
+): ConvertResponseReturnType {
+  const { exchanges, rate, conversion } = data;
   const splitConversion = conversion.split("/");
   const from = splitConversion[0];
   const to = splitConversion[1];
@@ -123,7 +181,7 @@ function convertResponse(data: DeviatingReturnType) {
   }
   const fromEquivalents: string[] | undefined = equivalentQuotes[from];
   const toEquivalents: string[] | undefined = equivalentQuotes[to];
-  const responseObject: FormattedResponse = {};
+  const responseObject: ConvertResponseReturnType = {};
   for (const exchange in priceData) {
     if (exchanges && !exchangeArray.includes(exchange)) continue;
     const exchangeData = priceData[exchange as keyof typeof priceData];
@@ -131,12 +189,16 @@ function convertResponse(data: DeviatingReturnType) {
 
     for (let entry of exchangeData) {
       let newEntry = { ...entry };
+      const { bid, ask } = newEntry;
+      const bidNum = forceStringToNum(bid);
+      const askNum = forceStringToNum(ask);
+      const spread = (askNum - bidNum) / askNum;
       const quote = entry.quote;
       if (!responseObject[entry.base]) responseObject[entry.base] = [];
       if (fromEquivalents.includes(quote)) {
         newEntry = convertMarketInfo(entry, rate);
       }
-      responseObject[entry.base].push({ ...newEntry, exchange });
+      responseObject[entry.base].push({ ...newEntry, exchange, spread });
     }
   }
 
