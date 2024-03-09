@@ -3,7 +3,7 @@
     "build": "tsc",
     "dev": "nodemon src/index.ts",
     "start": "node dist/index.js",
-    "renew-data": "node ./exchangeDataStatic/updateBitvavo.js && node ./exchangeDataStatic/updateBinance.js"
+    "renew-data": "node ./exchangeDataStatic/updateBitvavo.js && node ./exchangeDataStatic/updateBinance.js && node ./exchangeDataStatic/updateKucoin.js"
   },
   "dependencies": {
     "cors": "^2.8.5",

@@ -38,7 +38,11 @@ const priceData: PriceData = {
 async function updateBitvavoData(): Promise<void> {
   const [data, err] = await fetchBitvavoPrices();
   const now = Date.now();
-  if (err) return;
+  if (err) {
+    priceData.bitvavo = [];
+    setTimeout(updateBitvavoData, timer);
+    return;
+  }
   const refactor: MarketInfo[] = [];
   for (const entry of data) {
     const match = getMarketInfo(entry.market, "bitvavo");
@@ -66,7 +70,11 @@ updateBitvavoData();
 async function updateBinanceData(): Promise<void> {
   const [data, err] = await fetchBinancePrices();
   const now = Date.now();
-  if (err) return;
+  if (err) {
+    priceData.binance = [];
+    setTimeout(updateBinanceData, timer);
+    return;
+  }
   const refactor: MarketInfo[] = [];
   for (const entry of data) {
     const { askPrice, bidPrice, symbol } = entry;
@@ -99,7 +107,11 @@ updateBinanceData();
 async function updateKucoinData(): Promise<void> {
   const [data, err] = await fetchKucoinPrices();
   const now = Date.now();
-  if (err) return;
+  if (err) {
+    priceData.kucoin = [];
+    setTimeout(updateKucoinData, timer);
+    return;
+  }
   const refactor: MarketInfo[] = [];
   for (const entry of data) {
     const { buy, sell, symbol } = entry;
