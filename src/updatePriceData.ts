@@ -65,7 +65,6 @@ async function updateBitvavoData(): Promise<void> {
 
   priceData.bitvavo = refactor;
 }
-updateBitvavoData();
 
 async function updateBinanceData(): Promise<void> {
   const [data, err] = await fetchBinancePrices();
@@ -101,7 +100,6 @@ async function updateBinanceData(): Promise<void> {
   }
   priceData.binance = refactor;
 }
-updateBinanceData();
 
 async function updateKucoinData(): Promise<void> {
   const [data, err] = await fetchKucoinPrices();
@@ -137,7 +135,6 @@ async function updateKucoinData(): Promise<void> {
   }
   priceData.kucoin = refactor;
 }
-updateKucoinData();
 
 async function updateData() {
   try {
