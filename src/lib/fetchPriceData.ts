@@ -16,7 +16,10 @@ export const fetchBitvavoPrices = async (): Promise<BitvavoReturnType> => {
 
   if (!res.ok) {
     const err = new Error(
-      "something went wrong while fetching market prices: " + res.status
+      "something went wrong while fetching market prices: " +
+        res.status +
+        "-" +
+        res.statusText
     );
     return [null, err];
   }
@@ -31,7 +34,10 @@ export const fetchBinancePrices = async (): Promise<BinanceReturnType> => {
   const res = await fetch("https://www.binance.com/api/v3/ticker/bookTicker");
   if (!res.ok) {
     const err = new Error(
-      "something went wrong while fetching market prices: " + res.status
+      "something went wrong while fetching market prices: " +
+        res.status +
+        "-" +
+        res.statusText
     );
     return [null, err];
   }
@@ -45,7 +51,10 @@ export const fetchKucoinPrices = async (): Promise<KucoinReturnType> => {
   const res = await fetch("https://api.kucoin.com/api/v1/market/allTickers");
   if (!res.ok) {
     const err = new Error(
-      "something went wrong while fetching market prices: " + res.status
+      "something went wrong while fetching market prices: " +
+        res.status +
+        "-" +
+        res.statusText
     );
     return [null, err];
   }
