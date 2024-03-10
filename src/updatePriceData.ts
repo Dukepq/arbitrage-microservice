@@ -39,8 +39,9 @@ async function updateBitvavoData(): Promise<void> {
   const [data, err] = await fetchBitvavoPrices();
   const now = Date.now();
   if (err) {
+    console.error(err.message);
     priceData.bitvavo = [];
-    setTimeout(updateBitvavoData, timer);
+
     return;
   }
   const refactor: MarketInfo[] = [];
@@ -63,7 +64,6 @@ async function updateBitvavoData(): Promise<void> {
   }
 
   priceData.bitvavo = refactor;
-  setTimeout(updateBitvavoData, timer);
 }
 updateBitvavoData();
 
@@ -71,8 +71,8 @@ async function updateBinanceData(): Promise<void> {
   const [data, err] = await fetchBinancePrices();
   const now = Date.now();
   if (err) {
+    console.error(err.message);
     priceData.binance = [];
-    setTimeout(updateBinanceData, timer);
     return;
   }
   const refactor: MarketInfo[] = [];
@@ -100,7 +100,6 @@ async function updateBinanceData(): Promise<void> {
     }
   }
   priceData.binance = refactor;
-  setTimeout(updateBinanceData, timer);
 }
 updateBinanceData();
 
@@ -108,8 +107,8 @@ async function updateKucoinData(): Promise<void> {
   const [data, err] = await fetchKucoinPrices();
   const now = Date.now();
   if (err) {
+    console.error(err.message);
     priceData.kucoin = [];
-    setTimeout(updateKucoinData, timer);
     return;
   }
   const refactor: MarketInfo[] = [];
@@ -137,9 +136,22 @@ async function updateKucoinData(): Promise<void> {
     }
   }
   priceData.kucoin = refactor;
-  setTimeout(updateKucoinData, timer);
 }
 updateKucoinData();
+
+async function updateData() {
+  try {
+    const kucoinPromise = updateKucoinData();
+    const bitvavoPromise = updateBitvavoData();
+    const binancePromise = updateBinanceData();
+    await Promise.all([kucoinPromise, bitvavoPromise, binancePromise]);
+    setTimeout(updateData, 8000);
+  } catch (err) {
+    console.error(err);
+    setTimeout(updateData, 8000);
+  }
+}
+updateData();
 
 export default priceData;
 
